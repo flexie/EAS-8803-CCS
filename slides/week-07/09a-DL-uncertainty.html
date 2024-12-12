@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.39">
+
+  <meta name="dcterms.date" content="2024-02-22">
+  <title>Seismic Monitoring CO~2~ Storage – Simulation-based Inference</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-2a4c8bc07c7bed3f644724215556eb12.css">
+  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-footer="CC BY-SA" class="quarto-title-block center">
+  <h1 class="title">Simulation-based Inference</h1>
+  <p class="subtitle">Uncertainty Quantification</p>
+
+<div class="quarto-title-authors">
+</div>
+
+  <p class="date">2024-02-22</p>
+</section>
+<section id="credits" class="slide level2 center">
+<h2>Credits</h2>
+<p>Slides are adapted from lectures developed by <a href="mailto:g.louppe@uliege.be">Gilles Louppe</a> at University of Liege, Belgium under the <a href="LICENSE">BSD 3-Clause License</a></p>
+<ul>
+<li>lectures 10, 11, and 12 of <a href="https://github.com/glouppe/info8010-deep-learning">INFO8010 - Deep Learning</a></li>
+<li>and of lecture materials of <a href="https://github.com/glouppe/ssi2023?tab=readme-ov-file">SSI 2023</a></li>
+</ul>
+</section>
+<section id="today" class="slide level2 center">
+<h2>Today</h2>
+<p>How to model <em>uncertainty</em> in deep learning?</p>
+<ul>
+<li>Uncertainty</li>
+<li>Aleatoric uncertainty</li>
+<li>Epistemic uncertainty</li>
+</ul>
+</section>
+<section id="section" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/carl.jpg" class="r-stretch"><p><em>“Every time a scientific paper presents a bit of data, it’s accompanied by an</em> <strong>error bar</strong> <em>— a quiet but insistent reminder that no knowledge is complete or perfect.</em> It’s a <strong>calibration of how much we trust what we think we know.”</strong></p>
+<p>Carl Sagan</p>
+</section>
+<section id="uncertainty" class="slide level2 center">
+<h2>Uncertainty</h2>
+<p>Uncertainty<sup>1</sup> refers to epistemic situations involving imperfect or unknown information. It applies to predictions of future events, to physical measurements that are already made, or to the unknown.</p>
+<p>Uncertainty arises in partially observable or stochastic environments, as well as due to ignorance, indolence, or both.</p>
+<p>Why is uncertainty important?</p>
+<p>Accounting for uncertainty leads to optimal decisions. Not accounting for uncertainty leads to suboptimal, wrong, or even catastrophic decisions.</p>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>[Credits: <a href="https://en.wikipedia.org/wiki/Uncertainty">Wikipedia</a>, 2023.]</p></li></ol></aside></section>
+<section id="aleatoric-uncertainty" class="slide level2 center">
+<h2>Aleatoric uncertainty</h2>
+<p><strong>Aleatoric</strong> uncertainty captures noise inherent in the observations. For example, sensor noise or motion noise result in uncertainty.</p>
+<p>This uncertainty <em>cannot be reduced</em> with more data. However, aleatoric uncertainty could be reduced with better measurements.</p>
+<p>Aleatoric uncertainty can further be categorized into:</p>
+<ul>
+<li><p>Homoscedastic uncertainty, which relates to the uncertainty that a particular task might cause. It stays constant for different inputs.</p></li>
+<li><p>Heteroscedastic uncertainty, which depends on the inputs to the model, with some inputs potentially having more noisy outputs than others.</p></li>
+</ul>
+</section>
+<section id="section-1" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/homo-vs-hetero-3.png" class="r-stretch"></section>
+<section id="neural-density-estimation" class="slide level2 center">
+<h2>Neural density estimation</h2>
+<p>Consider training data <span class="math inline">\((\mathbf{x}, y) \sim p(\mathbf{x}, y)\)</span>, with</p>
+<ul>
+<li><p><span class="math inline">\(\mathbf{x} \in \mathbb{R}^p\)</span>,</p></li>
+<li><p><span class="math inline">\(y \in \mathbb{R}\)</span>.</p></li>
+</ul>
+<p>We do not wish to learn a function <span class="math inline">\(\hat{y} = f(\mathbf{x})\)</span>, which would only produce point estimates.</p>
+<p>Instead we want to learn the full conditional density <span class="math display">\[p(y|\mathbf{x}).\]</span></p>
+</section>
+<section id="nn-with-gaussian-output-layer" class="slide level2 center">
+<h2>NN with Gaussian output layer</h2>
+<p>We can model aleatoric uncertainty in the output by modeling the conditional distribution as a Gaussian distribution, <span class="math display">\[p(y|\mathbf{x}) = \mathcal{N}(y; \mu(\mathbf{x}), \sigma^2(\mathbf{x})),\]</span> where <span class="math inline">\(\mu(\mathbf{x})\)</span> and <span class="math inline">\(\sigma^2(\mathbf{x})\)</span> are parametric functions to be learned, such as neural networks.</p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>The Gaussian distribution is a modeling choice. Other parametric distributions can be used.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2 center">
+<h2></h2>
+<div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/homoscedastic.svg"></p>
+<figcaption>Case 1: Homoscedastic aleatoric uncertainty</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="section-3" class="slide level2 center">
+<h2></h2>
+<p>We have,</p>
+<p><span class="math display">\[\begin{aligned}
+&amp;\arg \max_{\theta,\sigma^2} p(\mathbf{d}|\theta,\sigma^2) \\\\
+&amp;= \arg \max_{\theta,\sigma^2} \prod_{\mathbf{x}_i, y_i \in \mathbf{d}} p(y_i|\mathbf{x}_i, \theta,\sigma^2) \\\\
+&amp;= \arg \max_{\theta,\sigma^2} \prod_{\mathbf{x}_i, y_i \in \mathbf{d}} \frac{1}{\sqrt{2\pi} \sigma} \exp\left(-\frac{(y_i-\mu(\mathbf{x}_i))^2}{2\sigma^2}\right) \\\\
+&amp;= \arg \min_{\theta,\sigma^2} \sum_{\mathbf{x}_i, y_i \in \mathbf{d}}  \frac{(y_i-\mu(\mathbf{x}_i))^2}{2\sigma^2} + \log(\sigma) + C
+\end{aligned}\]</span></p>
+<p>What if <span class="math inline">\(\sigma^2\)</span> was fixed?</p>
+</section>
+<section id="section-4" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/heteroscedastic.svg" class="r-stretch quarto-figure-center"><p class="caption">Case 2: heteroscedastic aleatoric uncertainty</p></section>
+<section id="section-5" class="slide level2 center">
+<h2></h2>
+<p>Same as for the homoscedastic case, except that that <span class="math inline">\(\sigma^2\)</span> is now a function of <span class="math inline">\(\mathbf{x}_i\)</span>: <span class="math display">\[\begin{aligned}
+&amp;\arg \max_{\theta} p(\mathbf{d}|\theta) \\\\
+&amp;= \arg \max_{\theta} \prod_{\mathbf{x}_i, y_i \in \mathbf{d}} p(y_i|\mathbf{x}_i, \theta) \\\\
+&amp;= \arg \max_{\theta} \prod_{\mathbf{x}_i, y_i \in \mathbf{d}} \frac{1}{\sqrt{2\pi} \sigma(\mathbf{x}_i)} \exp\left(-\frac{(y_i-\mu(\mathbf{x}_i))^2}{2\sigma^2(\mathbf{x}_i)}\right) \\\\
+&amp;= \arg \min_{\theta} \sum_{\mathbf{x}_i, y_i \in \mathbf{d}}  \frac{(y_i-\mu(\mathbf{x}_i))^2}{2\sigma^2(\mathbf{x}_i)} + \log(\sigma(\mathbf{x}_i)) + C
+\end{aligned}\]</span></p>
+</section>
+<section id="gaussian-mixture-model" class="slide level2 center">
+<h2>Gaussian mixture model</h2>
+<p>Modelling <span class="math inline">\(p(y|\mathbf{x})\)</span> as a unimodal (Gaussian) distribution can be inadequate since the conditional distribution may be <strong>multimodal</strong>.</p>
+<p>A <strong>Gaussian mixture model</strong> (GMM) defines instead <span class="math inline">\(p(y|\mathbf{x})\)</span> as a mixture of <span class="math inline">\(K\)</span> Gaussian components, <span class="math display">\[p(y|\mathbf{x}) = \sum_{k=1}^K \pi_k \mathcal{N}(y;\mu_k, \sigma_k^2),\]</span> where <span class="math inline">\(0 \leq \pi_k \leq 1\)</span> for all <span class="math inline">\(k\)</span> and <span class="math inline">\(\sum_{k=1}^K \pi_k = 1\)</span>.</p>
+
+<img data-src="images/gmm.jpg" class="r-stretch quarto-figure-center" id="fig-mixture"><p class="caption">Gaussian mixture</p></section>
+<section id="mixture-network" class="slide level2 center">
+<h2>Mixture Network</h2>
+<p>A <strong>mixture density network</strong> (MDN) is a neural network implementation of the Gaussian mixture model.</p>
+<div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/mdn.svg"></p>
+<figcaption>MDN</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="example" class="slide level2 center">
+<h2>Example</h2>
+<p>Let us consider training data generated randomly as <span class="math display">\[y_i = \mathbf{x}_i + 0.3\sin(4\pi \mathbf{x}_i) + \epsilon_i\]</span> with <span class="math inline">\(\epsilon_i \sim \mathcal{N}\)</span>.</p>
+</section>
+<section id="mixture-density-networks" class="slide level2 center">
+<h2>Mixture Density Networks</h2>
+<div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/illus1.png" style="width:40.0%"></p>
+<figcaption>Credits: David Ha, <a href="http://blog.otoro.net/2015/06/14/mixture-density-networks/">Mixture Density Networks</a>, 2015.</figcaption>
+</figure>
+</div>
+</div>
+<p>The data can be fit with a 2-layer network producing point estimates for <span class="math inline">\(y\)</span> (<a href="http://otoro.net/ml/mixture/index.html">demo</a>).</p>
+</section>
+<section id="multi-modality-issue" class="slide level2 center">
+<h2>Multi modality issue</h2>
+<div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/illus2.png" style="width:40.0%"></p>
+<figcaption>Credits: David Ha, <a href="http://blog.otoro.net/2015/06/14/mixture-density-networks/">Mixture Density Networks</a>, 2015.</figcaption>
+</figure>
+</div>
+<p>If we flip <span class="math inline">\(\mathbf{x}_i\)</span> and <span class="math inline">\(y_i\)</span>, the network faces issues since for each input, there are multiple outputs that can work. It produces an average of the correct values (<a href="http://otoro.net/ml/mixture/inverse.html">demo</a>).</p>
+</div>
+</section>
+<section id="mixture-density-network" class="slide level2 center">
+<h2>Mixture Density Network</h2>
+<div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/illus3.png" style="width:40.0%"></p>
+<figcaption>Credits: David Ha, <a href="http://blog.otoro.net/2015/06/14/mixture-density-networks/">Mixture Density Networks</a>, 2015.</figcaption>
+</figure>
+</div>
+<p>A mixture density network models the data correctly, as it predicts for each input a distribution for the output, rather than a point estimate (<a href="http://otoro.net/ml/mixture/mixture.html">demo</a>).</p>
+</div>
+</section>
+<section id="normalizing-flows" class="slide level2 center">
+<h2>Normalizing flows</h2>
+
+<img data-src="images/cubes.png" style="width:50.0%" class="r-stretch"><p>Assume <span class="math inline">\(p(\mathbf{z})\)</span> is a uniformly distributed unit cube in <span class="math inline">\(\mathbb{R}^3\)</span> and <span class="math inline">\(\mathbf{x} = f(\mathbf{z}) = 2\mathbf{z}\)</span>.</p>
+<p>Since the total probability mass must be conserved, <span class="math display">\[p(\mathbf{x}=f(\mathbf{z})) = p(\mathbf{z})\frac{V_\mathbf{z}}{V_\mathbf{x}}=p(\mathbf{z}) \frac{1}{8},\quad\text{where}\frac{1}{8} = \left| \det \left( \begin{matrix}
+2 &amp; 0 &amp; 0 \\\\
+0 &amp; 2 &amp; 0 \\\\
+0 &amp; 0 &amp; 2
+\end{matrix} \right)\right|^{-1}\]</span> represents the inverse determinant of the linear transformation <span class="math inline">\(f\)</span>.</p>
+</section>
+<section id="section-6" class="slide level2 center">
+<h2></h2>
+<p>What if <span class="math inline">\(f\)</span> is non-linear?</p>
+
+<img data-src="images/cov.png" style="width:50.0%" class="r-stretch quarto-figure-center"><p class="caption">Image credits: Simon J.D. Prince, <a href="https://udlbook.github.io/udlbook/">Understanding Deep Learning</a>, 2023.</p></section>
+<section id="change-of-variables-theorem" class="slide level2 center">
+<h2>Change of variables theorem</h2>
+<p>If <span class="math inline">\(f\)</span> is non-linear,</p>
+<ul>
+<li><p>the Jacobian <span class="math inline">\(J_f(\mathbf{z})\)</span> of <span class="math inline">\(\mathbf{x} = f(\mathbf{z})\)</span> represents the infinitesimal linear transformation in the neighborhood of <span class="math inline">\(\mathbf{z}\)</span>;</p></li>
+<li><p>if the function is a bijective map, then the mass must be conserved locally.</p></li>
+</ul>
+<p>Therefore, the local change of density yields <span class="math display">\[p(\mathbf{x}=f(\mathbf{z})) = p(\mathbf{z})\left| \det J_f(\mathbf{z}) \right|^{-1}.\]</span></p>
+<p>Similarly, for <span class="math inline">\(g = f^{-1}\)</span>, we have <span class="math display">\[p(\mathbf{x})=p(\mathbf{z}=g(\mathbf{x}))\left| \det J_g(\mathbf{x}) \right|.\]</span></p>
+</section>
+<section id="section-7" class="slide level2 center">
+<h2></h2>
+<p>What about the inverse <span class="math inline">\(f^{-1}\)</span>?</p>
+
+<img data-src="images/FlowIntroInverse.png" style="width:50.0%" class="r-stretch quarto-figure-center"><p class="caption">Image credits: Simon J.D. Prince, <a href="https://udlbook.github.io/udlbook/">Understanding Deep Learning</a>, 2023.</p></section>
+<section id="normalizing-flows-1" class="slide level2 center">
+<h2>Normalizing flows</h2>
+<p>A normalizing flow is a change of variable <span class="math inline">\(f\)</span> that transforms a base distribution <span class="math inline">\(p(\mathbf{z})\)</span> into <span class="math inline">\(p(\mathbf{x})\)</span> by a series of invertible transformations.</p>
+
+<img data-src="images/normalizing-flow.png" class="r-stretch quarto-figure-center"><p class="caption">Image credits: <a href="https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models">Lilian Weng</a>, 2018</p></section>
+<section id="section-8" class="slide level2 center">
+<h2></h2>
+<p>Formally,</p>
+<ul>
+<li><p><span class="math inline">\(f\)</span> is a composition <span class="math inline">\(f=f_K \circ ... \circ f_1\)</span>, where each <span class="math inline">\(f_k\)</span> is an invertible neural transformation;</p></li>
+<li><p><span class="math inline">\(g_k = f^{-1}_k\)</span>;</p></li>
+<li><p><span class="math inline">\(\mathbf{z}_k = f_k(\mathbf{z}_{k-1})\)</span>, with <span class="math inline">\(\mathbf{z}_0 = \mathbf{z}\)</span> and <span class="math inline">\(\mathbf{z}_K = \mathbf{x}\)</span>;</p></li>
+<li><p><span class="math inline">\(p(\mathbf{z}_k) = p(\mathbf{z}_{k-1} = g_k(\mathbf{z}_k)) \left| \det J_{g_k}(\mathbf{z}_k) \right|\)</span>.</p></li>
+</ul>
+
+<img data-src="images/FlowTransformLayers.png" style="width:50.0%" class="r-stretch quarto-figure-center"><p class="caption">Image credits: Simon J.D. Prince, <a href="https://udlbook.github.io/udlbook/">Understanding Deep Learning</a>, 2023.</p></section>
+<section id="example-coupling-layers" class="slide level2 center">
+<h2>Example: coupling layers</h2>
+<p>Assume <span class="math inline">\(\mathbf{z} = (\mathbf{z}_a, \mathbf{z}_b)\)</span> and <span class="math inline">\(\mathbf{x} = (\mathbf{x}_a, \mathbf{x}_b)\)</span>. Then,</p>
+<ul>
+<li><p>Forward mapping <span class="math inline">\(\mathbf{x} = f(\mathbf{z})\)</span>: <span class="math display">\[\mathbf{x}_a = \mathbf{z}_a, \quad \mathbf{x}_b = \mathbf{z}_b \odot \exp(s(\mathbf{z}_a)) + t(\mathbf{z}_a),\]</span></p></li>
+<li><p>Inverse mapping <span class="math inline">\(\mathbf{z} = g(\mathbf{x})\)</span>: <span class="math display">\[\mathbf{z}_a = \mathbf{x}_a, \quad \mathbf{z}_b = (\mathbf{x}_b - t(\mathbf{x}_a)) \odot \exp(-s(\mathbf{x}_a)),\]</span></p></li>
+</ul>
+<p>where <span class="math inline">\(s\)</span> and <span class="math inline">\(t\)</span> are arbitrary neural networks.</p>
+</section>
+<section id="section-9" class="slide level2 center">
+<h2></h2>
+<p>For <span class="math inline">\(\mathbf{x} = (\mathbf{x}_a, \mathbf{x}_b)\)</span>, the log-likelihood is <span class="math display">\[\begin{aligned}\log p(\mathbf{x}) &amp;= \log p(\mathbf{z} = g(\mathbf{x})) \left| \det J_g(\mathbf{x}) \right|\end{aligned}\]</span> where the Jacobian <span class="math inline">\(J_g(\mathbf{x}) = \frac{\partial \mathbf{z}}{\partial \mathbf{x}}\)</span> is a lower triangular matrix <span class="math display">\[\left( \begin{matrix}
+\mathbf{I} &amp; 0 \\\\
+\frac{\partial \mathbf{z}_b}{\partial \mathbf{x}_a} &amp; \text{diag}(\exp(-s(\mathbf{x}_a))) \end{matrix} \right),\]</span> such that <span class="math inline">\(\left| \det J_g(\mathbf{x}) \right| = \prod_i \exp(-s(\mathbf{x}_a))_i = \exp(-\sum_i s(\mathbf{x}_a)_i)\)</span>.</p>
+<p>Therefore, the log-likelihood is <span class="math display">\[\log p(\mathbf{x}) = \log p(\mathbf{z} = g(\mathbf{x})) -\sum_i s(\mathbf{x}_a)_i.\]</span></p>
+</section>
+<section id="section-10" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/nf-densities.png" class="r-stretch quarto-figure-center" id="fig-nf-densities"><p class="caption">Image credits: <a href="https://arxiv.org/abs/1908.05164">Wehenkel and Louppe</a>, 2019.</p></section>
+<section>
+<section id="epistemic-uncertainty" class="title-slide slide level1 center">
+<h1>Epistemic uncertainty</h1>
+
+</section>
+<section id="section-11" class="slide level2 center">
+<h2></h2>
+<p><strong>Epistemic</strong> uncertainty accounts for uncertainty in the model or in its parameters. It captures our <em>ignorance</em> about which model can best explain the collected data.</p>
+<p>It can be explained away given enough data<sup>1</sup>.</p>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>Credits: Kendall and Gal, <a href="https://papers.nips.cc/paper/7141-what-uncertainties-do-we-need-in-bayesian-deep-learning-for-computer-vision.pdf">What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?</a>, 2017.</p></li></ol></aside></section>
+<section id="bayesian-neural-networks" class="slide level2 center">
+<h2>Bayesian neural networks</h2>
+<p>To capture epistemic uncertainty in a neural network, we model our ignorance with a prior distribution <span class="math inline">\(p(\mathbf{\omega})\)</span> over its weights.</p>
+<p>Then we invoke Bayes for making predictions.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 61.5%;justify-content: center;">
+<p><img data-src="./images/bnn.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 38.5%;justify-content: center;">
+<p><img data-src="./images/thomas.png"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="section-12" class="slide level2 center">
+<h2></h2>
+<p>The prior predictive distribution at <span class="math inline">\(\mathbf{x}\)</span> is given by integrating over all possible weight configurations, <span class="math display">\[p(y|\mathbf{x}) = \int p(y|\mathbf{x}, \mathbf{\omega}) p(\mathbf{\omega}) d\mathbf{\omega}.\]</span></p>
+<p>Given training data <span class="math inline">\(\mathbf{d}=\\{(\mathbf{x}_1, y_1), ..., (\mathbf{x}_N, y_N)\\}\)</span> a Bayesian update results in the posterior <span class="math display">\[p(\mathbf{\omega}|\mathbf{d}) = \frac{p(\mathbf{d}|\mathbf{\omega})p(\mathbf{\omega})}{p(\mathbf{d})}\]</span> where the likelihood <span class="math inline">\(p(\mathbf{d}|\omega) = \prod_i p(y_i | \mathbf{x}_i, \omega).\)</span></p>
+<p>The posterior predictive distribution is then given by <span class="math display">\[p(y|\mathbf{x},\mathbf{d}) = \int p(y|\mathbf{x}, \mathbf{\omega}) p(\mathbf{\omega}|\mathbf{d}) d\mathbf{\omega}.\]</span></p>
+</section>
+<section id="section-13" class="slide level2 center">
+<h2></h2>
+<p>Bayesian neural networks are <em>easy to formulate</em>, but notoriously <strong>difficult</strong> to perform inference in.</p>
+<p><span class="math inline">\(p(\mathbf{d})\)</span> is intractable to evaluate, which results in the posterior <span class="math inline">\(p(\mathbf{\omega}|\mathbf{d})\)</span> not being tractable either.</p>
+<p>Therefore, we must rely on approximations.</p>
+</section>
+<section id="variational-inference" class="slide level2 center">
+<h2>Variational inference</h2>
+<p>Variational inference can be used for building an approximation <span class="math inline">\(q(\mathbf{\omega};\nu)\)</span> of the posterior <span class="math inline">\(p(\mathbf{\omega}|\mathbf{d})\)</span>.</p>
+<p>We can show that minimizing <span class="math display">\[\text{KL}(q(\mathbf{\omega};\nu) || p(\mathbf{\omega}|\mathbf{d}))\]</span> with respect to the variational parameters <span class="math inline">\(\nu\)</span>, is identical to maximizing the evidence lower bound objective (ELBO)</p>
+<p><span class="math display">\[\text{ELBO}(\nu) = \overbrace{\mathbb{E}_{q(\mathbf{\omega};\nu)} \left[\log p(\mathbf{d}| \mathbf{\omega})\right]}^{\text{reconstruction error}} - \overbrace{\text{KL}(q(\mathbf{\omega};\nu) || p(\mathbf{\omega}))}^{\text{regularization}}.\]</span></p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>The most common measure of distance between probability distributions <span class="math inline">\(p(x)\)</span> and <span class="math inline">\(q(x)\)</span> is the <em>Kullback-Leibler</em> or KL divergence and is defined as:</p>
+<p><span class="math display">\[
+D_{KL}[p(x)\Vert q(x)]=\int p(x)\log \begin{bmatrix}\frac{p(x)}{q(x)}\end{bmatrix}\mathrm{d}x.
+\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="section-14" class="slide level2 center">
+<h2></h2>
+<p>The integral in the ELBO is not tractable for almost all <span class="math inline">\(q\)</span>, but it can be maximized with stochastic gradient ascent:</p>
+<ol type="1">
+<li>Sample <span class="math inline">\(\hat{\omega} \sim q(\mathbf{\omega};\nu)\)</span>.</li>
+<li>Do one step of maximization with respect to <span class="math inline">\(\nu\)</span> on <span class="math display">\[\hat{L}(\nu) = \log p(\mathbf{d}|\hat{\omega}) - \log\frac{q(\hat{\omega};\nu)}{p(\hat{\omega})} \]</span></li>
+</ol>
+<p>In the context of Bayesian neural networks, this procedure is also known as <strong>Bayes by backprop</strong> (Blundell et al, 2015).</p>
+</section>
+<section id="training-vae" class="slide level2 center">
+<h2>Training VAE</h2>
+
+<img data-src="./images/pseudo_train_v.png" class="r-stretch"></section></section>
+<section>
+<section id="simulation-based-inference" class="title-slide slide level1 center">
+<h1>Simulation-based inference</h1>
+
+</section>
+<section id="section-15" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/pitcher.png" class="r-stretch"></section>
+<section id="section-16" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/prior_posterior.png" class="r-stretch"></section>
+<section id="scientific-simulators" class="slide level2 center">
+<h2>Scientific simulators</h2>
+
+<img data-src="./images/simulators.png" class="r-stretch"></section>
+<section id="section-17" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/unconditioned-program.png" class="r-stretch quarto-figure-center" id="fig-unconditioned"><p class="caption">unconditioned</p><p><span class="math display">\[\theta, z, x \sim p(\theta, z, x)\]</span></p>
+</section>
+<section id="section-18" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/conditioned-program.png" class="r-stretch quarto-figure-center" id="fig-conditioned"><p class="caption">conditioned</p><p><span class="math display">\[\theta, z \sim p(\theta, z | x)\]</span></p>
+</section>
+<section id="section-19" class="slide level2 center">
+<h2></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><video data-src="./images/galton.mp4" controls=""><a href="./images/galton.mp4">Video</a></video></p>
+<figcaption>Galton</figcaption>
+</figure>
+</div>
+</section>
+<section id="section-20" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/galton_trajectory.png" class="r-stretch quarto-figure-center"><p class="caption">Credit: <a href="https://github.com/johannbrehmer/slides/blob/master/2020/simulation_based_inference_bremen_2020.pdf">Brehmer</a></p></section>
+<section id="conditional-simulators" class="slide level2 center">
+<h2>Conditional simulators</h2>
+<p>A conditional simulator prescribes a way to sample from the likelihood <span class="math inline">\(p(\mathbf{x}|\vartheta)\)</span>, where <span class="math inline">\(\vartheta\)</span> is a set of conditioning variables or parameters.</p>
+
+<img data-src="./images/simulators-conditional.png" class="r-stretch quarto-figure-center"><p class="caption">Credits: <a href="https://smsharma.io/iaifi-summer-school-2023/">Siddharth Mishra-Sharma</a>, 2023.</p></section>
+<section id="section-21" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/process1.png" class="r-stretch"></section>
+<section id="section-22" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/process2.png" class="r-stretch"></section>
+<section id="section-23" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/process3.png" class="r-stretch"></section>
+<section id="section-24" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/process4.png" class="r-stretch"></section>
+<section id="section-25" class="slide level2 center">
+<h2></h2>
+<p><span class="math display">\[p(x|\theta) = \underbrace{\iiint}_{\text{yikes!}} p(z_p|\theta) p(z_s|z_p) p(z_d|z_s) p(x|z_d) dz_p dz_s dz_d\]</span></p>
+<p>That’s bad!</p>
+</section>
+<section id="bayesian-inference" class="slide level2 center">
+<h2>Bayesian inference</h2>
+<p>Start with</p>
+<ul>
+<li>a simulator that can generate <span class="math inline">\(N\)</span> samples <span class="math inline">\(x_i \sim p(x_i|\theta_i)\)</span>,</li>
+<li>a prior model <span class="math inline">\(p(\theta)\)</span>,</li>
+<li>observed data <span class="math inline">\(x_\text{obs} \sim p(x_\text{obs} | \theta_\text{true})\)</span>.</li>
+</ul>
+<p>Then, estimate the posterior</p>
+<p><span class="math display">\[p(\theta|x_\text{obs}) = \frac{p(x_\text{obs} | \theta)p(\theta)}{p(x_\text{obs})}.\]</span></p>
+</section>
+<section id="section-26" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images//sbi.png" class="r-stretch"></section></section>
+<section>
+<section id="algorithms" class="title-slide slide level1 center">
+<h1>Algorithms</h1>
+
+</section>
+<section id="section-27" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/frontiers-sbi0.png" class="r-stretch quarto-figure-center"><p class="caption">Credits: <a href="https://doi.org/10.1073/pnas.1912789117">Cranmer, Brehmer and Louppe</a>, 2020.</p></section>
+<section id="approximate-bayesian-computation-abc" class="slide level2 center">
+<h2>Approximate Bayesian Computation (ABC)</h2>
+
+<img data-src="./images/abc.png" class="r-stretch quarto-figure-center"><p class="caption">Credits: Johann Brehmer.</p><p><strong>Issues:</strong></p>
+<ul>
+<li><p>How to choose <span class="math inline">\(x'\)</span>? <span class="math inline">\(\epsilon\)</span>? <span class="math inline">\(||\cdot||\)</span>?</p></li>
+<li><p>No tractable posterior.</p></li>
+<li><p>Need to run new simulations for new data or new prior.</p></li>
+</ul>
+</section>
+<section id="section-28" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/frontiers-sbi2.png" class="r-stretch quarto-figure-center"><p class="caption">Credits: <a href="https://doi.org/10.1073/pnas.1912789117">Cranmer, Brehmer and Louppe</a>, 2020.</p></section>
+<section id="section-29" class="slide level2 center">
+<h2></h2>
+
+<img data-src="./images/frontiers-sbi.png" class="r-stretch quarto-figure-center"><p class="caption">Credits: <a href="https://doi.org/10.1073/pnas.1912789117">Cranmer, Brehmer and Louppe</a>, 2020.</p></section>
+<section id="section-30" class="slide level2 center">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p>Produce samples <span class="math display">\[\mathbf{x} \sim p(\mathbf{x} | \vartheta)\]</span></p>
+</div><div class="column" style="width:33%;">
+<p>Evaluate densities <span class="math display">\[p(\mathbf{x}|\vartheta)\]</span> <span class="math display">\[p(\vartheta | \mathbf{x}) = \frac{p(\mathbf{x} | \vartheta) p(\vartheta)}{p(\mathbf{x})}\]</span></p>
+</div><div class="column" style="width:33%;">
+<p>Encode complex priors <span class="math display">\[p(\mathbf{x})\]</span></p>
+</div></div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/uses1.png"></p>
+<figcaption>Credits: <a href="https://smsharma.io/iaifi-summer-school-2023/">Siddharth Mishra-Sharma</a>, 2023.</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="./images/uses2.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img data-src="./images/uses3.png"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="section-31" class="slide level2 center">
+<h2></h2>
+
+
+</section></section>
+
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="images/logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p><a href="https://flexie.github.io/CSE-8803-Twin/">🔗 https://flexie.github.io/CSE-8803-Twin/</a></p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': true,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: true,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/flexie\.github\.io\/EAS-8803-CCS\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>
