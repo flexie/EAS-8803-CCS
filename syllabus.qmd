@@ -1,54 +1,39 @@
 ---
-title: "Syllabus"
+title: "Syllabus^[Syllabus updates: This syllabus is subject to change throughout the semester. We will try to keep these updates to a minimum.
+]"
 ---
 
-**Spring 2024 syllabus: Digital Twins for Physical Systems --- 33655 - CSE 8803 - DTP**
-
-<hr>
-
-**Syllabus updates**:This syllabus is subject to change throughout the semester. We will try to keep these updates to a minimum.
+**Spring 2025 semester: Seismic Monitoring CO~2~ Storage --- EAS-4803-FH / 8803-FH**
 
 ## Course Learning Objectives
 
 By the end of the semester, you will be made familiar with ...
 
--   the concept of Digital Twins and how they interact with their environment
--   Statistical Inverse Problems and Bayesian Inference
--   techniques from Data Assimilation (DAT), Simulation-Based Inference (SBI), and Recursive Bayesian Inference (RBI), and Uncertainty Quantification [UQ]
+-   Basics of Geological Carbon Storage
+-   Techniques on how to monitor Geological Carbon Storage
+-   How to scale up this net-negative carbon emission technology
 
-For more on the Course outline, Topics, and Learning goals, see [Goals](goals.qmd).
+For more on the course Outline, Topics, and Learning goals, see [Goals](goals.qmd).
 
-For a motivational article see [Digital Twins in the era of generative AI](https://slim.gatech.edu/Publications/Public/Journals/TheLeadingEdge/2023/herrmann2023dte/PresidentsPage.pdf)
+For a motivational talk watch this [video by Philip Ringrose](https://www.youtube.com/watch?v=eozVdrvejDs).
 
-## Textbooks
+## Course Material
 
-|                                                                                                                                                                                                                                          |                        |            |
-|---------------------------------------------------|-----------|-----------|
-| [Data assimilation: methods, algorithms, and applications](https://galileo-gatech.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&context=L&vid=01GALI_GIT:GT&vid=01GALI_GIT&docid=alma9914381076402947&tab=default_tab&lang=en) | @asch2016data, Mark    | SIAM, 2016 |
-| [A toolbox for digital twins: from model-based to data-driven](https://epubs.siam.org/doi/book/10.1137/1.9781611976977)                                                                          | @asch2022toolbox, Mark | SIAM, 2022 |
-| [Notebook: Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)                                                                          | Roger R. Labbe | Private, 2020 |
-| [Understanding Deep Learning](https://udlbook.github.io/udlbook/)                                                                          |@prince2023understanding | MIT, 2024 |
+### Textbooks on Geological Carbon Storage
 
+|  |  |  |
+|--------------------------------------|-----------------|-----------------|
+| [Ringrose, P. (2020), How to Store CO~2~ Underground: insights from early-mover CCS Projects](https://link.springer.com/book/10.1007/978-3-030-33113-9)[^1] | @ringrose2020store | Elsevier, 2020 |
+| [Storage of Carbon Dioxide in Saline Aquifers: Building confidence by forecasting and monitoring](https://library.seg.org/doi/abs/10.1190/1.9781560803959) | @ringrose2023storage | SEG, 2023 |
+| [Geophysics and the Energy Transition](https://www.sciencedirect.com/science/article/pii/B9780323959414000215)[^2] |@wilson2025 | Science Direct, 2025 |
 
-<!-- | [A toolbox for digital twins: from model-based to data-driven](https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486)                                                                          | @asch2022toolbox, Mark | SIAM, 2022 | -->
-  
+[^1]: ebook available from the Georgia Tech Library
 
-- **These electronic books are only available when online at Georgia Tech!**  
-- **The [Python notebook](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) is hands on, very practical, and contains very useful exercises with answers. You are encouraged to explore and we will incorporate material from this [notebook](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) in this course.**
+[^2]: ebook available from the Georgia Tech Library
 
+### Additional reading material
 
-## Journal Papers
-
-|                                                                                                                                                                                                              |                           |                |
-|-----------------------------------------------|---------|---------|
-| [A comprehensive review of digital twin—part 1: modeling and twinning enabling technologies](https://openintro-ims.netlify.app/)                                                                             | @thelen2022comprehensivea | Springer, 2022 |
-| [A comprehensive review of digital twin—part 2: roles of uncertainty quantification and optimization, a battery digital twin, and perspectives](https://link.springer.com/article/10.1007/00158-022-03410-x) | @thelen2023comprehensiveb | Springer, 2022 |
-| [Sequential Bayesian inference for uncertain nonlinear dynamic systems: A tutorial](https://arxiv.org/abs/2201.08180)                                                                                        | @tatsis2022sequential     | Arxiv, 2022      |
-
-
-## Lectures & computational labs
-
-In part the course is an adaptation of open-source Basic and Advanced courses ([CSU-IMU-2023](https://github.com/markasch/CSU-IMU-2023)) developed by [Mark Asch](https://markasch.github.io/DT-tbx-v1/). [Codes](https://markasch.github.io/DT-tbx-v1/codes/) will be drawn from the course and from the book. During the second half of the course, we will draw from the current literature.
+Details on readings will be provided on a lecture by lecture basis following this [Schedule](schedule.qmd).
 
 ## Course community
 
@@ -70,21 +55,21 @@ If there is any portion of the course that is not accessible to you due to chall
 
 All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.
 
-Announcements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.
+Instructions on how to setup software for the computational lab assignments can be found under [Docker](docker.qmd).
 
 ## Activities & Assessment
 
-### Computational labs
+## Assignments
 
-In labs, you will apply the concepts discussed during lectures, with a focus on the computation.
+Details on the assignments will be provided on a lecture by lecture basis following this [Schedule](schedule.qmd). These assignments will mostly involve geophysics-related programs, computer simulations, and data analysis. These assignments are designed for each student to work one by him/herself. Collaboration is to a reasonable degree encouraged. During these assignments, you will apply concepts discussed during lectures, with a focus on the computational aspects. These assignments will count towards 35% of your overall course grade.
 
 ### Exams
 
-There will be no exams.
+There will be a midterm (25%) and a final exam (25%). Both of them are closed book. Reference to texts or other documents such as previous semester course materials during exams is strictly forbidden. Using these materials will be considered a direct violation of academic policy and will be dealt with according to the GT Academic Honor Code. The use of electronic devices (e.g. cellular phones, computers etc.) other than non-programmable calculators during exams and quizzes is not allowed.
 
-### Final Project
+## Project
 
-The purpose of the [Final Project](project.qmd) is to apply what you've learned throughout the semester to analyze an interesting data-driven research question.
+Toward the end of the term, you will work on a computational project entailing the different topics covered during the course. You can find more details on the [Projects](project.md) page. This [Project](project.md) will count towards 15% of your overall course grade.
 
 ## Grading
 
@@ -92,25 +77,24 @@ The final course grade will be calculated as follows:
 
 <center>
 
-| Category                     | Percentage |
-|------------------------------|------------|
-| Comp. Lab assignments        | 30%        |
-| Presentation Journal Paper   | 20%        |
-| Final Project & Presentation | 50%        |
+| Category     | Percentage |
+|--------------|------------|
+| Assignments  | 35%        |
+| Midterm exam | 25%        |
+| Project      | 15%        |
+| Final exam   | 25%        |
 
 ## Important dates
 
--   **Jan 4:** Phase II Registration
+-   **Jan 2-10** Phase II Registration
 
--   **Jan 8:** Classes begin
-
--   **Jan 12:** Deadline for Registration/Schedule Changes
+-   **Jan 6:** Classes begin
 
 -   **March 13**: Last day to withdraw
 
--   **March 18-22:** Spring break
+-   **March 17-21:** Spring break
 
--   **April 24:** Final Instructional Class
+-   **April 21:** Final Instructional Class
 
 ## Course policies
 

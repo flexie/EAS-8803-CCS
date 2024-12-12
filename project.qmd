@@ -1,4 +1,6 @@
-# Final Project
+To be populated.
+
+<!-- # Final Project
 
 ### Goal
 
@@ -63,7 +65,7 @@ The report needs to be written as a short journal paper. Students will be requir
 
 <!-- The report will be evaluated using the following [form]. -->
 
-#### Grading (project alone)
+<!-- #### Grading (project alone)
 
 1. 10% Proposal plus speed presentation
 2. 30% Seminar
@@ -78,5 +80,7 @@ Late submission is unacceptable and will lead to deductions in your grade. The d
 <iframe width=”800” and height=”600”  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSez4DG-tIVDgwLFN19k9uWlVHfn1yDXHn9KnMbBX7tTHLnCC6RaZ1C6TEUfkjUYtvwpa7Ked74HCTA/pubhtml?widget=true&amp;headers=false"></iframe>
 -->
 
+<!-- 
 ### Calendar for events
-<iframe src="https://calendar.google.com/calendar/embed?src=2qgpk7km772vtfu05dlj87duto%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> 
+<iframe src="https://calendar.google.com/calendar/embed?src=2qgpk7km772vtfu05dlj87duto%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>  
+ -->

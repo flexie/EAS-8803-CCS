@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Digital Twins for Physical Systems"
+  title: "Seismic Monitoring CO~2~ Storage"
   sidebar:
     background: primary
     logo: "images/digitaltwin.png"
@@ -10,7 +10,7 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://flexie.github.io/CSE-8803-Twin/
+        href: https://flexie.github.io/EAS-4803-8803-CCS/
         text: GitHub
       # - icon: cloud-fill
         # href: https://rstudio.cloud/spaces/237799
@@ -22,14 +22,16 @@ website:
       - href: syllabus.qmd
         text: Syllabus
       - href: goals.qmd
-        text: Goals        
-      - href: schedule.qmd
-        text: Schedule
-      - href: seminar.qmd
-        text: Seminar        
+        text: Goals    
+      - href: docker.qmd
+        text: Docker      
+      # - href: schedule.qmd
+      #   text: Schedule
+      # - href: seminar.qmd
+      #   text: Seminar        
       - href: project.qmd
-        text: Final Project 
-      - href: references.qmd  
+        text: Project 
+      # - href: references.qmd  
 format:
   html:
     theme: cosmo
