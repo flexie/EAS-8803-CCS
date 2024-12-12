@@ -23,10 +23,10 @@ website:
         text: Syllabus
       - href: goals.qmd
         text: Goals    
-      - href: docker.qmd
-        text: Docker      
-      # - href: schedule.qmd
-      #   text: Schedule
+      # - href: docker.qmd
+      #   text: Docker      
+      - href: schedule.qmd
+        text: Schedule
       # - href: seminar.qmd
       #   text: Seminar        
       - href: project.qmd

@@ -1,7 +1,7 @@
 ---
 title: "Week 01"
-subtitle: "Welcome to Digital Twins for Physical Systems"
-description: "Jan 08  - Jan 12"
+subtitle: "Welcome to Seismic Monitoring CO~2~ Storage"
+description: "Jan 06  - Jan 10"
 author: "Felix J. Herrmann"
 date: ""
 listing:
@@ -44,13 +44,12 @@ tbl-colwidths: [10,50,40]
 ::: {#assignments}
 :::
 
+
 # Readings
 
-|                                                                                                           |
-|-----------------------------------------------------------------------------------------------------------|
-| [Course Syllabus](../syllabus.qmd)                                                                        |
-| [Chapter 1 --- A toolbox for digital twins](https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486)                 |
-| [Section --- 2 A comprehensive review of digital twin — part 1](https://link.springer.com/article/10.1007/s00158-022-03425-4) |
-| [Chapter 8 --- A toolbox for digital twins until section 8.7[^1] ](https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486)                 |
-
-[^1]: There is a lot of material there that you may want to read through. Use material presented in class as a guide what is important.
+|  |
+|------------------------------------------------------------------------|
+| [Course Syllabus](../syllabus.qmd) |
+| From [@ringrose2020store] read Chapter 1 and Chapter 2 until section 2.3, which was discussed during Lecture 1. |
+| In preparation of Lecture 2, read pages 17-29 from [Chapter 2](https://www.dropbox.com/s/10jxkl4sqz9cpno/chapter2gueguen.pdf?dl=0) of Gueguen[@gueguen1994introduction] (for more background see also [Chapter 1](https://www.dropbox.com/s/gas1x4fswnhno3w/chapter1gueguen.pdf?dl=0)). |
+| Also read sections 2.3.1 and 2.3.2 of the main text by [@ringrose2020store]. |
