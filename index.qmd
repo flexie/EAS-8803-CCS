@@ -1,33 +1,24 @@
 ---
-title: "Digital Twins for Physical Systems Course Website"
+title: "Seismic Monitoring CO~2~ Storage"
 ---
 
 ## Course overview
 
-**Course overview from CSE : Digital Twins for Physical Systems**
-
-*IBM defines "A digital twin is a virtual representation of an object or system that spans its lifecycle, is updated from real-time data, and uses simulation, machine learning and reasoning to help decision-making." During this course, we will explore these concepts and their significance in addressing the challenges of monitoring and control of physical systems described by partial-differential equations. After introducing deterministic & statistical data assimilation techniques, the course switches gears towards scientific machine learning to introduce the technique of simulation-based inference, during which uncertainty is captured with generative conditional neural networks, and neural operators where Fourier Neural Operators act as surrogates for solutions of partial-differential equations. The course concludes by incorporating these techniques into uncertainty-aware Digital Twins that can be used to monitor and control complicated processes such as underground storage of CO~2~ or management of batteries.*
-
-<!-- Intro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language. -->
+*Carbon Capture and Storage (CCS) is widely considered as a key scalable net-negative CO~2~ emission technology to help combat climate change. The course covers the Basics of [Geological Carbon Storage](outline.md), its [Design & Scale Up](outline.md), and its [Seismic Monitoring](outline.md). Aside from reviewing the geophysical challenges and computational aspects of monitoring Geological Carbon Storage, the course also addresses societal impact of this technology. Its (perceived) risk will be discussed by weighting the risk of doing something, by injecting CO~2~ underground, against doing nothing.*
 
 ## Class meetings
 
-| Meeting | Location | Time                   |
-|---------|----------|------------------------|
-| Lecture | Howey Physics N210  | Mon & Wed 5:00 - 6:15PM |
+| Meeting | Location                             | Time                    |
+|---------|--------------------------------------|-------------------------|
+| Lecture | Ford Environmental Sci & Tech, L1116 | Mon & Wed 3:30 - 4:45PM |
 
-## Prerequisites
+## Teaching team
 
-Numerical Linear Algebra, Statistics, Machine Learning, Experience w/ Python, or Julia
-
-## Teaching team 
-
-| Name                 | Office hours   | Location   |
-|----------------------|----------------|------------|
-| [Felix J. Herrmann](mailto:felix.herrmann@gatech.edu) (Instructor)    | TBD            | Zoom       |
-| [Rafael Orozco](mailto:rorozco@gatech.edu) (TA) | TBD            | Zoom       |
-
+| Name | Office hours | Location |
+|-------------------------------|-----------------------|------------------|
+| [Felix J. Herrmann](mailto:felix.herrmann@gatech.edu) (Instructor) | TBD | Zoom |
+| [Haoyun (Jason) Li](mailto:hli853@gatech.edu) (TA) | TBD | Zoom |
 
 ## Access to Piazza
 
-Students are encouraged to post their questions on [Piazza](https://gatech.instructure.com/courses/380456/external_tools/18649) on Canvas or [Piazza direct](https://piazza.com/class/lr4dw5ds5ac394), which will be monitored by [Rafael Orozco](mailto:rorozco@gatech.edu).
+Students are encouraged to post their questions on [Piazza](https://gatech.instructure.com/courses/380456/external_tools/18649) on Canvas or [Piazza direct](https://piazza.com/class/m48xmhumtiuhv/), which will be monitored by [Haoyun (Jason) Li](mailto:mailto:hli853@gatech.edu).
