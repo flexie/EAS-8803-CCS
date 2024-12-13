@@ -1,5 +1,6 @@
 ---
 title: "Seismic Monitoring CO~2~ Storage"
+subtitle: "Seismic Monitoring CO~2~ Storage - EAS 4803 - EAS 8803 - FH"
 ---
 
 ## Course overview

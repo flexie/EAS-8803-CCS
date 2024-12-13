@@ -1,9 +1,8 @@
 ---
 title: "Syllabus^[Syllabus updates: This syllabus is subject to change throughout the semester. We will try to keep these updates to a minimum.
 ]"
+subtitle: "Seismic Monitoring CO~2~ Storage - EAS 4803 - EAS 8803 - FH"
 ---
-
-**Spring 2025 semester: Seismic Monitoring CO~2~ Storage --- EAS-4803-FH / 8803-FH**
 
 ## Course Learning Objectives
 
