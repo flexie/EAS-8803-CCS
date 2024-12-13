@@ -58,6 +58,13 @@ Instructions on how to setup software for the computational lab assignments can 
 
 ## Activities & Assessment
 
+## Course requirements
+
+Seismic Monitoring CO~2~ Storage - EAS 4803 - EAS 8803 - FH is a cross-listed under/graduate course. The requirements differ as follows:
+
+- there will be additional exam questions for graduate students 
+- there will be additional assignments for graduate students
+
 ## Assignments
 
 Details on the assignments will be provided on a lecture by lecture basis following this [Schedule](schedule.qmd). These assignments will mostly involve geophysics-related programs, computer simulations, and data analysis. These assignments are designed for each student to work one by him/herself. Collaboration is to a reasonable degree encouraged. During these assignments, you will apply concepts discussed during lectures, with a focus on the computational aspects. These assignments will count towards 35% of your overall course grade.
