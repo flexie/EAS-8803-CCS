@@ -1119,13 +1119,6 @@
     "text": "Produce samples \\[\\mathbf{x} \\sim p(\\mathbf{x} | \\vartheta)\\]\n\nEvaluate densities \\[p(\\mathbf{x}|\\vartheta)\\] \\[p(\\vartheta | \\mathbf{x}) = \\frac{p(\\mathbf{x} | \\vartheta) p(\\vartheta)}{p(\\mathbf{x})}\\]\n\nEncode complex priors \\[p(\\mathbf{x})\\]\n\n\n\n\n\n\n\n\n\n\nCredits: Siddharth Mishra-Sharma, 2023."
   },
   {
-    "objectID": "slides/week-07/09a-DL-uncertainty.html#section-31",
-    "href": "slides/week-07/09a-DL-uncertainty.html#section-31",
-    "title": "Simulation-based Inference",
-    "section": "",
-    "text": "🔗 https://flexie.github.io/CSE-8803-Twin/"
-  },
-  {
     "objectID": "slides/week-01/01-intro.html#course-outline",
     "href": "slides/week-01/01-intro.html#course-outline",
     "title": "Welcome to Seismic Monitoring CO2 Storage",
@@ -1147,11 +1140,18 @@
     "text": "Textbooks\n\n\n\nRingrose, P. (2020), How to Store CO2 Underground: insights from early-mover CCS Projects1\nRingrose (2020)\nElsevier, 2020\n\n\nStorage of Carbon Dioxide in Saline Aquifers: Building confidence by forecasting and monitoring\nRingrose (2023)\nSEG, 2023\n\n\nGeophysics and the Energy Transition2\nWilson, Davis, and Landrø (2025)\nScience Direct, 2025\n\n\n\nebook available from the Georgia Tech Libraryebook available from the Georgia Tech Library"
   },
   {
-    "objectID": "slides/week-01/01-intro.html#section-2",
-    "href": "slides/week-01/01-intro.html#section-2",
+    "objectID": "slides/week-01/01-intro.html#section",
+    "href": "slides/week-01/01-intro.html#section",
     "title": "Welcome to Seismic Monitoring CO2 Storage",
     "section": "",
-    "text": "🔗 https://flexie.github.io/EAS-8803-CCS/\n\n\n\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
+    "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
+  },
+  {
+    "objectID": "slides/week-01/01-intro.html#references",
+    "href": "slides/week-01/01-intro.html#references",
+    "title": "Welcome to Seismic Monitoring CO2 Storage",
+    "section": "",
+    "text": "Ringrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
   },
   {
     "objectID": "docker.html",
@@ -2341,7 +2341,7 @@
     "href": "slides/week-01/02-basics.html#trcomputing-the-regularization-parameter-1",
     "title": "Basics",
     "section": "TR—Computing the Regularization Parameter",
-    "text": "TR—Computing the Regularization Parameter\n\n\n\n\n\n\n\n\n\nThe L-curve criterion is an empirical method for picking a value of \\(\\alpha.\\)\n\nsince \\(e_{m}(\\alpha)=\\Vert\\mathbf{m}\\Vert_{2}\\) is a strictly decreasing function of \\(\\alpha\\) and \\(e_{d}(\\alpha)=\\Vert G\\mathbf{m}-\\mathbf{d}\\Vert_{2}\\) is a strictly increasing one,\nwe plot \\(\\log e_{m}\\) against \\(\\log e_{d}\\) we will always obtain an L-shaped curve that has an “elbow” at the optimal value of \\(\\alpha=\\alpha_{L},\\) or at least at a good approximation of this optimal value see Figure 1."
+    "text": "TR—Computing the Regularization Parameter\n\n\n\n\n\n\nFigure 1\n\n\n\nThe L-curve criterion is an empirical method for picking a value of \\(\\alpha.\\)\n\nsince \\(e_{m}(\\alpha)=\\Vert\\mathbf{m}\\Vert_{2}\\) is a strictly decreasing function of \\(\\alpha\\) and \\(e_{d}(\\alpha)=\\Vert G\\mathbf{m}-\\mathbf{d}\\Vert_{2}\\) is a strictly increasing one,\nwe plot \\(\\log e_{m}\\) against \\(\\log e_{d}\\) we will always obtain an L-shaped curve that has an “elbow” at the optimal value of \\(\\alpha=\\alpha_{L},\\) or at least at a good approximation of this optimal value see Figure 1."
   },
   {
     "objectID": "slides/week-01/02-basics.html#section-7",
@@ -2425,7 +2425,7 @@
     "href": "slides/week-01/02-basics.html#references",
     "title": "Basics",
     "section": "References",
-    "text": "References\n\nK. Law, A. Stuart, K. Zygalakis. Data Assimilation. A Mathematical Introduction. Springer, 2015.\nG. Evensen. Data assimilation, The Ensemble Kalman Filter, 2nd ed., Springer, 2009.\nA. Tarantola. Inverse problem theory and methods for model parameter estimation. SIAM. 2005.\nO. Talagrand. Assimilation of observations, an introduction. J. Meteorological Soc. Japan, 75, 191, 1997.\nF.X. Le Dimet, O. Talagrand. Variational algorithms for analysis and assimilation of meteorological observations: theoretical aspects. Tellus, 38(2), 97, 1986.\nJ.-L. Lions. Exact controllability, stabilization and perturbations for distributed systems. SIAM Rev., 30(1):1, 1988.\nJ. Nocedal, S.J. Wright. Numerical Optimization. Springer, 2006.\nF. Tröltzsch. Optimal Control of Partial Differential Equations. AMS, 2010.\n\n\n\n\nAsch, Mark. 2022. A Toolbox for Digital Twins: From Model-Based to Data-Driven. SIAM.\n\n\n\n\n\n\n🔗 https://flexie.github.io/CSE-8803-Twin/"
+    "text": "References\n\nK. Law, A. Stuart, K. Zygalakis. Data Assimilation. A Mathematical Introduction. Springer, 2015.\nG. Evensen. Data assimilation, The Ensemble Kalman Filter, 2nd ed., Springer, 2009.\nA. Tarantola. Inverse problem theory and methods for model parameter estimation. SIAM. 2005.\nO. Talagrand. Assimilation of observations, an introduction. J. Meteorological Soc. Japan, 75, 191, 1997.\nF.X. Le Dimet, O. Talagrand. Variational algorithms for analysis and assimilation of meteorological observations: theoretical aspects. Tellus, 38(2), 97, 1986.\nJ.-L. Lions. Exact controllability, stabilization and perturbations for distributed systems. SIAM Rev., 30(1):1, 1988.\nJ. Nocedal, S.J. Wright. Numerical Optimization. Springer, 2006.\nF. Tröltzsch. Optimal Control of Partial Differential Equations. AMS, 2010.\n\n\n\n\nAsch, Mark. 2022. A Toolbox for Digital Twins: From Model-Based to Data-Driven. SIAM."
   },
   {
     "objectID": "slides/week-09/09b-DL-generative.html#credits",
@@ -2670,7 +2670,7 @@
     "href": "slides/week-09/09b-DL-generative.html#section-18",
     "title": "Deep Learning",
     "section": "",
-    "text": "🔗 https://flexie.github.io/CSE-8803-Twin/\n\n\n\n\nPrince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
+    "text": "Prince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
   },
   {
     "objectID": "slides/week-02/02-basics.html#text-book",
@@ -2915,7 +2915,7 @@
     "href": "slides/week-02/02-basics.html#trcomputing-the-regularization-parameter-1",
     "title": "Basics",
     "section": "TR—Computing the Regularization Parameter",
-    "text": "TR—Computing the Regularization Parameter\n\n\n\n\n\n\n\n\n\nThe L-curve criterion is an empirical method for picking a value of \\(\\alpha.\\)\n\nsince \\(e_{m}(\\alpha)=\\Vert\\mathbf{m}\\Vert_{2}\\) is a strictly decreasing function of \\(\\alpha\\) and \\(e_{d}(\\alpha)=\\Vert G\\mathbf{m}-\\mathbf{d}\\Vert_{2}\\) is a strictly increasing one,\nwe plot \\(\\log e_{m}\\) against \\(\\log e_{d}\\) we will always obtain an L-shaped curve that has an “elbow” at the optimal value of \\(\\alpha=\\alpha_{L},\\) or at least at a good approximation of this optimal value see Figure 1."
+    "text": "TR—Computing the Regularization Parameter\n\n\n\n\n\n\nFigure 1\n\n\n\nThe L-curve criterion is an empirical method for picking a value of \\(\\alpha.\\)\n\nsince \\(e_{m}(\\alpha)=\\Vert\\mathbf{m}\\Vert_{2}\\) is a strictly decreasing function of \\(\\alpha\\) and \\(e_{d}(\\alpha)=\\Vert G\\mathbf{m}-\\mathbf{d}\\Vert_{2}\\) is a strictly increasing one,\nwe plot \\(\\log e_{m}\\) against \\(\\log e_{d}\\) we will always obtain an L-shaped curve that has an “elbow” at the optimal value of \\(\\alpha=\\alpha_{L},\\) or at least at a good approximation of this optimal value see Figure 1."
   },
   {
     "objectID": "slides/week-02/02-basics.html#section-7",
@@ -2999,7 +2999,7 @@
     "href": "slides/week-02/02-basics.html#references",
     "title": "Basics",
     "section": "References",
-    "text": "References\n\nK. Law, A. Stuart, K. Zygalakis. Data Assimilation. A Mathematical Introduction. Springer, 2015.\nG. Evensen. Data assimilation, The Ensemble Kalman Filter, 2nd ed., Springer, 2009.\nA. Tarantola. Inverse problem theory and methods for model parameter estimation. SIAM. 2005.\nO. Talagrand. Assimilation of observations, an introduction. J. Meteorological Soc. Japan, 75, 191, 1997.\nF.X. Le Dimet, O. Talagrand. Variational algorithms for analysis and assimilation of meteorological observations: theoretical aspects. Tellus, 38(2), 97, 1986.\nJ.-L. Lions. Exact controllability, stabilization and perturbations for distributed systems. SIAM Rev., 30(1):1, 1988.\nJ. Nocedal, S.J. Wright. Numerical Optimization. Springer, 2006.\nF. Tröltzsch. Optimal Control of Partial Differential Equations. AMS, 2010.\n\n\n\n\nAsch, Mark. 2022. A Toolbox for Digital Twins: From Model-Based to Data-Driven. SIAM.\n\n\n\n\n\n\n🔗 https://flexie.github.io/CSE-8803-Twin/"
+    "text": "References\n\nK. Law, A. Stuart, K. Zygalakis. Data Assimilation. A Mathematical Introduction. Springer, 2015.\nG. Evensen. Data assimilation, The Ensemble Kalman Filter, 2nd ed., Springer, 2009.\nA. Tarantola. Inverse problem theory and methods for model parameter estimation. SIAM. 2005.\nO. Talagrand. Assimilation of observations, an introduction. J. Meteorological Soc. Japan, 75, 191, 1997.\nF.X. Le Dimet, O. Talagrand. Variational algorithms for analysis and assimilation of meteorological observations: theoretical aspects. Tellus, 38(2), 97, 1986.\nJ.-L. Lions. Exact controllability, stabilization and perturbations for distributed systems. SIAM Rev., 30(1):1, 1988.\nJ. Nocedal, S.J. Wright. Numerical Optimization. Springer, 2006.\nF. Tröltzsch. Optimal Control of Partial Differential Equations. AMS, 2010.\n\n\n\n\nAsch, Mark. 2022. A Toolbox for Digital Twins: From Model-Based to Data-Driven. SIAM."
   },
   {
     "objectID": "slides/week-04/06-Bayes-Inference.html#motivation",
