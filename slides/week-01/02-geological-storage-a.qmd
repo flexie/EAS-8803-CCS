@@ -1,0 +1,35 @@
+---
+title: "Lecture 2  --- Geological Storage"
+subtitle: "Data Assimilation & Inverse Problems"
+date: "January 15, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+# Geological Storage
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/482du36ocf9mpsqt8yk5z/1-Lecture.pdf?rlkey=lu1507si8l2abwy75pare65id&st=nixvuvus&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/232fb7wzdpdy84oqapc03/AB2O8QuvQ8OPl9c_K9UnHdc?rlkey=l5ja5p017n39xbzu9ef6wkq7i&st=6vvnusno&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+***
