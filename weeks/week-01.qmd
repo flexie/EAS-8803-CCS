@@ -1,7 +1,7 @@
 ---
 title: "Week 01"
 subtitle: "Welcome to Seismic Monitoring CO~2~ Storage"
-description: "Jan 06  - Jan 10"
+description: "Jan 06  - Jan 17"
 author: "Felix J. Herrmann"
 date: ""
 listing:
