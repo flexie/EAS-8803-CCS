@@ -2,7 +2,8 @@
   {
     "listing": "/schedule.html",
     "items": [
-      "/weeks/week-01.html"
+      "/weeks/week-01.html",
+      "/weeks/week-02.html"
     ]
   },
   {
@@ -45,7 +46,7 @@
   {
     "listing": "/weeks/week-02.html",
     "items": [
-      "/slides/week-02/02-basics.html"
+      "/slides/week-02/03-geological-storage-b.html"
     ]
   },
   {
