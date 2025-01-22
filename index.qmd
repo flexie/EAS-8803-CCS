@@ -22,4 +22,4 @@ subtitle: "Seismic Monitoring CO~2~ Storage - EAS 4803 - EAS 8803 - FH"
 
 ## Access to Piazza
 
-Students are encouraged to post their questions on [Piazza](https://gatech.instructure.com/courses/380456/external_tools/18649) on Canvas or [Piazza direct](https://piazza.com/class/m48xmhumtiuhv/), which will be monitored by [Haoyun (Jason) Li](mailto:mailto:hli853@gatech.edu).
+Students are encouraged to post their questions on [Piazza](https://piazza.com/class/m48xmhumtiuhv/), which will be monitored by [Haoyun (Jason) Li](mailto:mailto:hli853@gatech.edu).
