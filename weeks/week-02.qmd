@@ -49,6 +49,6 @@ listing:
 
 |  |
 |------------------------------------------------------------------------|
-| Ringrose[@ringrose2020store] book section 2.3.1 until 2.3.4 |
+| Ringrose[@ringrose2020store] book section 2.3.1 until 2.4 |
 | Pages 30-39 from [Chapter 2](https://www.dropbox.com/scl/fi/fa3n6ae8cyfxul60lmauf/chapter2gueguen.pdf?rlkey=ly4qikd244uvhwxuuubhoupvv&st=p8r5ns9a&dl=0) of Gueguen[@gueguen1994introduction]. |
 | Pages 118-122 (top) from [Chapter 5]() of Gueguen[@gueguen1994introduction]. |
