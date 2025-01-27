@@ -27,8 +27,8 @@ bibliography: ../../references.bib
 
 Slides for the lecture can be found here
 
-- in [.pdf](https://www.dropbox.com/scl/fi/lax3ykkbjru6koovwyade/3-Lecture.pdf?rlkey=gn906i487kteiqd5s7n8m0uan&st=b9fl8snm&dl=0) format
-- in [.html](https://www.dropbox.com/scl/fo/vsdv2bwjzk7skvi8gi58y/AL1mrUgVfYbyZjb2uh3PP2Q?rlkey=pfpww21bg6mgtayfc3wszv9ur&st=osjxd8bj&dl=0) format. 
+- in [.pdf](https://www.dropbox.com/scl/fi/1qcwad3qla3bcubm6dx1s/4-Lecture.pdf?rlkey=vv21417j6nfwewa5zugcnhh70&st=rwyijxjd&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/ltepqnds1emumdyw7uc7j/APos4wLp0Er85wOZ2_bseZI?rlkey=aj28mg4jrric87xoki20j95b5&st=5397whyt&dl=0) format. 
  
 You need to download the html directory and open the index.html file.
 

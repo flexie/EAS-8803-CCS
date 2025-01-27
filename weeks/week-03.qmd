@@ -1,7 +1,7 @@
 ---
 title: "Week 03"
 subtitle: "Automatic Differentiation & Variational Data Assimilation"
-description: "January 22- 26"
+description: "January 27- 31"
 author: ""
 date: ""
 listing:
@@ -19,8 +19,8 @@ listing:
     filter-ui: false
   - id: assignments
     contents:
-      # - ../hw/w3-*.qmd
-      - ../labs/w3-*.qmd
+      - ../hw/w3-*.qmd
+      # - ../labs/w3-*.qmd
     type: table
     fields: [categories, title, date]
     date-format: "ddd, MMM DD"
@@ -48,7 +48,8 @@ tbl-colwidths: [10,50,40]
 
 |                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------|
-| [Chapter 8 --- A toolbox for digital twins section 8.7](https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486)                 | 
-| [Automatic Differentiation in Machine Learning: a Survey](https://arxiv.org/pdf/1502.05767.pdf)                 | 
+| Sections 2.4 until equation 2.13 on page 38 of the main text by [@ringrose2020store]                      | 
+| Page 7---11 (until Geological controls) [@ringrose2023storage]                                            | 
+
 
 
