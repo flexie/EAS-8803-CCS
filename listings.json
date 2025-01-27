@@ -3,7 +3,8 @@
     "listing": "/schedule.html",
     "items": [
       "/weeks/week-01.html",
-      "/weeks/week-02.html"
+      "/weeks/week-02.html",
+      "/weeks/week-03.html"
     ]
   },
   {
@@ -23,7 +24,9 @@
   {
     "listing": "/weeks/week-03.html",
     "items": [
-      "/slides/week-03/03-adjoint.html"
+      "/slides/week-03/04-calculating-storage-capacity.html",
+      "/hw/w3-hw01.html",
+      "/hw/w3-hw02.html"
     ]
   },
   {

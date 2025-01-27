@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2022-09-21">
+<meta name="dcterms.date" content="2025-01-29">
 
-<title>HW 02: Data visualization – Seismic Monitoring CO2 Storage</title>
+<title>In-class exercise – Seismic Monitoring CO2 Storage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -79,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">HW 02: Data visualization</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">In-class exercise</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -148,17 +177,32 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exercise-2" id="toc-exercise-2" class="nav-link active" data-scroll-target="#exercise-2">Exercise 2</a>
+  <ul class="collapse">
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a>
+  <ul class="collapse">
+  <li><a href="#q1.1" id="toc-q1.1" class="nav-link" data-scroll-target="#q1.1">Q1.1</a></li>
+  <li><a href="#q1.2" id="toc-q1.2" class="nav-link" data-scroll-target="#q1.2">Q1.2</a></li>
+  <li><a href="#q1.3" id="toc-q1.3" class="nav-link" data-scroll-target="#q1.3">Q1.3</a></li>
+  <li><a href="#q1.4" id="toc-q1.4" class="nav-link" data-scroll-target="#q1.4">Q1.4</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">HW 02: Data visualization</h1>
+<h1 class="title">In-class exercise</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Homework</div>
+    <div class="quarto-category">Exercise</div>
   </div>
   </div>
 
@@ -170,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 21, 2022</p>
+      <p class="date">January 29, 2025</p>
     </div>
   </div>
   
@@ -182,9 +226,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Add instructions for assignment.</p>
+<section id="exercise-2" class="level1">
+<h1>Exercise 2</h1>
+<section id="question-1" class="level2">
+<h2 class="anchored" data-anchor-id="question-1">Question 1</h2>
+<p>In the lectures, we learned that the capacity coefficient of a reservoir can be computed by</p>
+<p><span class="math inline">\(C_c = \frac{V_{injected}}{V_{PV}} = \frac{Q_{well}t}{\phi B\pi r_{max}^2}\)</span></p>
+<p>Now assume the reservoir is in a circular shape, and</p>
+<ol type="i">
+<li>7 million metric ton of supercritical CO<span class="math inline">\(_2\)</span> is injected every year<br>
+</li>
+<li>reservoir is 200m thick and 10km wide (diameter)<br>
+</li>
+<li>porosity of rocks in the reservoir is 30%</li>
+</ol>
+<section id="q1.1" class="level3">
+<h3 class="anchored" data-anchor-id="q1.1">Q1.1</h3>
+<p>Please calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection.</p>
+</section>
+<section id="q1.2" class="level3">
+<h3 class="anchored" data-anchor-id="q1.2">Q1.2</h3>
+<p>Please calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the shape of reservoir is a cone instead of a circular shape (width remains the same).</p>
+</section>
+<section id="q1.3" class="level3">
+<h3 class="anchored" data-anchor-id="q1.3">Q1.3</h3>
+<p>Please calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the porosity of the rocks in the left half of the circular reservoir is changed to 20%.</p>
+</section>
+<section id="q1.4" class="level3">
+<h3 class="anchored" data-anchor-id="q1.4">Q1.4</h3>
+<p>Briefly discuss how you would calculate the capacity coefficient if the reservoir is in an irregular shape with heterogeneous porosity.</p>
 
 
+</section>
+</section>
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -269,8 +344,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -381,7 +454,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

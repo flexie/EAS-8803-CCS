@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
+    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\nWeek 03\n\n\nJanuary 27- 31\n\n\nAutomatic Differentiation & Variational Data Assimilation\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
     "crumbs": [
       "Schedule"
     ]
@@ -14,7 +14,7 @@
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
+    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\nWeek 03\n\n\nJanuary 27- 31\n\n\nAutomatic Differentiation & Variational Data Assimilation\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
     "crumbs": [
       "Schedule"
     ]
@@ -237,116 +237,11 @@
     "text": "Variational DA - roles of R and B\nThe relative magnitudes of the errors due to measurement and background provide us with important information as to how much “weight” to give to the different information sources when solving the assimilation problem.\nFor example, if background errors are larger than observation errors, then the analyzed state, solution to the DA problem, should be closer to the observations than to the background and vice-versa.\nThe background error covariance matrix, \\(\\mathbf{B},\\) plays an important role in DA. This is illustrated in the following examples."
   },
   {
-    "objectID": "slides/week-03/03-adjoint.html#inverse-problems",
-    "href": "slides/week-03/03-adjoint.html#inverse-problems",
-    "title": "Adjoint state",
-    "section": "Inverse problems",
-    "text": "Inverse problems\n\n\n\n\nfrom Asch (2022)\n\n\nIngredients of an inverse problem: the physical reality (top) and the direct mathematical model (bottom). The inverse problem uses the difference between the model- predicted observations, \\(u\\) (calculated at the receiver array points \\(x_r\\)), and the real observations measured on the array, in order to find the unknown model parameters, m, or the source s (or both)."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#adjoint-state-methods",
-    "href": "slides/week-03/03-adjoint.html#adjoint-state-methods",
-    "title": "Adjoint state",
-    "section": "Adjoint-state Methods",
-    "text": "Adjoint-state Methods\nA very general approach for solving inverse problems... including Machine Learning!\nVariational DA is based on an adjoint approach.\n\n\n\n\n\n\nDefinition 1 An adjoint is a general mathematical technique, based on variational calculus, that enables the computation of the gradient of an objective, or cost functional with respect to the model parameters in a very efficient manner."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#adjoint-statecontinuous-formulation",
-    "href": "slides/week-03/03-adjoint.html#adjoint-statecontinuous-formulation",
-    "title": "Adjoint state",
-    "section": "Adjoint-state—continuous formulation",
-    "text": "Adjoint-state—continuous formulation\nLet \\(\\mathbf{u}(\\mathbf{x},t)\\) be the state of a dynamical system whose behavior depends on model parameters \\(\\mathbf{m}(\\mathbf{x},t)\\) and is described by a differential operator equation \\[\\mathbf{L}(\\mathbf{u},\\mathbf{m})=\\mathbf{f},\\] where \\(\\mathbf{f}(\\mathbf{x},t)\\) represents external forces.\nDefine a cost function \\(J(\\mathbf{m})\\) as an energy functional1 or, more commonly, as a misfit functional that quantifies the error (\\(L^{2}\\)-distance2) between the observation and the model prediction \\(\\mathbf{u}(\\mathbf{x},t;\\mathbf{m}).\\) For example, \\[J(\\mathbf{m})=\\int_{0}^{T}\\int_{\\Omega}\\left(\\mathbf{u}(\\mathbf{x},t;\\mathbf{m})-\\mathbf{u}^{\\mathrm{obs}}(\\mathbf{x},t)\\right)^{2}\\,\\mathrm{d}\\mathbf{x}\\:\\mathrm{d}t,\\] where \\(\\mathbf{x}\\in\\Omega\\subset\\mathbb{R}^{n},\\,n=1,2,3,\\) and \\(0\\le t\\le T.\\)\nA functional is a generalization of a function. The functional depends on functions, whereas a function depends on variables. We then say that a functional is mapping from a space of functions into the real numbers.The \\(L^{2}\\)-space is a Hilbert space of (measurable) functions that are square-integrable (in Lebesgue sense)."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#adjoint-statecontinuous-formulation-1",
-    "href": "slides/week-03/03-adjoint.html#adjoint-statecontinuous-formulation-1",
-    "title": "Adjoint state",
-    "section": "Adjoint-state—continuous formulation",
-    "text": "Adjoint-state—continuous formulation\nOur objective is to choose the model parameters \\(\\mathbf{m}\\) as a function of the observed output \\(\\mathbf{u}^{\\mathrm{obs}},\\) such that the cost function \\(J(\\mathbf{m})\\) is minimized.\nThe minimization is most frequently performed by a gradient-based method, the simplest of which is steepest gradient, though usually some variant of a quasi-Newton approach is used, see Asch (2022), Wright (2006).\nIf we can obtain an expression for the gradient, then the minimization will be considerably facilitated.\nThis is the objective of the adjoint method that provides an explicit formula for the gradient of \\(J(\\mathbf{m}).\\)"
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#adjoint-methodsoptimization-formulation",
-    "href": "slides/week-03/03-adjoint.html#adjoint-methodsoptimization-formulation",
-    "title": "Adjoint state",
-    "section": "Adjoint methods—optimization formulation",
-    "text": "Adjoint methods—optimization formulation\nSuppose we are given a (P)DE,\n\\[F(\\mathbf{u};\\mathbf{m})=0, \\tag{1}\\]\nwhere\n\n\\(\\mathbf{u}\\) is the state vector,\n\\(\\mathbf{m}\\) is the parameter vector, and\n\\(F\\) includes the partial differential operator \\(\\mathbf{L},\\) the right-hand side (source) \\(\\mathbf{f},\\) boundary and initial conditions.\n\nNote that the components of \\(\\mathbf{m}\\) can appear as any combination of\n\ncoefficients in the equation,\nthe source,\nor as components of the boundary/initial conditions."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#section-1",
-    "href": "slides/week-03/03-adjoint.html#section-1",
-    "title": "Adjoint state",
+    "objectID": "slides/week-03/04-calculating-storage-capacity.html#section",
+    "href": "slides/week-03/04-calculating-storage-capacity.html#section",
+    "title": "Lecture 4 — Calculating Storage Capacity",
     "section": "",
-    "text": "To solve this very general parameter estimation problem, we are given a cost function \\(J(\\mathbf{u};\\mathbf{m}).\\)\nThe constrained optimization problem is then \\[\\begin{cases}\n        \\underset{\\mathbf{m}}{\\operatorname{minimize}} & J\\left(\\mathbf{u}(\\mathbf{m});\\mathbf{m}\\right)\\\\\n        \\mathrm{subject\\,to} & F(\\mathbf{u};\\mathbf{m})=0,\n        \\end{cases}\\] where \\(J\\) can depend on both \\(\\mathbf{u}\\) and on \\(\\mathbf{m}\\) explicitly in the presence of eventual regularization terms.\n\n\n\n\n\n\nNote\n\n\n\nthe constraint is a (partial) differential equation and\nthe minimization is with respect to a (vector) function.\n\n\n\n\nThis type of optimization is the subject of variational calculus, a generalization of classical calculus where differentiation is performed with respect to a variable, not a function."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#section-2",
-    "href": "slides/week-03/03-adjoint.html#section-2",
-    "title": "Adjoint state",
-    "section": "",
-    "text": "The gradient of \\(J\\) with respect to \\(\\mathbf{m}\\) (also known as the sensitivity) is then obtained by the chain-rule, \\[\\nabla_{\\mathbf{m}}J=\\frac{\\partial J}{\\partial\\mathbf{u}}\\frac{\\partial\\mathbf{u}}{\\partial\\mathbf{m}}+\\frac{\\partial J}{\\partial\\mathbf{m}}.\\]\n\nThe partial derivatives of \\(J\\) with respect to \\(\\mathbf{u}\\) and \\(\\mathbf{m}\\) are readily computed from the expression for \\(J,\\)\nbut the derivative of \\(\\mathbf{u}\\) with respect to \\(\\mathbf{m}\\) requires a potentially very large number of evaluations, corresponding to the product of the dimensions of \\(\\mathbf{u}\\) and \\(\\mathbf{m}\\) that can both be very large.\n\nThe adjoint method is a way to avoid calculating all of these derivatives.\nWe use the fact that if \\(F(\\mathbf{u};\\mathbf{m})=0\\) everywhere, then this implies that the total derivative of \\(F\\) with respect to \\(\\mathbf{m}\\) is equal to zero everywhere too."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#section-3",
-    "href": "slides/week-03/03-adjoint.html#section-3",
-    "title": "Adjoint state",
-    "section": "",
-    "text": "Differentiating the PDE 1, we can thus write \\[\\frac{\\partial F}{\\partial\\mathbf{u}}\\frac{\\partial\\mathbf{u}}{\\partial\\mathbf{m}}+\\nabla_{\\mathbf{m}}F=0.\\]\nThis can be solved for the untractable derivative of \\(\\mathbf{u}\\) with respect to \\(\\mathbf{m},\\) to give \\[\\frac{\\partial\\mathbf{u}}{\\partial\\mathbf{m}}=-\\left(\\frac{\\partial F}{\\partial\\mathbf{u}}\\right)^{-1}\\nabla_{\\mathbf{m}}F\\] assuming that the inverse of \\(\\partial F/\\partial{\\mathbf{u}}\\) exists.\nSubstituting in the expression for the gradient of \\(J,\\) we obtain \\[\\begin{aligned}\n    \\nabla_{\\mathbf{m}}J & =-\\frac{\\partial J}{\\partial\\mathbf{u}}\\left(\\frac{\\partial F}{\\partial\\mathbf{u}}\\right)^{-1}\\nabla_{\\mathbf{m}}F+\\frac{\\partial J}{\\partial\\mathbf{m}},\\\\\n     & =\\mathbf{p}\\nabla_{\\mathbf{m}}F+\\frac{\\partial J}{\\partial\\mathbf{m}}\n    \\end{aligned}\\]"
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#section-4",
-    "href": "slides/week-03/03-adjoint.html#section-4",
-    "title": "Adjoint state",
-    "section": "",
-    "text": "where we have conveniently defined \\(\\mathbf{p}\\) as the solution of the adjoint equation \\[\\left(\\frac{\\partial F}{\\partial\\mathbf{u}}\\right)^{\\mathrm{T}}\\mathbf{p}=-\\frac{\\partial J}{\\partial\\mathbf{u}}.\\]"
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#adjoint-methodssumming-up",
-    "href": "slides/week-03/03-adjoint.html#adjoint-methodssumming-up",
-    "title": "Adjoint state",
-    "section": "Adjoint Methods—summing up",
-    "text": "Adjoint Methods—summing up\nIn summary, we have a three-step procedure that combines a model-based approach (through the PDE) with a data-driven approach (through the cost function):\n\nSolve the adjoint equation for the adjoint state, \\(\\mathbf{p}.\\)\nUsing the adjoint state, compute the gradient of the cost function \\(J.\\)\nUsing the gradient, solve the optimization problem to estimate the parameters \\(\\mathbf{m}\\) that minimize the mismatch between model and observations.\n\n\n\n\n\n\n\nImportant\n\n\nThis key result enables us to compute the desired gradient \\(\\nabla_\\mathbf{m}J\\), without the explicit knowledge of the variation of \\(\\mathbf{u}\\)."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#section-5",
-    "href": "slides/week-03/03-adjoint.html#section-5",
-    "title": "Adjoint state",
-    "section": "",
-    "text": "A number of important remarks can be made.\n\nWe obtain explicit formulas — in terms of the adjoint state — for the gradient with respect to each/any model parameter. Note that this has been done in a completely general setting, without any restrictions on the operator \\({F}\\) or on the model parameters \\(\\mathbf{m}.\\)\nThe computational cost is one solution of the adjoint equation which is usually of the same order as (if not identical to) the direct equation, but with a reversal of time. Note that for nonlinear equations this may not be the case and one may require four or five times the computational effort.\nThe variation (Gâteaux derivative) of \\({F}\\) with respect to the model parameters \\(\\mathbf{m}\\) is, in general, straightforward to compute.\nWe have not explicitly considered boundary (or initial) conditions in the above, general approach. In real cases, these are potential sources of difficulties for the use of the adjoint approach — see Section 8.7.3, where the the discrete adjoint can provide a way to overcome this hurdle."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#section-6",
-    "href": "slides/week-03/03-adjoint.html#section-6",
-    "title": "Adjoint state",
-    "section": "",
-    "text": "For complete mathematical rigor, the above development should be performed in an appropriate Hilbert space setting that guarantees the existence of all the inner products and adjoint operators. The interested reader could consult Tröltzsch (2010).\nIn many real problems, the optimization of the misfit functional leads to multiple local minima and often to very “flat” cost functions. These are hard problems for gradient-based optimization methods. These difficulties can be (partially) overcome by a panoply of tools:\n\nRegularization terms can alleviate the non-uniqueness problem.\nRescaling the parameters and/or variables in the equations can help with the “flatness.” This technique is often employed in numerical optimization.\nHybrid algorithms, that combine stochastic and deterministic optimization (e.g., Simulated Annealing), can be used to avoid local minima.\nJudicious use of machine learning techniques and methods."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#section-7",
-    "href": "slides/week-03/03-adjoint.html#section-7",
-    "title": "Adjoint state",
-    "section": "",
-    "text": "When measurement and modeling errors can be modeled by Gaussian distributions and a background (prior) solution exists, the objective function may be generalized by including suitable covariance matrices. This is the approach employed systematically in data assimilation, see below."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#adjoint-state-methoddiscrete-systems",
-    "href": "slides/week-03/03-adjoint.html#adjoint-state-methoddiscrete-systems",
-    "title": "Adjoint state",
-    "section": "Adjoint-state method—Discrete systems",
-    "text": "Adjoint-state method—Discrete systems\nIn practice, we often work with discretized systems of equations, e.g. discretized PDEs.\nAssume that \\(\\mathbf{x}\\) depends, as usual on a parameter vector, \\(\\mathbf{m}\\), made up of \\(p\\)\n\ncontrol variables, design parameters, or decision parameters\n\nGoal: To optimize these values for a given cost function, \\(J(\\mathbf{x}, \\mathbf{m})\\), we need to\n\nevaluate \\(J(\\mathbf{x}, \\mathbf{m})\\) and compute, as for the continuous case, the gradient \\(\\mathrm{d}J/\\mathrm{d}\\mathbf{m}\\).\n\nPossible with an adjoint-state method at a cost that is independent of \\(p\\).\nInvolves inversion of linear system at \\(\\mathcal{O}(n^3)\\) operations — making it computational feasible to deal with problems of this type\n\\[A[\\mathbf{m}]\\mathbf{x}=\\mathbf{b} \\tag{2}\\]\nwhere \\(A[\\mathbf{m}]\\) represents the discretized PDE, \\(\\mathbf{m}\\) spatially varying coefficients of the PDE, and \\(\\mathbf{b}\\) a source term."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#automatic-differentiation",
-    "href": "slides/week-03/03-adjoint.html#automatic-differentiation",
-    "title": "Adjoint state",
-    "section": "Automatic Differentiation",
-    "text": "Automatic Differentiation\nGradients w.r.t \\(\\mathbf{m}\\) of objectives that include \\(A[\\mathbf{m}]\\), e.g.\n\\[J(\\mathbf{m})=\\frac{1}{2}\\|\\mathbf{b}-PA^{-1}[\\mathbf{m}]\\mathbf{q}\\|^2_2\\]\ncan be calculated with the adjoint-state method leading to\n\nfast and scalable codes (e.g. Full-waveform inversion, see also JUDI.jl)\nbut coding can be involved especially when combined with machine learning (e.g. when \\(\\mathbf{m}\\) is parameterized by a neural network)\n\nUse automatic differentiation (AD) tools instead of analytical tools.\nTwo approaches to compute the adjoint state and the resulting gradients\n\nContinuous case — discretization of the (analytical) adjoint, denoted by AtD = adjoint then discretize;\nDiscrete case — adjoint of the discretization (the code), denoted as DtA = discretize then adjoint."
-  },
-  {
-    "objectID": "slides/week-03/03-adjoint.html#problems-ad",
-    "href": "slides/week-03/03-adjoint.html#problems-ad",
-    "title": "Adjoint state",
-    "section": "Problems AD",
-    "text": "Problems AD\nRealistic (complex and large scale) solved with DtA using AD — provided by ML\n\nPyTorch, TensorFlow (Python), or Flux.jl/Zygote.jl (Julia)\n\n\n\n\n\n\n\nCaution\n\n\nWhile convenient, AD as part of ML tools (known as backpropagation)\n\nmay not scale\nintegrates poorly with existing CSE codes\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nSolution: Combine hand-derived gradients (via the adjoint-state method) w/ Automatic Differentiation\n\nuse ChainRules.jl to include hand-derived gradients in AD systems (e.g. Zygote.jl)\nknown as intrusive automatic differentiation (Li et al. 2020), see e.g. Louboutin et al. (2023) for Julia implementation\n\n\n\n\nWe will devote a separate lecture on AD."
+    "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
   },
   {
     "objectID": "slides/week-05/07-DA-stat.html#statistical-da-introduction",
@@ -1119,13 +1014,6 @@
     "text": "Produce samples \\[\\mathbf{x} \\sim p(\\mathbf{x} | \\vartheta)\\]\n\nEvaluate densities \\[p(\\mathbf{x}|\\vartheta)\\] \\[p(\\vartheta | \\mathbf{x}) = \\frac{p(\\mathbf{x} | \\vartheta) p(\\vartheta)}{p(\\mathbf{x})}\\]\n\nEncode complex priors \\[p(\\mathbf{x})\\]\n\n\n\n\n\n\n\n\n\n\nCredits: Siddharth Mishra-Sharma, 2023."
   },
   {
-    "objectID": "slides/week-07/09a-DL-uncertainty.html#section-31",
-    "href": "slides/week-07/09a-DL-uncertainty.html#section-31",
-    "title": "Simulation-based Inference",
-    "section": "",
-    "text": "🔗 https://flexie.github.io/CSE-8803-Twin/"
-  },
-  {
     "objectID": "slides/week-01/01-intro.html#course-outline",
     "href": "slides/week-01/01-intro.html#course-outline",
     "title": "Welcome to Seismic Monitoring CO2 Storage",
@@ -1158,7 +1046,7 @@
     "href": "slides/week-01/01-intro.html#references",
     "title": "Welcome to Seismic Monitoring CO2 Storage",
     "section": "",
-    "text": "🔗 https://flexie.github.io/EAS-8803-CCS/\n\n\n\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
+    "text": "Ringrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
   },
   {
     "objectID": "docker.html",
@@ -1251,11 +1139,18 @@
     ]
   },
   {
-    "objectID": "hw/w2-hw01.html",
-    "href": "hw/w2-hw01.html",
-    "title": "HW 01: Pet Names",
+    "objectID": "hw/w3-hw01.html",
+    "href": "hw/w3-hw01.html",
+    "title": "In-class exercise",
     "section": "",
-    "text": "Add instructions for assignment.\n\n\n\nReuseCC BY 4.0"
+    "text": "In the lectures, we learned that the thickness of a gas or oil column can be retained by\n\\(z_g =  \\frac{2 \\gamma \\cos\\theta (1/r_{cap}-1/r_{res})}{g (\\rho_w-\\rho_g)}\\)\nPlease estimate the range of \\(z_g\\) for a CO\\(_2\\) reservoir. Free feel to search for some values in this formula and you can also follow some of the references below\nhttps://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-8123.2007.00168.x\nhttps://link.springer.com/content/pdf/10.1007/s13202-021-01298-9.pdf\nhttps://www.sciencedirect.com/science/article/pii/S0927775721009870?via%3Dihub"
+  },
+  {
+    "objectID": "hw/w3-hw01.html#question-1",
+    "href": "hw/w3-hw01.html#question-1",
+    "title": "In-class exercise",
+    "section": "",
+    "text": "In the lectures, we learned that the thickness of a gas or oil column can be retained by\n\\(z_g =  \\frac{2 \\gamma \\cos\\theta (1/r_{cap}-1/r_{res})}{g (\\rho_w-\\rho_g)}\\)\nPlease estimate the range of \\(z_g\\) for a CO\\(_2\\) reservoir. Free feel to search for some values in this formula and you can also follow some of the references below\nhttps://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-8123.2007.00168.x\nhttps://link.springer.com/content/pdf/10.1007/s13202-021-01298-9.pdf\nhttps://www.sciencedirect.com/science/article/pii/S0927775721009870?via%3Dihub"
   },
   {
     "objectID": "weeks/week-09.html",
@@ -1276,7 +1171,7 @@
     "href": "weeks/week-03.html",
     "title": "Week 03",
     "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nAdjoint state\n\n\nInverse Problems\n\n\nMon, Jan 22\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nChapter 8 — A toolbox for digital twins section 8.7\n\n\nAutomatic Differentiation in Machine Learning: a Survey\n\n\n\n\n\n\n\n\nReuseCC BY 4.0"
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 4 — Calculating Storage Capacity\n\n\nEstimation, Theoretical Capacity, Storage Capacity Exponent\n\n\nMon, Jan 27\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nExercise\n\n\nIn-class exercise\n\n\nMon, Jan 27\n\n\n\n\nExercise\n\n\nIn-class exercise\n\n\nWed, Jan 29\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nSections 2.4 until equation 2.13 on page 38 of the main text by (Ringrose 2020)\n\n\nPage 7—11 (until Geological controls) (Ringrose 2023)\n\n\n\n\n\n\n\n\n\nReferences\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\nReuseCC BY 4.0"
   },
   {
     "objectID": "weeks/week-06.html",
@@ -2030,9 +1925,16 @@
   {
     "objectID": "hw/w3-hw02.html",
     "href": "hw/w3-hw02.html",
-    "title": "HW 02: Data visualization",
+    "title": "In-class exercise",
     "section": "",
-    "text": "Add instructions for assignment.\n\n\n\nReuseCC BY 4.0"
+    "text": "In the lectures, we learned that the capacity coefficient of a reservoir can be computed by\n\\(C_c = \\frac{V_{injected}}{V_{PV}} = \\frac{Q_{well}t}{\\phi B\\pi r_{max}^2}\\)\nNow assume the reservoir is in a circular shape, and\n\n7 million metric ton of supercritical CO\\(_2\\) is injected every year\n\nreservoir is 200m thick and 10km wide (diameter)\n\nporosity of rocks in the reservoir is 30%\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection.\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the shape of reservoir is a cone instead of a circular shape (width remains the same).\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the porosity of the rocks in the left half of the circular reservoir is changed to 20%.\n\n\n\nBriefly discuss how you would calculate the capacity coefficient if the reservoir is in an irregular shape with heterogeneous porosity."
+  },
+  {
+    "objectID": "hw/w3-hw02.html#question-1",
+    "href": "hw/w3-hw02.html#question-1",
+    "title": "In-class exercise",
+    "section": "",
+    "text": "In the lectures, we learned that the capacity coefficient of a reservoir can be computed by\n\\(C_c = \\frac{V_{injected}}{V_{PV}} = \\frac{Q_{well}t}{\\phi B\\pi r_{max}^2}\\)\nNow assume the reservoir is in a circular shape, and\n\n7 million metric ton of supercritical CO\\(_2\\) is injected every year\n\nreservoir is 200m thick and 10km wide (diameter)\n\nporosity of rocks in the reservoir is 30%\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection.\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the shape of reservoir is a cone instead of a circular shape (width remains the same).\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the porosity of the rocks in the left half of the circular reservoir is changed to 20%.\n\n\n\nBriefly discuss how you would calculate the capacity coefficient if the reservoir is in an irregular shape with heterogeneous porosity."
   },
   {
     "objectID": "seminar.html",
@@ -2355,7 +2257,7 @@
     "href": "slides/week-09/09b-DL-generative.html#section-18",
     "title": "Deep Learning",
     "section": "",
-    "text": "🔗 https://flexie.github.io/CSE-8803-Twin/\n\n\n\n\nPrince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
+    "text": "Prince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
   },
   {
     "objectID": "slides/week-02/03-geological-storage-b.html#section",
