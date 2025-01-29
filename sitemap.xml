@@ -49,127 +49,15 @@
     <lastmod>2024-12-12T22:38:19.817Z</lastmod>
   </url>
   <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/hw/w3-hw02.html</loc>
-    <lastmod>2025-01-27T17:08:01.095Z</lastmod>
+    <loc>https://flexie.github.io/EAS-8803-CCS/hw/w3-hw01.html</loc>
+    <lastmod>2025-01-27T17:03:01.333Z</lastmod>
   </url>
   <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-08.html</loc>
-    <lastmod>2024-12-12T22:38:24.215Z</lastmod>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-09.html</loc>
+    <lastmod>2024-12-12T22:38:24.216Z</lastmod>
   </url>
   <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-01.html</loc>
-    <lastmod>2025-01-15T19:06:48.404Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-02.html</loc>
-    <lastmod>2025-01-22T19:20:31.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-05.html</loc>
-    <lastmod>2024-12-12T22:38:24.215Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/01intro/underfitting_overfitting.html</loc>
-    <lastmod>2024-12-12T22:38:19.753Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/05Examples/One-Dimensional-Kalman-Filters.html</loc>
-    <lastmod>2024-12-12T22:38:19.796Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w6-lab-ensemble.html</loc>
-    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w6-lab-enf.html</loc>
-    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w7-lab-particle.html</loc>
-    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w3-lab02-Diff-Prog.html</loc>
-    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w2-lab01.html</loc>
-    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/pytorch_102.html</loc>
-    <lastmod>2024-12-12T22:38:19.792Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/Torch_test_GPU_CPU.html</loc>
-    <lastmod>2024-12-12T22:38:19.774Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/ad/diff_prog.html</loc>
-    <lastmod>2024-12-12T22:38:19.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/ad/autograd_lin_reg.html</loc>
-    <lastmod>2024-12-12T22:38:19.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w5-lab-1dkalman.html</loc>
-    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/08Examples/NF_homework.html</loc>
-    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w4-lab02-3DVar.html</loc>
-    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/ad/autograd_tut.html</loc>
-    <lastmod>2024-12-12T22:38:19.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/diff_prog.html</loc>
-    <lastmod>2024-12-12T22:38:19.775Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/pytorch_101.html</loc>
-    <lastmod>2024-12-12T22:38:19.791Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w8-lab-normalizing-flow.html</loc>
-    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/06Examples/ensemble_kalman_lorenz.html</loc>
-    <lastmod>2024-12-12T22:38:19.796Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w3-lab02.html</loc>
-    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/07Examples/Particle-Filters.html</loc>
-    <lastmod>2024-12-12T22:38:19.804Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w1-lab01-intro.html</loc>
-    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w2-lab01-PyTorch.html</loc>
-    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/04Examples/threeDVar_l63.html</loc>
-    <lastmod>2024-12-12T22:38:19.794Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-04.html</loc>
-    <lastmod>2024-12-12T22:38:24.214Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-06.html</loc>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-07.html</loc>
     <lastmod>2024-12-12T22:38:24.215Z</lastmod>
   </url>
   <url>
@@ -177,16 +65,132 @@
     <lastmod>2025-01-29T19:37:14.770Z</lastmod>
   </url>
   <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-07.html</loc>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-06.html</loc>
     <lastmod>2024-12-12T22:38:24.215Z</lastmod>
   </url>
   <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-09.html</loc>
-    <lastmod>2024-12-12T22:38:24.216Z</lastmod>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-05.html</loc>
+    <lastmod>2024-12-12T22:38:24.215Z</lastmod>
   </url>
   <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/hw/w3-hw01.html</loc>
-    <lastmod>2025-01-27T17:03:01.333Z</lastmod>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/04Examples/threeDVar_l63.html</loc>
+    <lastmod>2024-12-12T22:38:19.794Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w2-lab01-PyTorch.html</loc>
+    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w1-lab01-intro.html</loc>
+    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/07Examples/Particle-Filters.html</loc>
+    <lastmod>2024-12-12T22:38:19.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w3-lab02.html</loc>
+    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/06Examples/ensemble_kalman_lorenz.html</loc>
+    <lastmod>2024-12-12T22:38:19.796Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w8-lab-normalizing-flow.html</loc>
+    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/pytorch_101.html</loc>
+    <lastmod>2024-12-12T22:38:19.791Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/diff_prog.html</loc>
+    <lastmod>2024-12-12T22:38:19.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/ad/autograd_tut.html</loc>
+    <lastmod>2024-12-12T22:38:19.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w4-lab02-3DVar.html</loc>
+    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/08Examples/NF_homework.html</loc>
+    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w5-lab-1dkalman.html</loc>
+    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/ad/autograd_lin_reg.html</loc>
+    <lastmod>2024-12-12T22:38:19.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/ad/diff_prog.html</loc>
+    <lastmod>2024-12-12T22:38:19.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/Torch_test_GPU_CPU.html</loc>
+    <lastmod>2024-12-12T22:38:19.774Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/02Examples/pytorch/pytorch_102.html</loc>
+    <lastmod>2024-12-12T22:38:19.792Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w2-lab01.html</loc>
+    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w3-lab02-Diff-Prog.html</loc>
+    <lastmod>2024-12-12T22:38:19.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w7-lab-particle.html</loc>
+    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w6-lab-enf.html</loc>
+    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/w6-lab-ensemble.html</loc>
+    <lastmod>2024-12-12T22:38:19.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/05Examples/One-Dimensional-Kalman-Filters.html</loc>
+    <lastmod>2024-12-12T22:38:19.796Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/01intro/underfitting_overfitting.html</loc>
+    <lastmod>2024-12-12T22:38:19.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-04.html</loc>
+    <lastmod>2025-01-29T23:07:31.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-02.html</loc>
+    <lastmod>2025-01-22T19:20:31.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-01.html</loc>
+    <lastmod>2025-01-15T19:06:48.404Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-08.html</loc>
+    <lastmod>2024-12-12T22:38:24.215Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/hw/w3-hw03.html</loc>
+    <lastmod>2025-01-29T23:03:57.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/hw/w4-hw02.html</loc>
+    <lastmod>2025-01-27T17:08:01.095Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/goals.html</loc>
@@ -194,7 +198,7 @@
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/docker.html</loc>
-    <lastmod>2024-12-13T17:51:11.825Z</lastmod>
+    <lastmod>2025-01-29T22:50:22.514Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-08/10-NF.html</loc>
@@ -226,7 +230,7 @@
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/syllabus.html</loc>
-    <lastmod>2025-01-15T18:39:59.288Z</lastmod>
+    <lastmod>2025-01-29T22:21:15.676Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/project.html</loc>
