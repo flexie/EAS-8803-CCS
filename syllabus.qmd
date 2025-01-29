@@ -23,7 +23,7 @@ For a motivational talk watch this [video by Philip Ringrose](https://www.youtub
 |  |  |  |
 |--------------------------------------|-----------------|-----------------|
 | [Ringrose, P. (2020), How to Store CO~2~ Underground: insights from early-mover CCS Projects](https://link.springer.com/book/10.1007/978-3-030-33113-9)[^1] | @ringrose2020store | Elsevier, 2020 |
-| [Storage of Carbon Dioxide in Saline Aquifers: Building confidence by forecasting and monitoring](https://library.seg.org/doi/abs/10.1190/1.9781560803959) | @ringrose2023storage | SEG, 2023 |
+| [Storage of Carbon Dioxide in Saline Aquifers: Building confidence by forecasting and monitoring](https://library.seg.org/doi/abs/10.1190/1.9781560803959)[^4] | @ringrose2023storage | SEG, 2023 |
 | [Geophysics and the Energy Transition](https://www.sciencedirect.com/science/article/pii/B9780323959414000215)[^2] |@wilson2025 | Science Direct, 2025 |
 | [Reservoir model design : a practitioner's guide](https://galileo-gatech.primo.exlibrisgroup.com/discovery/fulldisplay?context=L&context=L&vid=01GALI_GIT:GT&vid=01GALI_GIT&docid=alma9914166889502947&tab=default_tab&lang=en)[^3] |@philip2015reservoir | Springer, 2015 |
 
@@ -32,6 +32,8 @@ For a motivational talk watch this [video by Philip Ringrose](https://www.youtub
 [^2]: ebook available from the Georgia Tech Library
 
 [^3]: ebook available from the Georgia Tech Library
+
+[^4]: available [here](https://www.dropbox.com/scl/fi/mmb27pcyzc4aga7dxceht/ringrose-2023-storage-of-carbon-dioxide-in-saline-aquifers-building-confidence-by-forecasting-and-monitoring.pdf?rlkey=pxnzmtxqloim835j1nq0js1og&st=buw4em7q&dl=0) for use during course only 
 
 ### Additional reading material
 

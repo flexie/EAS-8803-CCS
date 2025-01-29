@@ -1,7 +1,7 @@
 ---
 title: "Week 04"
-subtitle: "Data Assimilation"
-description: "Jan/Feb 29 - 02"
+subtitle: "Storage "
+description: "Feb 02 - 07"
 author: ""
 date: ""
 listing:
@@ -19,7 +19,7 @@ listing:
     filter-ui: false
   - id: assignments
     contents:
-      # - ../hw/w3-*.qmd
+      - ../hw/w4-*.qmd
       - ../labs/w4-*.qmd
     type: table
     fields: [categories, title, date]
