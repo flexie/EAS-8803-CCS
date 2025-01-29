@@ -1,6 +1,6 @@
 ---
 title: "Week 03"
-subtitle: "Automatic Differentiation & Variational Data Assimilation"
+subtitle: "Storage Capacity"
 description: "January 27- 31"
 author: ""
 date: ""
@@ -50,6 +50,10 @@ tbl-colwidths: [10,50,40]
 |-----------------------------------------------------------------------------------------------------------|
 | Sections 2.4 until equation 2.13 on page 38 of the main text by [@ringrose2020store]                      | 
 | Page 7---11 (until Geological controls) [@ringrose2023storage]                                            | 
+| Sections 2.4 from equation 2.5 on [@ringrose2020store]                                                    | 
+| Page 23---30 [@ringrose2023storage]                                                                       | 
+
+
 
 
 
