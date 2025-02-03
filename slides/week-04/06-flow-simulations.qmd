@@ -1,0 +1,35 @@
+---
+title: "Lecture 6  --- Reservoir Simulations"
+subtitle: "Governing Equations Simulations Examples"
+date: "February 03, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+# Flow simulations
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/6hmht0y5l7obkreuxo22i/6-Lecture.pdf?rlkey=a50mjdimffycj1mqh0xmou6fw&st=96wwi21q&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/0w5isravkezwg64nr50sy/AOK1I5Sc7PuAS5owSmoPbNM?rlkey=pvqsbanidsswp52dstsp9gxln&st=6kl30iiz&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+***

@@ -1,6 +1,6 @@
 ---
 title: "In-class exercise"
-date: "Jan 29, 2025"
+date: "Feb 03, 2025"
 categories: "Exercise"
 ---
 
