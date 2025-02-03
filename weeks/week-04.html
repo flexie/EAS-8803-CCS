@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -38,10 +58,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -254,7 +274,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Week 04</h1>
-<p class="subtitle lead">Storage</p>
+<p class="subtitle lead">Reservoir Simulations &amp; Injectivity</p>
 </div>
 
 <div>
@@ -294,26 +314,15 @@ Date
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1706504400000" data-listing-file-modified-sort="1734043100245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3494" data-listing-title-sort="Variational Data Assimilation" data-listing-filename-sort="05-variational.qmd">
+<tr data-index="0" data-listing-date-sort="1738558800000" data-listing-file-modified-sort="1738556069468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 6  --- Reservoir Simulations" data-listing-filename-sort="06-flow-simulations.qmd">
 <td>
-<a href="../slides/week-04/05-variational.html" class="title listing-title">Variational Data Assimilation</a>
+<a href="../slides/week-04/06-flow-simulations.html" class="title listing-title">Lecture 6 — Reservoir Simulations</a>
 </td>
 <td>
-<span class="listing-subtitle">Data Assimilation</span>
+<span class="listing-subtitle">Governing Equations Simulations Examples</span>
 </td>
 <td>
-<span class="listing-date">Mon, Jan 29</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1706677200000" data-listing-file-modified-sort="1734043100246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2484" data-listing-title-sort="Statistical Inverse Problems" data-listing-filename-sort="06-Bayes-Inference.qmd">
-<td>
-<a href="../slides/week-04/06-Bayes-Inference.html" class="title listing-title">Statistical Inverse Problems</a>
-</td>
-<td>
-<span class="listing-subtitle">Bayesian Inference</span>
-</td>
-<td>
-<span class="listing-date">Wed, Jan 31</span>
+<span class="listing-date">Mon, Feb 03</span>
 </td>
 </tr>
 </tbody>
@@ -341,7 +350,7 @@ Due
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="RXhlcmNpc2U=" data-listing-date-sort="1738126800000" data-listing-file-modified-sort="1737997681095" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172" data-listing-title-sort="In-class exercise" data-listing-filename-sort="w4-hw02.qmd">
+<tr data-index="0" data-categories="Exercise" data-listing-date-sort="1738558800000" data-listing-file-modified-sort="1738556960989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172" data-listing-title-sort="In-class exercise" data-listing-filename-sort="w4-hw02.qmd">
 <td>
 <span class="listing-categories">Exercise</span>
 </td>
@@ -349,7 +358,7 @@ Due
 <a href="../hw/w4-hw02.html" class="title listing-title">In-class exercise</a>
 </td>
 <td>
-<span class="listing-date">Wed, Jan 29</span>
+<span class="listing-date">Mon, Feb 03</span>
 </td>
 </tr>
 </tbody>
@@ -367,25 +376,27 @@ No matching items
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><a href="https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486">Chapter 9 — A toolbox for digital twins section until 9.4</a></td>
+<td>Sections 2.4 from equation 2.13 on page 38 of the main text by <span class="citation" data-cites="ringrose2020store">(<a href="#ref-ringrose2020store" role="doc-biblioref">Ringrose 2020</a>)</span> until section 2.5</td>
 </tr>
 <tr class="even">
-<td><a href="https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486">Chapter 8 — A toolbox for digital twins section 8.8</a></td>
+<td>Section 2.5.2 and 2.5.4cof the main text by <span class="citation" data-cites="ringrose2020store">(<a href="#ref-ringrose2020store" role="doc-biblioref">Ringrose 2020</a>)</span></td>
 </tr>
 <tr class="odd">
-<td><a href="https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486">Chapter 2 — A toolbox for digital twins section 2.5</a></td>
-</tr>
-<tr class="even">
-<td><a href="https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486">Chapter 11 — A toolbox for digital twins until section 11.4, and 11.5</a></td>
+<td><a href="https://www.dropbox.com/scl/fi/asi4wb69eun1n1wv0fm0m/COMG-JutulDarcy.pdf?rlkey=c2also901hpq0s2ujfp77v7g4&amp;st=lyw1zoz0&amp;dl=0">JutulDarcy.jl - a fully differentiable high-performance reservoir simulator based on automatic differentiation</a> until section 2.1</td>
 </tr>
 </tbody>
 </table>
 
 
 
+
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-ringrose2020store" class="csl-entry" role="listitem">
+Ringrose, Philip. 2020. <em>How to Store CO2 Underground: Insights from Early-Mover CCS Projects</em>. Springer. <a href="https://link.springer.com/book/10.1007/978-3-030-33113-9">https://link.springer.com/book/10.1007/978-3-030-33113-9</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -468,6 +479,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -578,6 +591,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
