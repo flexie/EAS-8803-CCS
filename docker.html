@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -181,18 +181,16 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#homework" id="toc-homework" class="nav-link active" data-scroll-target="#homework">Homework</a>
-  <ul class="collapse">
-  <li><a href="#docker" id="toc-docker" class="nav-link" data-scroll-target="#docker">Docker</a>
+  <li><a href="#docker-installation" id="toc-docker-installation" class="nav-link active" data-scroll-target="#docker-installation">Docker Installation</a>
   <ul class="collapse">
   <li><a href="#window-users" id="toc-window-users" class="nav-link" data-scroll-target="#window-users">Window Users</a></li>
   </ul></li>
+  <li><a href="#new-docker-container-for-seismic-experiments" id="toc-new-docker-container-for-seismic-experiments" class="nav-link" data-scroll-target="#new-docker-container-for-seismic-experiments">New docker container for Seismic Experiments</a></li>
   <li><a href="#some-useful-material" id="toc-some-useful-material" class="nav-link" data-scroll-target="#some-useful-material">Some Useful Material</a></li>
   <li><a href="#in-class-exercise" id="toc-in-class-exercise" class="nav-link" data-scroll-target="#in-class-exercise">In-class Exercise</a></li>
   <li><a href="#homework-assignments" id="toc-homework-assignments" class="nav-link" data-scroll-target="#homework-assignments">Homework Assignments</a></li>
   <li><a href="#hand-in" id="toc-hand-in" class="nav-link" data-scroll-target="#hand-in">Hand in</a></li>
   <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -219,7 +217,6 @@ window.Quarto = {
 </header>
 
 
-<p>This page is subject to change.</p>
 <!-- # Installation
 
 The assignments require [Julia](https://julialang.org) and Python 3 to be installed (Python 2 will not work).
@@ -290,33 +287,58 @@ julia -e 'using Pkg; using JUDI; example=joinpath(dirname(pathof(JUDI)),"..","ex
 This command should finish without errors.
 
 -->
-<section id="homework" class="level1">
-<h1>Homework</h1>
+<!-- # Homework
+
+In this course, we will have a couple of coding assignments based on [Julia](https://julialang.org/downloads/), a fast, dynamic, reproducible composable and general open source programming language. You are encouraged to install [Julia](https://julialang.org/downloads/) on your system following the script to run some basic coding experiments to explore its usage and applications in scientific computing community.
+
+For a introduction to Julia [Julia](https://julialang.org/downloads/), check out this [tutorial](https://github.com/JuliaAcademy/Introduction-to-Julia).
+
+In particular, you will run numerical experiments for CO$_2$ dynamics simulation and also seismic wave-based simulations with academically developed softwares. To help you run these software, we highly recommend you use Docker, a platform which builds a virtual machine/container for you with the docker image, which is set-up by us and equipped with pre-installed softwares. The docker image is quite necessary for you to run the software without the tedious installation process, and to provide you with an environment on which the software runs out of the box. -->
+<section id="docker-installation" class="level2">
+<h2 class="anchored" data-anchor-id="docker-installation">Docker Installation</h2>
 <p>In this course, we will have a couple of coding assignments based on <a href="https://julialang.org/downloads/">Julia</a>, a fast, dynamic, reproducible composable and general open source programming language. You are encouraged to install <a href="https://julialang.org/downloads/">Julia</a> on your system following the script to run some basic coding experiments to explore its usage and applications in scientific computing community.</p>
-<p>For a introduction to Julia <a href="https://julialang.org/downloads/">Julia</a>, check out this <a href="https://github.com/JuliaAcademy/Introduction-to-Julia">tutorial</a>.</p>
 <p>In particular, you will run numerical experiments for CO<span class="math inline">\(_2\)</span> dynamics simulation and also seismic wave-based simulations with academically developed softwares. To help you run these software, we highly recommend you use Docker, a platform which builds a virtual machine/container for you with the docker image, which is set-up by us and equipped with pre-installed softwares. The docker image is quite necessary for you to run the software without the tedious installation process, and to provide you with an environment on which the software runs out of the box.</p>
-<section id="docker" class="level2">
-<h2 class="anchored" data-anchor-id="docker">Docker</h2>
 <p>First install docker for your system following the instruction here,</p>
 <p><a href="https://www.docker.com/products/docker-desktop">https://www.docker.com/products/docker-desktop</a></p>
 <p>Instead of having to install Python, Julia, Devito, JUDI, FwiFlow and all the dependencies (these are the softwares that you will use for the numerical simulation) by yourself, you simply download the docker image and run it in a container. All you need to do is install docker, click the docker icon/app, open the terminal/command line (<a href="https://www.howtogeek.com/662611/9-ways-to-open-powershell-in-windows-10/">powershell</a> in windows, also see <a href="https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2">this</a>) on your system, and run:</p>
-<pre><code>docker run -p 8888:8888 ziyiyin97/ccs-env:v4.6 </code></pre>
+<pre><code>docker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyun/ccsenv:1.0</code></pre>
+<p>where <code>/path/on/your/machine</code> is an absolute path on your own local machine. <strong>Remember giving a folder path is important</strong>. For example, if I want to connect the folder called <code>testdocker</code> on the desktop of my laptop, I can do</p>
+<pre><code>docker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /Users/haoyun/Desktop/testdocker:/notebooks haoyun/ccsenv:1.0</code></pre>
 <p>This will download the image and launch a jupyter notebook that you can access from your internet browser. The command will display a link, which looks something like this:</p>
 <pre><code>Copy/paste this URL into your browser when you connect for the first time,
     to login with a token:
         http://0e27b13128d4:8888/?token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4&amp;token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4</code></pre>
-<p>Copy-paste this link and replace the address <code>0e27b13128d4:8888</code> with <code>localhost:8888</code> (the link is created inside the docker container, which doesn’t know that you mapped this port to your localhost w/ port no. 8888). Then, you can create a notebook there by clicking new -&gt; notebook -&gt; julia 1.7.1, and run the julia code in the jupyter notebook. Remember, the jupyter notebooks on the docker container don’t stay there forever. Therefore, if you are half way on the homework and want to close the jupyter notebook, please remember to save the notebook to your local machine. If you do not want to save the notebook every time when you close the notebook, you can actually connect a folder on your machine to the docker container by</p>
-<pre><code>docker run -v /path/on/your/machine:/notebooks -p 8888:8888 ziyiyin97/ccs-env:v4.6 </code></pre>
-<p>where <code>/path/on/your/machine</code> is an absolute path on your own local machine. For example, if I want to connect the folder called <code>testdocker</code> on the desktop of my laptop, I can do</p>
-<pre><code>docker run -v /Users/francisyin/Desktop/testdocker:/notebooks -p 8888:8888 ziyiyin97/ccs-env:v4.6 </code></pre>
-<p>and then you will find the files in this folder will show up in the notebooks. Whatever you do on the docker container will also be saved in the local <code>testdocker</code> folder.</p>
+<p>Copy/paste this link and replace the address <code>0e27b13128d4:8888</code> with <code>localhost:8888</code> (the link is created inside the docker container, which doesn’t know that you mapped this port to your localhost w/ port no. 8888). Then, you can create a notebook there by clicking new -&gt; notebook -&gt; julia 1.8.5, and run the julia code in the jupyter notebook. Try running these packages in notebook for fun</p>
+<pre><code>using JutulDarcyRules
+using LinearAlgebra
+using PyPlot
+using SlimPlotting
+using JLD2, Polynomials, Images</code></pre>
+<!-- Remember, the jupyter notebooks on the docker container don't stay there forever. Therefore, if you are half way on the homework and want to close the jupyter notebook, please remember to save the notebook to your local machine. If you do not want to save the notebook every time when you close the notebook, you can actually connect a folder on your machine to the docker container by -->
+<p>Whatever you do on the docker container will be saved in the local <code>testdocker</code> folder. And then you need to copy the homework notebook once it is released to this folder and run your codes in that notebook.</p>
 <p>Instead of a notebook, you can also launch an interactive session with a terminal by running:</p>
-<pre><code>docker run -it ziyiyin97/ccs-env:v4.6 /bin/bash</code></pre>
+<pre><code>docker run -it haoyun/ccsenv:1.0 /bin/bash</code></pre>
 <p>This will give you access to a terminal, in which you can start Julia/Python, run a couple of lines of code interactively. However, figures from PyPlot (the plotting package) sometimes do not render well from interactive julia sessions. Therefore, jupyter notebooks on docker are recommended for you to do the assignments.</p>
+<section id="number-of-coresthreads" class="level5">
+<h5 class="anchored" data-anchor-id="number-of-coresthreads">Number of cores/threads</h5>
+<p>By default, the command</p>
+<pre><code>docker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyun/ccsenv:1.0</code></pre>
+<p>will use 4 threads because in the above command JULIA_NUM_THREADS=4 is set. If you want to increase the number of threads to run your code faster, you need to know the number of threads on your machine and then set JULIA_NUM_THREADS equal to that number. To know the number of threads on your machine you can do:</p>
+<p>For Mac, write on terminal: <code>sysctl -n hw.logicalcpu</code></p>
+<p>For Linux, write on terminal: <code>lscpu</code></p>
+<p>The number of threads = number of threads per core * No.&nbsp;of CPUs</p>
+<p>For windows: Follow this <a href="https://www.intel.com/content/www/us/en/support/articles/000029254/processors.html#:~:text=Through%20Windows%20Task%20Manager%3A,Cores%20and%20Logical%20Processors%20(Threads)">link</a></p>
+</section>
 <section id="window-users" class="level3">
 <h3 class="anchored" data-anchor-id="window-users">Window Users</h3>
 <p>If you are using windows, you might need to enable hardware virtualization in their BIOS. You are suggested to look at <a href="https://www.virtualmetric.com/blog/how-to-enable-hardware-virtualization">here</a> and <a href="https://bce.berkeley.edu/enabling-virtualization-in-your-pc-bios.html">here</a>. If you have any question, please reach out to us ASAP.</p>
 </section>
+</section>
+<section id="new-docker-container-for-seismic-experiments" class="level2">
+<h2 class="anchored" data-anchor-id="new-docker-container-for-seismic-experiments">New docker container for Seismic Experiments</h2>
+<pre><code>docker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyun/ccsenv:v2.0</code></pre>
+<p>Follow the same procedure as before to run new docker with the above command. Please note you will still use previous docker for HW3. This docker is for seismic modelling which is next part of the course and you will use it for seismic imaging experiments later. To get familiar, there is a notebook tutorial (In-class exercise 3) associated with this docker. You should download the notebook, put it the folder where you run this docker from, and play with it.<br>
+(Later you will also need a package called MECurvelets which can be installed by <code>using Pkg; Pkg.add(url="https://github.gatech.edu/SLIM/MECurvelets.jl")</code>. We will help installing this package.)</p>
 </section>
 <section id="some-useful-material" class="level2">
 <h2 class="anchored" data-anchor-id="some-useful-material">Some Useful Material</h2>
@@ -337,7 +359,7 @@ Learn <a href="https://julialang.org/learning/">Julia</a></p>
 <p>During the course you will work on the following homework assignments</p>
 <ol type="1">
 <li><p>Intro to rock physics. <a href="Assignments/homework1.md">Assignment 1</a>. Submit your homework as a PDF report. (Due: 3:30 PM Jan 25, 2022)</p></li>
-<li><p>Fluid flow simulation. <a href="Assignments/introduction_to_julia.md">Intro to julia</a> and <a href="Assignments/Homework2.md">Assignment 2</a>. Submit both jupyter notebook and a PDF file. (Due: 3:30 PM Feb 10, 2022)</p></li>
+<li><p>Fluid flow simulation. <a href="Assignments/Homework2.md">Assignment 2</a>. You need to download the jupyter notebook and put it in the folder you created while running docker. And then when you run the docker again from the same folder you should be able to open the notebook in a browser. Please submit both the notebook and a pdf.</p></li>
 <li><p>Wavefield extrapolation and migration. <a href="Assignments/Exercise3.md">Assignment 3</a> (Due: 3:30 PM March 29, 2022)</p></li>
 <li><p>From processing to inversion I. <a href="Assignments/Exercise5.md">Assignment 4</a> (Due: 3:30 PM April 12, 2022)</p></li>
 </ol>
@@ -371,7 +393,6 @@ These exercises will introduce you to the [Julia programming language](https://j
 <p>We will give you feedback on the marking of the exercises.</p>
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
@@ -457,8 +478,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -569,7 +588,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
