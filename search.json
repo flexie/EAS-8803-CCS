@@ -377,13 +377,6 @@
     "text": "Produce samples \\[\\mathbf{x} \\sim p(\\mathbf{x} | \\vartheta)\\]\n\nEvaluate densities \\[p(\\mathbf{x}|\\vartheta)\\] \\[p(\\vartheta | \\mathbf{x}) = \\frac{p(\\mathbf{x} | \\vartheta) p(\\vartheta)}{p(\\mathbf{x})}\\]\n\nEncode complex priors \\[p(\\mathbf{x})\\]\n\n\n\n\n\n\n\n\n\n\nCredits: Siddharth Mishra-Sharma, 2023."
   },
   {
-    "objectID": "slides/week-07/09a-DL-uncertainty.html#section-31",
-    "href": "slides/week-07/09a-DL-uncertainty.html#section-31",
-    "title": "Simulation-based Inference",
-    "section": "",
-    "text": "🔗 https://flexie.github.io/CSE-8803-Twin/"
-  },
-  {
     "objectID": "slides/week-01/01-intro.html#course-outline",
     "href": "slides/week-01/01-intro.html#course-outline",
     "title": "Welcome to Seismic Monitoring CO2 Storage",
@@ -416,7 +409,7 @@
     "href": "slides/week-01/01-intro.html#references",
     "title": "Welcome to Seismic Monitoring CO2 Storage",
     "section": "",
-    "text": "🔗 https://flexie.github.io/EAS-8803-CCS/\n\n\n\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
+    "text": "Ringrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
   },
   {
     "objectID": "docker.html",
@@ -469,21 +462,11 @@
     ]
   },
   {
-    "objectID": "docker.html#homework-assignments",
-    "href": "docker.html#homework-assignments",
-    "title": "Docker",
-    "section": "Homework Assignments",
-    "text": "Homework Assignments\nDuring the course you will work on the following homework assignments\n\nIntro to rock physics. Assignment 1. Submit your homework as a PDF report. (Due: 3:30 PM Jan 25, 2022)\nFluid flow simulation. Assignment 2. You need to download the jupyter notebook and put it in the folder you created while running docker. And then when you run the docker again from the same folder you should be able to open the notebook in a browser. Please submit both the notebook and a pdf.\nWavefield extrapolation and migration. Assignment 3 (Due: 3:30 PM March 29, 2022)\nFrom processing to inversion I. Assignment 4 (Due: 3:30 PM April 12, 2022)",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
     "objectID": "docker.html#hand-in",
     "href": "docker.html#hand-in",
     "title": "Docker",
     "section": "Hand in",
-    "text": "Hand in\nPlease turn in your assignments as pdf files. The assignments should be send to Ziyi (Francis) Yin. Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr. Felix Herrmann and cc TA in advance (at least 2 days before the deadline).",
+    "text": "Hand in\nPlease turn in your assignments as pdf files. The assignments should be send to Haoyun Li. Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr. Felix Herrmann and cc TA in advance (at least 2 days before the deadline).",
     "crumbs": [
       "Docker"
     ]
@@ -1665,7 +1648,7 @@
     "href": "slides/week-09/09b-DL-generative.html#section-18",
     "title": "Deep Learning",
     "section": "",
-    "text": "🔗 https://flexie.github.io/CSE-8803-Twin/\n\n\n\n\nPrince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
+    "text": "Prince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
   },
   {
     "objectID": "slides/week-03/05-storage-efficiency.html#section",

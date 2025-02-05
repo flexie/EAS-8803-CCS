@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -188,7 +188,6 @@ window.Quarto = {
   <li><a href="#new-docker-container-for-seismic-experiments" id="toc-new-docker-container-for-seismic-experiments" class="nav-link" data-scroll-target="#new-docker-container-for-seismic-experiments">New docker container for Seismic Experiments</a></li>
   <li><a href="#some-useful-material" id="toc-some-useful-material" class="nav-link" data-scroll-target="#some-useful-material">Some Useful Material</a></li>
   <li><a href="#in-class-exercise" id="toc-in-class-exercise" class="nav-link" data-scroll-target="#in-class-exercise">In-class Exercise</a></li>
-  <li><a href="#homework-assignments" id="toc-homework-assignments" class="nav-link" data-scroll-target="#homework-assignments">Homework Assignments</a></li>
   <li><a href="#hand-in" id="toc-hand-in" class="nav-link" data-scroll-target="#hand-in">Hand in</a></li>
   <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback</a></li>
   </ul>
@@ -353,16 +352,17 @@ Learn <a href="https://julialang.org/learning/">Julia</a></p>
 <li><p>Thickness of reservoir. <a href="exercise/exercise1.md">Exercise 1</a> (Jan 20, 2022)</p></li>
 <li><p>Capacity coefficient. <a href="exercise/exercise2.md">Exercise 2</a> (Jan 27, 2022)</p></li>
 </ol>
-</section>
-<section id="homework-assignments" class="level2">
-<h2 class="anchored" data-anchor-id="homework-assignments">Homework Assignments</h2>
-<p>During the course you will work on the following homework assignments</p>
-<ol type="1">
-<li><p>Intro to rock physics. <a href="Assignments/homework1.md">Assignment 1</a>. Submit your homework as a PDF report. (Due: 3:30 PM Jan 25, 2022)</p></li>
-<li><p>Fluid flow simulation. <a href="Assignments/Homework2.md">Assignment 2</a>. You need to download the jupyter notebook and put it in the folder you created while running docker. And then when you run the docker again from the same folder you should be able to open the notebook in a browser. Please submit both the notebook and a pdf.</p></li>
-<li><p>Wavefield extrapolation and migration. <a href="Assignments/Exercise3.md">Assignment 3</a> (Due: 3:30 PM March 29, 2022)</p></li>
-<li><p>From processing to inversion I. <a href="Assignments/Exercise5.md">Assignment 4</a> (Due: 3:30 PM April 12, 2022)</p></li>
-</ol>
+<!-- ## Homework Assignments
+
+During the course you will work on the following homework assignments
+
+1. Intro to rock physics. [Assignment 1](Assignments/homework1.md). Submit your homework as a PDF report. (Due: 3:30 PM Jan 25, 2022)
+
+2. Fluid flow simulation. [Assignment 2](Assignments/Homework2.md). You need to download the jupyter notebook and put it in the folder you created while running docker. And then when you run the docker again from the same folder you should be able to open the notebook in a browser. Please submit both the notebook and a pdf. 
+
+3. Wavefield extrapolation and migration. [Assignment 3](Assignments/Exercise3.md) (Due: 3:30 PM March 29, 2022)
+
+4. From processing to inversion I. [Assignment 4](Assignments/Exercise5.md) (Due: 3:30 PM April 12, 2022) -->
 <!--
 4. Seismic imaging with sparsity-promoting least-squares migration. [Assignment 4](Assignments/Exercise7.md) (Due: 3:30 PM April 4, 2022)
 
@@ -386,7 +386,7 @@ These exercises will introduce you to the [Julia programming language](https://j
 </section>
 <section id="hand-in" class="level2">
 <h2 class="anchored" data-anchor-id="hand-in">Hand in</h2>
-<p>Please turn in your assignments as pdf files. The assignments should be send to <a href="mailto:ziyi.yin@gatech.edu">Ziyi (Francis) Yin</a>. Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr.&nbsp;Felix Herrmann and cc TA in advance (at least 2 days before the deadline).</p>
+<p>Please turn in your assignments as pdf files. The assignments should be send to <a href="mailto:hli853@gatech.edu">Haoyun Li</a>. Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr.&nbsp;Felix Herrmann and cc TA in advance (at least 2 days before the deadline).</p>
 </section>
 <section id="feedback" class="level2">
 <h2 class="anchored" data-anchor-id="feedback">Feedback</h2>
@@ -478,8 +478,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -590,7 +588,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
