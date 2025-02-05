@@ -1,0 +1,35 @@
+---
+title: "Lecture 7  --- Reservoir Simulations II"
+subtitle: "Governing Equations Simulations Examples Injectivity"
+date: "February 05, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+# Flow simulations
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/6qkhdrso7ickqz5g0zy50/7-Lecture.pdf?rlkey=7rx5gokwnq9bjcznzr8tdgi7r&st=5lwjq8gv&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/smdrv3qahn7b4bg4l8ltm/AMKF6W9Ukk0mNJRLyMPfOnw?rlkey=vblfkal2azcbs75emuc8aaeuc&st=dzu5c7jq&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+***
