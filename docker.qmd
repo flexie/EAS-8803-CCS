@@ -177,7 +177,7 @@ During the lectures you will work on the following exercises
 
 1. Capacity coefficient. [Exercise 2](exercise/exercise2.md) (Jan 27, 2022)
 
-## Homework Assignments
+<!-- ## Homework Assignments
 
 During the course you will work on the following homework assignments
 
@@ -187,7 +187,7 @@ During the course you will work on the following homework assignments
 
 3. Wavefield extrapolation and migration. [Assignment 3](Assignments/Exercise3.md) (Due: 3:30 PM March 29, 2022)
 
-4. From processing to inversion I. [Assignment 4](Assignments/Exercise5.md) (Due: 3:30 PM April 12, 2022)
+4. From processing to inversion I. [Assignment 4](Assignments/Exercise5.md) (Due: 3:30 PM April 12, 2022) -->
 
 <!--
 4. Seismic imaging with sparsity-promoting least-squares migration. [Assignment 4](Assignments/Exercise7.md) (Due: 3:30 PM April 4, 2022)
@@ -212,7 +212,7 @@ These exercises will introduce you to the [Julia programming language](https://j
 
 ## Hand in
 
-Please turn in your assignments as pdf files. The assignments should be send to [Ziyi (Francis) Yin](mailto:ziyi.yin@gatech.edu). Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr. Felix Herrmann and cc TA in advance (at least 2 days before the deadline).
+Please turn in your assignments as pdf files. The assignments should be send to [Haoyun Li](mailto:hli853@gatech.edu). Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr. Felix Herrmann and cc TA in advance (at least 2 days before the deadline).
 
 ## Feedback
 
