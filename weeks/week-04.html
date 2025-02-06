@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,10 +58,10 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -314,7 +314,7 @@ Date
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1738558800000" data-listing-file-modified-sort="1738556069000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 6  --- Reservoir Simulations" data-listing-filename-sort="06-flow-simulations.qmd">
+<tr data-index="0" data-listing-date-sort="1738558800000" data-listing-file-modified-sort="1738556069468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 6  --- Reservoir Simulations" data-listing-filename-sort="06-flow-simulations.qmd">
 <td>
 <a href="../slides/week-04/06-flow-simulations.html" class="title listing-title">Lecture 6 — Reservoir Simulations</a>
 </td>
@@ -325,7 +325,7 @@ Date
 <span class="listing-date">Mon, Feb 03</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1738731600000" data-listing-file-modified-sort="1738781519000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 7  --- Reservoir Simulations II" data-listing-filename-sort="07-flow-simulations-2.qmd">
+<tr data-index="1" data-listing-date-sort="1738731600000" data-listing-file-modified-sort="1738781519388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 7  --- Reservoir Simulations II" data-listing-filename-sort="07-flow-simulations-2.qmd">
 <td>
 <a href="../slides/week-04/07-flow-simulations-2.html" class="title listing-title">Lecture 7 — Reservoir Simulations II</a>
 </td>
@@ -361,7 +361,7 @@ Due
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="RXhlcmNpc2U=" data-listing-date-sort="1738558800000" data-listing-file-modified-sort="1738556960000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172" data-listing-title-sort="In-class exercise" data-listing-filename-sort="w4-hw02.qmd">
+<tr data-index="0" data-categories="Exercise" data-listing-date-sort="1738558800000" data-listing-file-modified-sort="1738556960989" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172" data-listing-title-sort="In-class exercise" data-listing-filename-sort="w4-hw02.qmd">
 <td>
 <span class="listing-categories">Exercise</span>
 </td>
@@ -370,6 +370,17 @@ Due
 </td>
 <td>
 <span class="listing-date">Mon, Feb 03</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Lab" data-listing-date-sort="1739509200000" data-listing-file-modified-sort="1738809343338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13" data-listing-title-sort="Intro Reservoir Simulations" data-listing-filename-sort="04-week.qmd">
+<td>
+<span class="listing-categories">Lab</span>
+</td>
+<td>
+<a href="../labs/04-week.html" class="title listing-title">Intro Reservoir Simulations</a>
+</td>
+<td>
+<span class="listing-date">Fri, Feb 14</span>
 </td>
 </tr>
 </tbody>
@@ -493,6 +504,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -603,6 +616,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
