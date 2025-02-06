@@ -1,0 +1,10 @@
+---
+title: "Intro Reservoir Simulations"
+date: "February 14, 2025"
+categories: "Lab"
+notebook-view:  
+  notebook: ../labs/04-week/CCS8803_HW2.ipynb
+---
+
+
+Notebook is shown top right. Download and rerun it and answer questions. 
