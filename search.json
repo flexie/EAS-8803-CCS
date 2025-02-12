@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\nWeek 03\n\n\nJanuary 27- 31\n\n\nStorage Capacity\n\n\n\n\nWeek 04\n\n\nFeb 02 - 07\n\n\nReservoir Simulations\n\n\n\n\nWeek 04\n\n\nFeb 10 - 14\n\n\nInjectivity and Geomechanics\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
+    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\nWeek 03\n\n\nJanuary 27- 31\n\n\nStorage Capacity\n\n\n\n\nWeek 04\n\n\nFeb 02 - 07\n\n\nReservoir Simulations\n\n\n\n\nWeek 05\n\n\nFeb 10 - 14\n\n\nInjectivity and Geomechanics\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
     "crumbs": [
       "Schedule"
     ]
@@ -14,7 +14,7 @@
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\nWeek 03\n\n\nJanuary 27- 31\n\n\nStorage Capacity\n\n\n\n\nWeek 04\n\n\nFeb 02 - 07\n\n\nReservoir Simulations\n\n\n\n\nWeek 04\n\n\nFeb 10 - 14\n\n\nInjectivity and Geomechanics\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
+    "text": "Week\n\n\nDates\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nJan 06 - Jan 17\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\n\n\nWeek 02\n\n\nJan 22 - Jan 24\n\n\nGeological Storage CO2\n\n\n\n\nWeek 03\n\n\nJanuary 27- 31\n\n\nStorage Capacity\n\n\n\n\nWeek 04\n\n\nFeb 02 - 07\n\n\nReservoir Simulations\n\n\n\n\nWeek 05\n\n\nFeb 10 - 14\n\n\nInjectivity and Geomechanics\n\n\n\n\n\nNo matching items\n\n\n\n\nLabs will be due on Fridays at 11:59pm.",
     "crumbs": [
       "Schedule"
     ]
@@ -48,592 +48,18 @@
     "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
   },
   {
-    "objectID": "slides/week-09/09b-DL-generative.html#credits",
-    "href": "slides/week-09/09b-DL-generative.html#credits",
-    "title": "Deep Learning",
-    "section": "Credits",
-    "text": "Credits\nSlides are adapted from lectures developed by Gilles Louppe at University of Liege, Belgium under the BSD 3-Clause License\n\nlectures 10, 11, and 12 of INFO8010 - Deep Learning\nand of lecture materials of SSI 2023"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#generative-models",
-    "href": "slides/week-09/09b-DL-generative.html#generative-models",
-    "title": "Deep Learning",
-    "section": "Generative models",
-    "text": "Generative models\nA (deep) generative model is a probabilistic model \\(p_\\theta\\) that can be used as a simulator of the data.\nFormally, a generative model defines a probability distribution \\(p_\\theta(\\mathbf{x})\\) over the data \\(\\mathbf{x} \\in \\mathcal{X}\\), parameterized by \\(\\theta\\)."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section",
-    "href": "slides/week-09/09b-DL-generative.html#section",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Credits: Karsten et al, 2022; Siddharth Mishra-Sharma, 2023."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-1",
-    "href": "slides/week-09/09b-DL-generative.html#section-1",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Disentangled latent space: Manipulating each dimension of \\(z\\) should correspond to changing an interpretable property of the data. For example, in a model of language, it might change the topic, tense, or verbosity.\nEfficient likelihood computation: If the model is probabilistic, we would like to be able to calculate the probability of new examples"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#latent-variable-model",
-    "href": "slides/week-09/09b-DL-generative.html#latent-variable-model",
-    "title": "Deep Learning",
-    "section": "Latent variable model",
-    "text": "Latent variable model\n\n\n\n\n\n\n\nConsider for now a prescribed latent variable model that relates a set of observable variables \\(\\mathbf{x} \\in \\mathcal{X}\\) to a set of unobserved variables \\(\\mathbf{z} \\in \\mathcal{Z}\\).\nThe probabilistic model defines a joint probability distribution \\(p_\\theta(\\mathbf{x}, \\mathbf{z})\\), which decomposes as \\[p_\\theta(\\mathbf{x}, \\mathbf{z}) = p_\\theta(\\mathbf{x}|\\mathbf{z}) p(\\mathbf{z}).\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-2",
-    "href": "slides/week-09/09b-DL-generative.html#section-2",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Video\n\n\nIf we interpret \\(\\mathbf{z}\\) as causal factors for the high-dimension representations \\(\\mathbf{x}\\), then sampling from \\(p_\\theta(\\mathbf{x}|\\mathbf{z})\\) can be interpreted as a stochastic generating process from \\(\\mathcal{Z}\\) to \\(\\mathcal{X}\\)."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#hot-to-fit",
-    "href": "slides/week-09/09b-DL-generative.html#hot-to-fit",
-    "title": "Deep Learning",
-    "section": "Hot to fit?",
-    "text": "Hot to fit?\n\\[\\begin{aligned}\n\\theta^{*} &= \\arg \\max_\\theta p_\\theta(\\mathbf{x}) \\\\\\\\\n&= \\arg \\max_\\theta \\int p_\\theta(\\mathbf{x}|\\mathbf{z}) p(\\mathbf{z}) d\\mathbf{z}\\\\\\\\\n&= \\arg \\max_\\theta \\mathbb{E}_{p(\\mathbf{z})}\\left[ p_\\theta(\\mathbf{x}|\\mathbf{z}) \\right] d\\mathbf{z}\\\\\\\\\n&\\approx \\arg \\max_\\theta \\frac{1}{N} \\sum_{i=1}^N p_\\theta(\\mathbf{x}|\\mathbf{z}_i)\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nThe curse of dimensionality will lead to poor estimates of the expectation."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-4",
-    "href": "slides/week-09/09b-DL-generative.html#section-4",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "We will directly learn a stochastic generating process \\(p_\\theta(\\mathbf{x}|\\mathbf{z})\\) with a neural network.\nWe will also amortize the inference process by learning a second neural network \\(q_\\phi(\\mathbf{z}|\\mathbf{x})\\) approximating the posterior, conditionally on the observed data \\(\\mathbf{x}\\)."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-5",
-    "href": "slides/week-09/09b-DL-generative.html#section-5",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "A variational auto-encoder is a deep latent variable model where:\n\nThe prior \\(p(\\mathbf{z})\\) is prescribed, and usually chosen to be Gaussian.\nThe density \\(p_\\theta(\\mathbf{x}|\\mathbf{z})\\) is parameterized with a generative network \\(\\text{NN}_\\theta\\) (or decoder) that takes as input \\(\\mathbf{z}\\) and outputs parameters to the data distribution. E.g., \\[\\begin{aligned}\n\\mu, \\sigma^2 &= \\text{NN}_\\theta(\\mathbf{z}) \\\\\\\\\np_\\theta(\\mathbf{x}|\\mathbf{z}) &= \\mathcal{N}(\\mathbf{x}; \\mu, \\sigma^2\\mathbf{I})\n\\end{aligned}\\]\nThe approximate posterior \\(q_\\phi(\\mathbf{z}|\\mathbf{x})\\) is parameterized with an inference network \\(\\text{NN}_\\phi\\) (or encoder) that takes as input \\(\\mathbf{x}\\) and outputs parameters to the approximate posterior. E.g., \\[\\begin{aligned}\n\\mu, \\sigma^2 &= \\text{NN}_\\phi(\\mathbf{x}) \\\\\\\\\nq_\\phi(\\mathbf{z}|\\mathbf{x}) &= \\mathcal{N}(\\mathbf{z}; \\mu, \\sigma^2\\mathbf{I})\n\\end{aligned}\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#variational-auto-encoders",
-    "href": "slides/week-09/09b-DL-generative.html#variational-auto-encoders",
-    "title": "Deep Learning",
-    "section": "Variational auto-encoders",
-    "text": "Variational auto-encoders"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-6",
-    "href": "slides/week-09/09b-DL-generative.html#section-6",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "We can use variational inference to jointly optimize the generative and the inference networks parameters \\(\\theta\\) and \\(\\phi\\):\n\\[\\begin{aligned}\n\\theta^{*}, \\phi^{*} &= \\arg \\max_{\\theta,\\phi} \\mathbb{E}_{p(\\mathbf{x})} \\left[ \\text{ELBO}(\\mathbf{x};\\theta,\\phi) \\right] \\\\\\\\\n&= \\arg \\max_{\\theta,\\phi} \\mathbb{E}_{p(\\mathbf{x})}\\left[ \\mathbb{E}_{q_\\phi(\\mathbf{z}|\\mathbf{x})} [ \\log \\frac{p_\\theta(\\mathbf{x}|\\mathbf{z}) p(\\mathbf{z})}{q_\\phi(\\mathbf{z}|\\mathbf{x})} ] \\right] \\\\\\\\\n&= \\arg \\max_{\\theta,\\phi} \\mathbb{E}_{p(\\mathbf{x})}\\left[ \\mathbb{E}_{q_\\phi(\\mathbf{z}|\\mathbf{x})}\\left[ \\log p_\\theta(\\mathbf{x}|\\mathbf{z})\\right] - \\text{KL}(q_\\phi(\\mathbf{z}|\\mathbf{x}) || p(\\mathbf{z})) \\right].\n\\end{aligned}\\]\n\nGiven some generative network \\(\\theta\\), we want to put the mass of the latent variables, by adjusting \\(\\phi\\), such that they explain the observed data, while remaining close to the prior.\nGiven some inference network \\(\\phi\\), we want to put the mass of the observed variables, by adjusting \\(\\theta\\), such that they are well explained by the latent variables."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#pseudo-code",
-    "href": "slides/week-09/09b-DL-generative.html#pseudo-code",
-    "title": "Deep Learning",
-    "section": "Pseudo code",
-    "text": "Pseudo code"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-7",
-    "href": "slides/week-09/09b-DL-generative.html#section-7",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Variational diffusion models are Markovian HVAEs with the following constraints:\n\nThe latent dimension is the same as the data dimension.\nThe encoder is fixed to linear Gaussian transitions \\(q(\\mathbf{x}_t | \\mathbf{x}_{t-1})\\).\nThe hyper-parameters are set such that \\(q(\\mathbf{x}_T | \\mathbf{x}_0)\\) is a standard Gaussian.\n\n\nCredits: Kreis et al, 2022."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#forward-diffusion-process",
-    "href": "slides/week-09/09b-DL-generative.html#forward-diffusion-process",
-    "title": "Deep Learning",
-    "section": "Forward diffusion process",
-    "text": "Forward diffusion process\n\nCredits: Kreis et al, 2022.With \\(\\epsilon \\sim \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\\), we have \\[\\begin{aligned}\n\\mathbf{x}_t &= \\sqrt{ {\\alpha}_t} \\mathbf{x}_{t-1} + \\sqrt{1-{\\alpha}_t} \\epsilon \\\\\\\\\nq(\\mathbf{x}_t | \\mathbf{x}_{t-1}) &= \\mathcal{N}(\\mathbf{x}_t ; \\sqrt{\\alpha_t} \\mathbf{x}_{t-1}, (1-\\alpha_t)\\mathbf{I}) \\\\\\\\\nq(\\mathbf{x}_{1:T} | \\mathbf{x}_{0}) &=  \\prod_{t=1}^T q(\\mathbf{x}_t | \\mathbf{x}_{t-1})\n\\end{aligned}\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-8",
-    "href": "slides/week-09/09b-DL-generative.html#section-8",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Credits: Simon J.D. Prince, 2023."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#diffusion-kernel",
-    "href": "slides/week-09/09b-DL-generative.html#diffusion-kernel",
-    "title": "Deep Learning",
-    "section": "Diffusion kernel",
-    "text": "Diffusion kernel\n\n\n\n\nCredits: Kreis et al, 2022.\n\n\n\nWith \\(\\bar{\\alpha}_t = \\prod_{i=1}^t \\alpha_i\\) and \\(\\epsilon \\sim \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\\), we have\n\\[\\begin{aligned}\n\\mathbf{x}_t &= \\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0} + \\sqrt{1-\\bar{\\alpha}_t} \\epsilon \\\\\\\\\nq(\\mathbf{x}_t | \\mathbf{x}_{0}) &= \\mathcal{N}(\\mathbf{x}_t ; \\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0}, (1-\\bar{\\alpha}_t)\\mathbf{I})\n\\end{aligned}\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-9",
-    "href": "slides/week-09/09b-DL-generative.html#section-9",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Credits: Simon J.D. Prince, 2023."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-10",
-    "href": "slides/week-09/09b-DL-generative.html#section-10",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Credits: Simon J.D. Prince, 2023."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#reverse-denoising-process",
-    "href": "slides/week-09/09b-DL-generative.html#reverse-denoising-process",
-    "title": "Deep Learning",
-    "section": "Reverse denoising process",
-    "text": "Reverse denoising process\n\n\n\n\nCredits: Kreis et al, 2022.\n\n\n\n\\[\\begin{aligned}\np(\\mathbf{x}_{0:T}) &= p(\\mathbf{x}_T) \\prod_{t=1}^T p_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t)\\\\\\\\\np(\\mathbf{x}_T) &= \\mathcal{N}(\\mathbf{x}_T; \\mathbf{0}, I) \\\\\\\\\np_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t) &= \\mathcal{N}(\\mathbf{x}_{t-1}; \\mu_\\theta(\\mathbf{x}_t, t), \\sigma^2_\\theta(\\mathbf{x}_t, t)\\mathbf{I}) \\\\\\\\\n\\mathbf{x}_{t-1} &= \\mu_\\theta(\\mathbf{x}_t, t) + \\sigma_\\theta(\\mathbf{x}_t, t) \\mathbf{z} \\quad\\text{with}\\quad \\mathbf{z} \\sim \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\n\\end{aligned}\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#markovian-hierarchical-vaes",
-    "href": "slides/week-09/09b-DL-generative.html#markovian-hierarchical-vaes",
-    "title": "Deep Learning",
-    "section": "Markovian Hierarchical VAEs",
-    "text": "Markovian Hierarchical VAEs"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#hvaes",
-    "href": "slides/week-09/09b-DL-generative.html#hvaes",
-    "title": "Deep Learning",
-    "section": "HVAES",
-    "text": "HVAES\nSimilarly to VAEs, training is done by maximizing the ELBO, using a variational distribution \\(q_\\phi(\\mathbf{z}_{1:T} | \\mathbf{x})\\) over all levels of latent variables: \\[\\begin{aligned}\n\\log p_\\theta(\\mathbf{x}) &\\geq \\mathbb{E}_{q_\\phi(\\mathbf{z}_{1:T} | \\mathbf{x})}\\left[ \\log \\frac{p(\\mathbf{x},\\mathbf{z}_{1:T})}{q_\\phi(\\mathbf{z}_{1:T}|\\mathbf{x})} \\right]\n\\end{aligned}\\]\nDiffusion models are Markovian HVAEs with the following constraints:\n\nThe latent dimension is the same as the data dimension.\nThe encoder is fixed to linear Gaussian transitions \\(q(\\mathbf{x}_t | \\mathbf{x}_{t-1})\\).\nThe hyper-parameters are set such that \\(q(\\mathbf{x}_T | \\mathbf{x}_0)\\) is a standard Gaussian."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#training",
-    "href": "slides/week-09/09b-DL-generative.html#training",
-    "title": "Deep Learning",
-    "section": "Training",
-    "text": "Training\nFor learning the parameters \\(\\theta\\) of the reverse process, we can form a variational lower bound on the log-likelihood of the data as\n\\[\\mathbb{E}_{q(\\mathbf{x}_0)}\\left[ \\log p_\\theta(\\mathbf{x}_0) \\right] \\geq \\mathbb{E}_{q(\\mathbf{x}_0)q(\\mathbf{x}_{1:T}|\\mathbf{x}_0)}\\left[ \\log \\frac{p_\\theta(\\mathbf{x}_{0:T})}{q(\\mathbf{x}_{1:T} | \\mathbf{x}_0)} \\right] := L\\]\nThis objective can be rewritten as \\[\\begin{aligned}\nL &= \\mathbb{E}_{q(\\mathbf{x}_0)q(\\mathbf{x}_{1:T}|\\mathbf{x}_0)}\\left[ \\log \\frac{p_\\theta(\\mathbf{x}_{0:T})}{q(\\mathbf{x}_{1:T} | \\mathbf{x}_0)} \\right] \\\\\\\\\n&= \\mathbb{E}_{q(\\mathbf{x}_0)} \\left[L_0 - \\sum_{t&gt;1} L_{t-1} - L_T\\right]\n\\end{aligned}\\] where"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-11",
-    "href": "slides/week-09/09b-DL-generative.html#section-11",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "\\(L_0 = \\mathbb{E}_{q(\\mathbf{x}_1 | \\mathbf{x}_0)}[\\log p_\\theta(\\mathbf{x}_0 | \\mathbf{x}_1)]\\) can be interpreted as a reconstruction term. It can be approximated and optimized using a Monte Carlo estimate.\n\\(L_{t-1} = \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)}\\text{KL}(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0) || p_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t) )\\) is a denoising matching term. The transition \\(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0)\\) provides a learning signal for the reverse process, since it defines how to denoise the noisified input \\(\\mathbf{x}_t\\) with access to the original input \\(\\mathbf{x}_0\\).\n\\(L_T = \\text{KL}(q(\\mathbf{x}_T | \\mathbf{x}_0) || p_\\theta(\\mathbf{x}_T))\\) represents how close the distribution of the final noisified input is to the standard Gaussian. It has no trainable parameters."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-12",
-    "href": "slides/week-09/09b-DL-generative.html#section-12",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "\\[\\begin{aligned}\n&\\arg \\min_\\theta L_{t-1} \\\\\\\\\n=&\\arg \\min_\\theta \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)} \\frac{1}{2\\sigma^2_t} \\frac{\\bar{\\alpha}_{t-1}(1-\\alpha_t)^2}{(1-\\bar{\\alpha}_t)^2} || \\hat{\\mathbf{x}}_\\theta(\\mathbf{x}_t, t) - \\mathbf{x}_0 ||_2^2\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nInterpretation 1: Denoising. Training a diffusion model amounts to learning a neural network that predicts the original ground truth \\(\\mathbf{x}_0\\) from a noisy input \\(\\mathbf{x}_t\\).\n\n\n\nMinimizing the summation of the \\(L_{t-1}\\) terms across all noise levels \\(t\\) can be approximated by minimizing the expectation over all timesteps as \\[\\arg \\min_\\theta \\mathbb{E}_{t \\sim U\\\\{2,T\\\\}} \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)}\\text{KL}(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0) || p_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t) ).\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-13",
-    "href": "slides/week-09/09b-DL-generative.html#section-13",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "\\[\\begin{aligned}\n&\\arg \\min_\\theta L_{t-1} \\\\\\\\\n=&\\arg \\min_\\theta \\mathbb{E}_{\\mathcal{N}(\\epsilon;\\mathbf{0}, I)} \\frac{1}{2\\sigma^2_t} \\frac{(1-\\alpha_t)^2}{(1-\\bar{\\alpha}_t) \\alpha_t} || {\\epsilon}_\\theta(\\underbrace{\\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0} + \\sqrt{1-\\bar{\\alpha}_t} \\epsilon}_{\\mathbf{x}_t}, t) - \\epsilon ||_2^2 \\\\\\\\\n\\approx& \\arg \\min_\\theta \\mathbb{E}_{\\mathcal{N}(\\epsilon;\\mathbf{0}, I)} || {\\epsilon}_\\theta(\\underbrace{\\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0} + \\sqrt{1-\\bar{\\alpha}_t} \\epsilon}_{\\mathbf{x}_t}, t) - \\epsilon ||_2^2\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nInterpretation 2: Noise prediction. Training a diffusion model amounts to learning a neural network that predicts the noise \\(\\epsilon\\) that was added to the original ground truth \\(\\mathbf{x}_0\\) to obtain the noisy \\(\\mathbf{x}_t\\)."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-14",
-    "href": "slides/week-09/09b-DL-generative.html#section-14",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "\\[\\begin{aligned}\n&\\arg \\min_\\theta L_{t-1} \\\\\\\\\n=&\\arg \\min_\\theta \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)} \\frac{1}{2\\sigma^2_t} \\frac{(1-\\alpha_t)^2}{\\alpha_t} || s_\\theta(\\mathbf{x}_t, t) - \\nabla_{\\mathbf{x}_t}  \\log q(\\mathbf{x}_t | \\mathbf{x}_0) ||_2^2\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nInterpretation 3: Denoising score matching. Training a diffusion model amounts to learning a neural network that predicts the score \\(\\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t | \\mathbf{x}_0)\\) of the tractable posterior.\nThe distribution \\(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0)\\) is the tractable posterior distribution \\[\nq(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0) = \\frac{q(\\mathbf{x}_t | \\mathbf{x}_{t-1}, \\mathbf{x}_0) q(\\mathbf{x}_{t-1} | \\mathbf{x}_0)}{q(\\mathbf{x}_t | \\mathbf{x}_0)} = \\mathcal{N}(\\mathbf{x}_{t-1}; \\mu_q(\\mathbf{x}_t, \\mathbf{x}_0, t), \\sigma^2_t I)\n\\] where \\[\n\\begin{aligned}\\mu_q(\\mathbf{x}_t, \\mathbf{x}_0, t) &= \\frac{\\sqrt{\\alpha_t}(1-\\bar{\\alpha}_{t-1})}{1-\\bar{\\alpha}_t}\\mathbf{x}_t + \\frac{\\sqrt{\\bar{\\alpha}_{t-1}}(1-\\alpha_t)}{1-\\bar{\\alpha}_t}\\mathbf{x}_0  \\qquad\\text{and} \\qquad\n\\sigma^2_t = \\frac{(1-\\alpha_t)(1-\\bar{\\alpha}_{t-1})}{1-\\bar{\\alpha}_t}\\\\\n&= \\frac{1}{\\sqrt{\\alpha}_t} \\mathbf{x}_t + \\frac{1-\\alpha_t}{\\sqrt{\\alpha_t}} \\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t | \\mathbf{x}_0).\n\\end{aligned}\n\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-15",
-    "href": "slides/week-09/09b-DL-generative.html#section-15",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "The score function \\(\\nabla_{\\mathbf{x}_0} \\log q(\\mathbf{x}_0)\\) is a vector field that points in the direction of the highest density of the data distribution \\(q(\\mathbf{x}_0)\\).\nIt can be used to find modes of the data distribution or to generate samples by Langevin dynamics.\n\n\n\n\nCredits: Song, 2021.\n\n\n\nSince \\(s_\\theta(\\mathbf{x}_t, t)\\) is learned in expectation over the data distribution \\(q(\\mathbf{x}_0)\\), the score network will eventually approximate the score of the marginal distribution \\(q(\\mathbf{x}_t\\)), for each noise level \\(t\\), that is \\[s_\\theta(\\mathbf{x}_t, t) \\approx \\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t).\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#network-architectures",
-    "href": "slides/week-09/09b-DL-generative.html#network-architectures",
-    "title": "Deep Learning",
-    "section": "Network architectures",
-    "text": "Network architectures\nDiffusion models often use U-Net architectures with ResNet blocks and self-attention layers to represent \\(\\hat{\\mathbf{x}}_\\theta(\\mathbf{x}_t, t)\\), \\(\\epsilon_\\theta(\\mathbf{x}_t, t)\\) or \\(s_\\theta(\\mathbf{x}_t, t)\\).\n\nCredits: Kreis et al, 2022."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#continuous-time-diffusion-models",
-    "href": "slides/week-09/09b-DL-generative.html#continuous-time-diffusion-models",
-    "title": "Deep Learning",
-    "section": "Continuous-time diffusion models",
-    "text": "Continuous-time diffusion models\n\nCredits: Kreis et al, 2022.With \\(\\beta_t = 1 - \\alpha_t\\), we can rewrite the forward process as \\[\\begin{aligned}\n\\mathbf{x}_t &= \\sqrt{ {\\alpha}_t} \\mathbf{x}_{t-1} + \\sqrt{1-{\\alpha}_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I}) \\\\\\\\\n&= \\sqrt{1 - {\\beta}_t} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I}) \\\\\\\\\n&= \\sqrt{1 - {\\beta}(t)\\Delta_t} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}(t)\\Delta_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\n\\end{aligned}\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-16",
-    "href": "slides/week-09/09b-DL-generative.html#section-16",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Credits: Song, 2021.\n\n\n\nWhen \\(\\Delta_t \\rightarrow 0\\), we can further rewrite the forward process as \\[\n\\mathbf{x}_t = \\sqrt{1 - {\\beta}(t)\\Delta_t} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}(t)\\Delta_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\\approx \\mathbf{x}_{t-1} - \\frac{\\beta(t)\\Delta_t}{2} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}(t)\\Delta_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\n.\\]\nThis last update rule corresponds to the Euler-Maruyama discretization of the stochastic differential equation (SDE) \\[\\text{d}\\mathbf{x}_t = -\\frac{1}{2}\\beta(t)\\mathbf{x}_t \\text{d}t + \\sqrt{\\beta(t)} \\text{d}\\mathbf{w}_t\\] describing the diffusion in the infinitesimal limit."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-17",
-    "href": "slides/week-09/09b-DL-generative.html#section-17",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "The reverse process satisfies a reverse-time SDE that can be derived analytically from the forward-time SDE and the score of the marginal distribution \\(q(\\mathbf{x}_t)\\), as \\[\\text{d}\\mathbf{x}_t = \\left[ -\\frac{1}{2}\\beta(t)\\mathbf{x}_t - \\beta(t)\\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t) \\right] \\text{d}t + \\sqrt{\\beta(t)} \\text{d}\\mathbf{w}_t.\\]\n\n\n\n\nCredits: Song, 2021."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#training-sampling-diffusion-models",
-    "href": "slides/week-09/09b-DL-generative.html#training-sampling-diffusion-models",
-    "title": "Deep Learning",
-    "section": "Training & sampling diffusion models",
-    "text": "Training & sampling diffusion models\n\nCredit: Ho et. al., 2020"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#continuous-time-normalizing-flows",
-    "href": "slides/week-09/09b-DL-generative.html#continuous-time-normalizing-flows",
-    "title": "Deep Learning",
-    "section": "Continuous-time normalizing flows",
-    "text": "Continuous-time normalizing flows\n\n\nReplace the discrete sequence of transformations with a neural ODE with reversible dynamics such that \\[\\begin{aligned}\n&\\mathbf{z}_0 \\sim p(\\mathbf{z})\\\\\\\\\n&\\frac{d\\mathbf{z}(t)}{dt} = f(\\mathbf{z}(t), t, \\theta)\\\\\\\\\n&\\mathbf{x} = \\mathbf{z}(1) = \\mathbf{z}_0 + \\int_0^1 f(\\mathbf{z}(t), t) dt.\n\\end{aligned}\\]\n\n\n\nVideo\nImage credits: Grathwohl et al, 2018\n\n\n\nThe instantaneous change of variable yields \\[\\log p(\\mathbf{x}) = \\log p(\\mathbf{z}(0)) - \\int_0^1 \\text{Tr} \\left( \\frac{\\partial f(\\mathbf{z}(t), t, \\theta)}{\\partial \\mathbf{z}(t)} \\right) dt.\\]"
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#probability-flow-ode",
-    "href": "slides/week-09/09b-DL-generative.html#probability-flow-ode",
-    "title": "Deep Learning",
-    "section": "Probability flow ODE",
-    "text": "Probability flow ODE\nBack to diffusion: For any diffusion process, there exists a corresponding deterministic process \\[\\text{d}\\mathbf{x}_t = \\left[ \\mathbf{f}(t, \\mathbf{x}_t) - \\frac{1}{2} g^2(t) \\nabla_{\\mathbf{x}_t} \\log p(\\mathbf{x}_t) \\right] \\text{d}t\\] whose trajectories share the same marginal densities \\(p(\\mathbf{x}_t)\\).\nTherefore, when \\(\\nabla_{\\mathbf{x}_t} \\log p(\\mathbf{x}_t)\\) is replaced by its approximation \\(s_\\theta(\\mathbf{x}_t, t)\\), the probability flow ODE becomes a special case of a neural ODE. In particular, it is an example of continuous-time normalizing flows!\n\nCredits: Song, 2021."
-  },
-  {
-    "objectID": "slides/week-09/09b-DL-generative.html#section-18",
-    "href": "slides/week-09/09b-DL-generative.html#section-18",
-    "title": "Deep Learning",
-    "section": "",
-    "text": "Prince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
-  },
-  {
-    "objectID": "slides/week-01/02-geological-storage-a.html#section",
-    "href": "slides/week-01/02-geological-storage-a.html#section",
-    "title": "Lecture 2 — Geological Storage",
+    "objectID": "slides/week-05/09-pressure.html#section",
+    "href": "slides/week-05/09-pressure.html#section",
+    "title": "Lecture 8 — Injectivity & Geomechanics",
     "section": "",
     "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
   },
   {
-    "objectID": "slides/week-08/11.html",
-    "href": "slides/week-08/11.html",
+    "objectID": "slides/week-09/12.html",
+    "href": "slides/week-09/12.html",
     "title": "Seismic Monitoring CO~2~ Storage",
     "section": "",
     "text": "ReuseCC BY 4.0"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Seismic Monitoring CO2 Storage",
-    "section": "",
-    "text": "Carbon Capture and Storage (CCS) is widely considered as a key scalable net-negative CO2 emission technology to help combat climate change. The course covers the Basics of Geological Carbon Storage, its Design & Scale Up, and its Seismic Monitoring. Aside from reviewing the geophysical challenges and computational aspects of monitoring Geological Carbon Storage, the course also addresses societal impact of this technology. Its (perceived) risk will be discussed by weighting the risk of doing something, by injecting CO2 underground, against doing nothing.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#course-overview",
-    "href": "index.html#course-overview",
-    "title": "Seismic Monitoring CO2 Storage",
-    "section": "",
-    "text": "Carbon Capture and Storage (CCS) is widely considered as a key scalable net-negative CO2 emission technology to help combat climate change. The course covers the Basics of Geological Carbon Storage, its Design & Scale Up, and its Seismic Monitoring. Aside from reviewing the geophysical challenges and computational aspects of monitoring Geological Carbon Storage, the course also addresses societal impact of this technology. Its (perceived) risk will be discussed by weighting the risk of doing something, by injecting CO2 underground, against doing nothing.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#class-meetings",
-    "href": "index.html#class-meetings",
-    "title": "Seismic Monitoring CO2 Storage",
-    "section": "Class meetings",
-    "text": "Class meetings\n\n\n\n\n\n\n\n\nMeeting\nLocation\nTime\n\n\n\n\nLecture\nFord Environmental Sci & Tech, L1116\nMon & Wed 3:30 - 4:45PM",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#teaching-team",
-    "href": "index.html#teaching-team",
-    "title": "Seismic Monitoring CO2 Storage",
-    "section": "Teaching team",
-    "text": "Teaching team\n\n\n\nName\nOffice hours\nLocation\n\n\n\n\nFelix J. Herrmann (Instructor)\nTBD\nZoom\n\n\nHaoyun (Jason) Li (TA)\nTBD\nZoom",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#access-to-piazza",
-    "href": "index.html#access-to-piazza",
-    "title": "Seismic Monitoring CO2 Storage",
-    "section": "Access to Piazza",
-    "text": "Access to Piazza\nStudents are encouraged to post their questions on Piazza, which will be monitored by Haoyun (Jason) Li.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "seminar.html",
-    "href": "seminar.html",
-    "title": "Seminar",
-    "section": "",
-    "text": "There are 9 time slots until the end the term. So, please prepare a 30 minute lecture on a paper of interest. This contents of the paper should be aligned with the general topics areas of this course. We encourage you to also choose a topic in the general area of your PhD research. When in doubt please reach out.\n\n\nHere is a list of papers that may be of interest when presenting your seminar. Please check the papers cited in these papers\n\nA comprehensive review of digital twin—part 1: modeling and twinning enabling technologies by Thelen et. al.\nA comprehensive review of digital twin—part 2: roles of uncertainty quantification and optimization, a battery digital twin, and perspectives by Thelen et. al. \nDigital Twins for Materials by Kalidindi et. al.\nA Probabilistic Graphical Model Foundation for Enabling Predictive Digital Twins at Scale by Kapteyn et. al.\nNational Academies of Sciences, Engineering, and Medicine. 2023. Foundational Research Gaps and Future Directions for Digital Twins. Washington, DC: The National Academies Press.\nTorzoni, M., Tezzele, M., Mariani, S., Manzoni, A. and Willcox K. A digital twin framework for civil engineering structures. To appear, Computer Methods in Applied Mechanics and Engineering, 2023.\nKapteyn, M. and Willcox, K., Design of digital twin sensing strategies via predictive modeling and interpretable machine learning. Journal of Mechanical Design, June 2022. https://doi.org/10.1115/1.4054907\nNiederer, S., Sacks, M., Girolami, M. and Willcox, K., Scaling digital twins from the artisanal to the industrial. Nature Computational Science, Vol. 1, No. 5, May 2021, pp. 313-320."
-  },
-  {
-    "objectID": "seminar.html#list-of-papers",
-    "href": "seminar.html#list-of-papers",
-    "title": "Seminar",
-    "section": "",
-    "text": "Here is a list of papers that may be of interest when presenting your seminar. Please check the papers cited in these papers\n\nA comprehensive review of digital twin—part 1: modeling and twinning enabling technologies by Thelen et. al.\nA comprehensive review of digital twin—part 2: roles of uncertainty quantification and optimization, a battery digital twin, and perspectives by Thelen et. al. \nDigital Twins for Materials by Kalidindi et. al.\nA Probabilistic Graphical Model Foundation for Enabling Predictive Digital Twins at Scale by Kapteyn et. al.\nNational Academies of Sciences, Engineering, and Medicine. 2023. Foundational Research Gaps and Future Directions for Digital Twins. Washington, DC: The National Academies Press.\nTorzoni, M., Tezzele, M., Mariani, S., Manzoni, A. and Willcox K. A digital twin framework for civil engineering structures. To appear, Computer Methods in Applied Mechanics and Engineering, 2023.\nKapteyn, M. and Willcox, K., Design of digital twin sensing strategies via predictive modeling and interpretable machine learning. Journal of Mechanical Design, June 2022. https://doi.org/10.1115/1.4054907\nNiederer, S., Sacks, M., Girolami, M. and Willcox, K., Scaling digital twins from the artisanal to the industrial. Nature Computational Science, Vol. 1, No. 5, May 2021, pp. 313-320."
-  },
-  {
-    "objectID": "hw/w3-hw01.html",
-    "href": "hw/w3-hw01.html",
-    "title": "In-class exercise",
-    "section": "",
-    "text": "In the lectures, we learned that the thickness of a gas or oil column can be retained by\n\\(z_g =  \\frac{2 \\gamma \\cos\\theta (1/r_{cap}-1/r_{res})}{g (\\rho_w-\\rho_g)}\\)\nPlease estimate the range of \\(z_g\\) for a CO\\(_2\\) reservoir. Free feel to search for some values in this formula and you can also follow some of the references below\nhttps://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-8123.2007.00168.x\nhttps://link.springer.com/content/pdf/10.1007/s13202-021-01298-9.pdf\nhttps://www.sciencedirect.com/science/article/pii/S0927775721009870?via%3Dihub"
-  },
-  {
-    "objectID": "hw/w3-hw01.html#question-1",
-    "href": "hw/w3-hw01.html#question-1",
-    "title": "In-class exercise",
-    "section": "",
-    "text": "In the lectures, we learned that the thickness of a gas or oil column can be retained by\n\\(z_g =  \\frac{2 \\gamma \\cos\\theta (1/r_{cap}-1/r_{res})}{g (\\rho_w-\\rho_g)}\\)\nPlease estimate the range of \\(z_g\\) for a CO\\(_2\\) reservoir. Free feel to search for some values in this formula and you can also follow some of the references below\nhttps://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-8123.2007.00168.x\nhttps://link.springer.com/content/pdf/10.1007/s13202-021-01298-9.pdf\nhttps://www.sciencedirect.com/science/article/pii/S0927775721009870?via%3Dihub"
-  },
-  {
-    "objectID": "weeks/week-09.html",
-    "href": "weeks/week-09.html",
-    "title": "Week 09",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nDeep Learning\n\n\nDiffusion models\n\n\nMon, Mar 11\n\n\n\n\nAn Uncertainty-Aware Digital Twin for Geological Carbon Storage\n\n\nDigital Twin\n\n\nMon, Mar 04\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nChapter 17-18 — Understanding Deep Learning\n\n\n\n\n\n\n\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-07.html",
-    "href": "weeks/week-07.html",
-    "title": "Week 07",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nSimulation-based Inference\n\n\nUncertainty Quantification\n\n\nThu, Feb 22\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nChapter 16 — Understanding Deep Learning\n\n\n\n\n\n\n\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-03.html",
-    "href": "weeks/week-03.html",
-    "title": "Week 03",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 4 — Calculating Storage Capacity\n\n\nEstimation, Theoretical Capacity, Storage Capacity Exponent\n\n\nMon, Jan 27\n\n\n\n\nLecture 5 — Estimating Storage Capacity\n\n\nStorage Efficiency, Sleipner\n\n\nWed, Jan 29\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nExercise\n\n\nIn-class exercise\n\n\nMon, Jan 27\n\n\n\n\nExercise\n\n\nHomework\n\n\nMon, Feb 03\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nSections 2.4 until equation 2.13 on page 38 of the main text by (Ringrose 2020)\n\n\nPage 7—11 (until Geological controls) (Ringrose 2023)\n\n\nSections 2.4 from equation 2.5 on (Ringrose 2020)\n\n\nPage 23—30 (Ringrose 2023)\n\n\n\n\n\n\n\n\n\nReferences\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-06.html",
-    "href": "weeks/week-06.html",
-    "title": "Week 06",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nChapter 9 — A toolbox for digital twins section 9.4.1—9.4.7\n\n\n\n\n\n\n\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-04.html",
-    "href": "weeks/week-04.html",
-    "title": "Week 04",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 6 — Reservoir Simulations\n\n\nGoverning Equations Simulations Examples\n\n\nMon, Feb 03\n\n\n\n\nLecture 7 — Reservoir Simulations II\n\n\nGoverning Equations Simulations Examples Injectivity\n\n\nWed, Feb 05\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nExercise\n\n\nIn-class exercise\n\n\nMon, Feb 03\n\n\n\n\nLab\n\n\nIntro Reservoir Simulations\n\n\nFri, Feb 14\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nSections 2.4 from equation 2.13 on page 38 of the main text by (Ringrose 2020) until section 2.5\n\n\nSection 2.5.2 and 2.5.4 of the main text by (Ringrose 2020)\n\n\nSections 2.6 and 2.7 of the main text by (Ringrose 2020)\n\n\nJutulDarcy.jl - a fully differentiable high-performance reservoir simulator based on automatic differentiation until section 2.1\n\n\n\n\n\n\n\n\n\nReferences\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "labs/04-week/CCS8803_HW2.html",
-    "href": "labs/04-week/CCS8803_HW2.html",
-    "title": "Questions",
-    "section": "",
-    "text": "# The packages necessary for running the code below\nusing PyPlot, LinearAlgebra, JLD2, Polynomials, JutulDarcyRules\n\n\n# For the first time, run this cell twice to download data and then load the data\nif ~isfile(\"BGCompass_tti.jld2\")\n    run(`wget -q -O BGCompass_tti.jld2 \"https://www.dropbox.com/scl/fi/gs0eh2ldv9til0r7cg27n/BGCompass_tti.jld2?rlkey=bs2sil1ljiztl5bytlqghcm82&st=s5dnrjoh&dl=1\"`)\nelse\n    JLD2.@load \"BGCompass_tti.jld2\" m d\nend\n\n2-element Vector{Symbol}:\n :m\n :d\n\n\n\n# Some necessary type conversions and defining size of velocity\nv = Float64.(sqrt.(1f0./m));\nd = Float64.(d);\nn = size(v)\n\n(325, 171)\n\n\n\n# A basic function to find water bottom layer index values (You do not need to modify this)\nfunction find_water_bottom(m::AbstractArray{avDT,2};eps = 1e-4) where {avDT}\n    # return the indices of the water bottom of a seismic image\n    n = size(m)\n    idx = zeros(Integer, n[1])\n    for j=1:n[1]\n        k=1\n        while true\n            if abs(m[j,k]) &gt; eps\n                idx[j] = k\n                break\n            end\n            k += 1\n        end\n    end\n    return idx\nend\n\n# Changing velocity model to permeability\nfunction VtoK(v::Matrix{T}, d::Tuple{T, T}; α::T=T(10)) where T\n\n    n = size(v)\n    idx_wb = find_water_bottom(v.-minimum(v))\n    idx_ucfmt = find_water_bottom((v.-T(3.5)).*(v.&gt;T(3.5)))\n    Kh = zeros(T, n)\n    capgrid = Int(round(T(50)/d[2]))\n    for i = 1:n[1]\n        Kh[i,1:idx_wb[i]-1] .= T(1e-10)  # water layer\n        Kh[i,idx_wb[i]:idx_ucfmt[i]-capgrid-1] .= α*exp.(v[i,idx_wb[i]:idx_ucfmt[i]-capgrid-1])\n        Kh[i,idx_ucfmt[i]-capgrid:idx_ucfmt[i]-1] .= T(1e-3)\n        Kh[i,idx_ucfmt[i]:end] .= α*exp.(v[i,idx_ucfmt[i]:end]) .- T(320)\n    end\n    return Kh\nend\nKh = VtoK(v, d);\n\n# This part is used to create priority (You do not need to modify this)\nidx_wb = find_water_bottom(v.-minimum(v));\nidx_ucfmt = find_water_bottom((v.-3.5).*(v.&gt;3.5))\nphi = zeros(Float64,n)\nfor i = 1:n[1]\n    for j = 1:n[2]\n        p = Polynomial([-0.0314^2*Kh[i,j],2*0.0314^2*Kh[i,j],-0.0314^2*Kh[i,j],1.527^2]) \n        phi[i,j] = minimum(real(roots(p)[findall(real(roots(p)).== roots(p))]))\n    end\n    for j = idx_ucfmt[i]:idx_ucfmt[i]+8\n        phi[i,idx_ucfmt[i]:idx_ucfmt[i]+8] = Float64.(range(0.056,stop=0.1,length=9))\n    end\nend\n\n\n# We will use a subset of permeability model to make simulation faster .\nKh = Kh[151:240, :]\nK = Float64.(Kh * JutulDarcyRules.md);\nn = (size(K,1), 1, size(K,2))\nd = (d[1], 50.0, d[2])\nphi = phi[151:240, :]\nphi_m = convert(Array{Float64,1},vec(phi));\nϕ = phi\n\n# We set boundary values of porosity to 1e8. This will prevent over pressurization.\nϕ[1,:] .= 1e8\nϕ[:,1] .= 1e8\nϕ[end,:] .= 1e8\nϕ[:,end] .= 1e8\nϕ = convert(Array{Float64,1},vec(ϕ));\n\n\n# Plot permeability map \nimshow(Kh', extent = [0, size(Kh,1) *d[1], size(Kh,2) *d[3], 0]); colorbar(); xlabel(\"Width [m]\"); ylabel(\"Depth [m]\"); title(\"Permeability in Darcy\")\n\n\n\n\n\n\n\n\nPyObject Text(0.5, 1.0, 'Permeability in Darcy')\n\n\n\n# Create the model\nmodel = jutulModel(n, d, ϕ, K1to3(K))\n\njutulModel{3, Float64}((90, 1, 171), (12.5, 50.0, 12.5), [1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8  …  1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8], [9.86923266716013e-26 9.86923266716013e-26 … 2.436621876880626e-13 2.351440606894287e-13; 9.86923266716013e-26 9.86923266716013e-26 … 2.436621876880626e-13 2.351440606894287e-13; 9.86923266716013e-26 9.86923266716013e-26 … 2.436621876880626e-13 2.351440606894287e-13], 0.0)\n\n\n\n# simulation time steppings (30 days between 2 time samples)\ntstep = 30 * ones(100) # This corresponds to 3000 days. 30 is dt and 100 is number of time steps. Keep dt small for stability of solution\ntot_time = sum(tstep)\n\n## injection & production (source & sink) location\ninj_loc = (5, 1, n[end]-10) .* d\nprod_loc = (n[1]-3, 1, n[end]-10) .* d\n\n# injectivity is in m^3 per sec\nirate = 5e-2\nq = jutulForce(irate, [inj_loc, prod_loc])\n\n## set up modeling operator\nS = jutulModeling(model, tstep)\n\n## simulation\nmesh = CartesianMesh(model)\nT(x) = log.(KtoTrans(mesh, K1to3(exp.(x))))\nlogK = log.(K)\n@time state = S(T(logK), q; info_level=1)\n\nJutul: Simulating 428 weeks, 4 days as 100 report steps\nStep   1/100: Solving start to 4 weeks, 2 days, Δt = 4 weeks, 2 days \nStep   2/100: Solving 4 weeks, 2 days to 8 weeks, 4 days, Δt = 4 weeks, 2 days \nStep   3/100: Solving 8 weeks, 4 days to 12 weeks, 6 days, Δt = 4 weeks, 2 days \nStep   4/100: Solving 12 weeks, 6 days to 17 weeks, 1 day, Δt = 4 weeks, 2 days \nStep   5/100: Solving 17 weeks, 1 day to 21 weeks, 3 days, Δt = 4 weeks, 2 days \nStep   6/100: Solving 21 weeks, 3 days to 25 weeks, 5 days, Δt = 4 weeks, 2 days \nStep   7/100: Solving 25 weeks, 5 days to 30 weeks, Δt = 4 weeks, 2 days \nStep   8/100: Solving 30 weeks to 34 weeks, 2 days, Δt = 4 weeks, 2 days \nStep   9/100: Solving 34 weeks, 2 days to 38 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  10/100: Solving 38 weeks, 4 days to 42 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  11/100: Solving 42 weeks, 6 days to 47 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  12/100: Solving 47 weeks, 1 day to 51 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  13/100: Solving 51 weeks, 3 days to 55 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  14/100: Solving 55 weeks, 5 days to 60 weeks, Δt = 4 weeks, 2 days \nStep  15/100: Solving 60 weeks to 64 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  16/100: Solving 64 weeks, 2 days to 68 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  17/100: Solving 68 weeks, 4 days to 72 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  18/100: Solving 72 weeks, 6 days to 77 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  19/100: Solving 77 weeks, 1 day to 81 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  20/100: Solving 81 weeks, 3 days to 85 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  21/100: Solving 85 weeks, 5 days to 90 weeks, Δt = 4 weeks, 2 days \nStep  22/100: Solving 90 weeks to 94 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  23/100: Solving 94 weeks, 2 days to 98 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  24/100: Solving 98 weeks, 4 days to 102 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  25/100: Solving 102 weeks, 6 days to 107 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  26/100: Solving 107 weeks, 1 day to 111 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  27/100: Solving 111 weeks, 3 days to 115 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  28/100: Solving 115 weeks, 5 days to 120 weeks, Δt = 4 weeks, 2 days \nStep  29/100: Solving 120 weeks to 124 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  30/100: Solving 124 weeks, 2 days to 128 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  31/100: Solving 128 weeks, 4 days to 132 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  32/100: Solving 132 weeks, 6 days to 137 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  33/100: Solving 137 weeks, 1 day to 141 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  34/100: Solving 141 weeks, 3 days to 145 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  35/100: Solving 145 weeks, 5 days to 150 weeks, Δt = 4 weeks, 2 days \nStep  36/100: Solving 150 weeks to 154 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  37/100: Solving 154 weeks, 2 days to 158 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  38/100: Solving 158 weeks, 4 days to 162 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  39/100: Solving 162 weeks, 6 days to 167 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  40/100: Solving 167 weeks, 1 day to 171 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  41/100: Solving 171 weeks, 3 days to 175 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  42/100: Solving 175 weeks, 5 days to 180 weeks, Δt = 4 weeks, 2 days \nStep  43/100: Solving 180 weeks to 184 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  44/100: Solving 184 weeks, 2 days to 188 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  45/100: Solving 188 weeks, 4 days to 192 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  46/100: Solving 192 weeks, 6 days to 197 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  47/100: Solving 197 weeks, 1 day to 201 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  48/100: Solving 201 weeks, 3 days to 205 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  49/100: Solving 205 weeks, 5 days to 210 weeks, Δt = 4 weeks, 2 days \nStep  50/100: Solving 210 weeks to 214 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  51/100: Solving 214 weeks, 2 days to 218 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  52/100: Solving 218 weeks, 4 days to 222 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  53/100: Solving 222 weeks, 6 days to 227 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  54/100: Solving 227 weeks, 1 day to 231 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  55/100: Solving 231 weeks, 3 days to 235 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  56/100: Solving 235 weeks, 5 days to 240 weeks, Δt = 4 weeks, 2 days \nStep  57/100: Solving 240 weeks to 244 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  58/100: Solving 244 weeks, 2 days to 248 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  59/100: Solving 248 weeks, 4 days to 252 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  60/100: Solving 252 weeks, 6 days to 257 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  61/100: Solving 257 weeks, 1 day to 261 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  62/100: Solving 261 weeks, 3 days to 265 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  63/100: Solving 265 weeks, 5 days to 270 weeks, Δt = 4 weeks, 2 days \nStep  64/100: Solving 270 weeks to 274 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  65/100: Solving 274 weeks, 2 days to 278 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  66/100: Solving 278 weeks, 4 days to 282 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  67/100: Solving 282 weeks, 6 days to 287 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  68/100: Solving 287 weeks, 1 day to 291 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  69/100: Solving 291 weeks, 3 days to 295 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  70/100: Solving 295 weeks, 5 days to 300 weeks, Δt = 4 weeks, 2 days \nStep  71/100: Solving 300 weeks to 304 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  72/100: Solving 304 weeks, 2 days to 308 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  73/100: Solving 308 weeks, 4 days to 312 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  74/100: Solving 312 weeks, 6 days to 317 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  75/100: Solving 317 weeks, 1 day to 321 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  76/100: Solving 321 weeks, 3 days to 325 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  77/100: Solving 325 weeks, 5 days to 330 weeks, Δt = 4 weeks, 2 days \nStep  78/100: Solving 330 weeks to 334 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  79/100: Solving 334 weeks, 2 days to 338 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  80/100: Solving 338 weeks, 4 days to 342 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  81/100: Solving 342 weeks, 6 days to 347 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  82/100: Solving 347 weeks, 1 day to 351 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  83/100: Solving 351 weeks, 3 days to 355 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  84/100: Solving 355 weeks, 5 days to 360 weeks, Δt = 4 weeks, 2 days \nStep  85/100: Solving 360 weeks to 364 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  86/100: Solving 364 weeks, 2 days to 368 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  87/100: Solving 368 weeks, 4 days to 372 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  88/100: Solving 372 weeks, 6 days to 377 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  89/100: Solving 377 weeks, 1 day to 381 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  90/100: Solving 381 weeks, 3 days to 385 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  91/100: Solving 385 weeks, 5 days to 390 weeks, Δt = 4 weeks, 2 days \nStep  92/100: Solving 390 weeks to 394 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  93/100: Solving 394 weeks, 2 days to 398 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  94/100: Solving 398 weeks, 4 days to 402 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  95/100: Solving 402 weeks, 6 days to 407 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  96/100: Solving 407 weeks, 1 day to 411 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  97/100: Solving 411 weeks, 3 days to 415 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  98/100: Solving 415 weeks, 5 days to 420 weeks, Δt = 4 weeks, 2 days \nStep  99/100: Solving 420 weeks to 424 weeks, 2 days, Δt = 4 weeks, 2 days \nStep 100/100: Solving 424 weeks, 2 days to 428 weeks, 4 days, Δt = 4 weeks, 2 days \nSimulation complete: Completed 100 timesteps in 5 minutes, 28 seconds, 391 milliseconds and 467 iterations.\n╭────────────────┬───────────┬───────────────┬──────────┬──────────╮\n│ Iteration type │  Avg/step │  Avg/ministep │ Time per │    Total │\n│                │ 100 steps │ 112 ministeps │       ms │ (wasted) │\n├────────────────┼───────────┼───────────────┼──────────┼──────────┤\n│ Newton         │      4.67 │       4.16964 │ 703.1921 │  467 (0) │\n│ Linearization  │      5.79 │       5.16964 │ 567.1688 │  579 (0) │\n│ Linear solver  │     12.37 │       11.0446 │ 265.4735 │ 1237 (0) │\n╰────────────────┴───────────┴───────────────┴──────────┴──────────╯\n╭────────────────┬──────────┬────────────┬──────────╮\n│ Timing type    │     Each │   Relative │    Total │\n│                │       ms │ Percentage │        s │\n├────────────────┼──────────┼────────────┼──────────┤\n│ Properties     │   7.6169 │     1.08 % │   3.5571 │\n│ Equations      │  94.8596 │    16.73 % │  54.9237 │\n│ Assembly       │  48.4451 │     8.54 % │  28.0497 │\n│ Linear solve   │ 276.8640 │    39.37 % │ 129.2955 │\n│ Preconditioner │ 137.7440 │    19.59 % │  64.3265 │\n│ Update         │  39.5927 │     5.63 % │  18.4898 │\n│ Convergence    │  19.0519 │     3.36 % │  11.0310 │\n│ Input/Output   │   4.0826 │     0.14 % │   0.4572 │\n│ Other          │  39.1010 │     5.56 % │  18.2602 │\n├────────────────┼──────────┼────────────┼──────────┤\n│ Total          │ 703.1921 │   100.00 % │ 328.3907 │\n╰────────────────┴──────────┴────────────┴──────────╯\n752.044001 seconds (217.33 M allocations: 14.673 GiB, 0.97% gc time, 80.64% compilation time: 4% of which was recompilation)\n\n\n3078000-element jutulStates{Float64}:\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n ⋮\n 2.1359426506710764e7\n 2.1358564024889007e7\n 2.135696962880001e7\n 2.135525710614737e7\n 2.135422023336592e7\n 2.135430011237757e7\n 2.135544957914724e7\n 2.135648684846326e7\n 2.1359060922351018e7\n 2.1362910749874525e7\n 2.1367560687066786e7\n 2.137222020299839e7\n\n\n\n# CO2 saturation snapshots\nfigure(figsize=(20,12));\nobs=Int.(round.(range(1, stop=100, length=9))); # 9 observed time samples\nfor i = 1:9\n    subplot(3,3,i)\n    imshow(reshape(Saturations(state.states[obs[i]]), n[1], n[end])', extent=(0,(n[1]-1)*d[1],(n[3]-1)*d[3],0); vmin=0, vmax=maximum(Saturations(state.states[end])))\n    xlabel(\"X [m]\");ylabel(\"Depth [m]\");\n    colorbar()\nend\nsuptitle(\"CO2 saturation snapshots at approx 333 days interval \")\n\n\n\n\n\n\n\n\nPyObject Text(0.5, 0.98, 'CO2 saturation snapshots at approx 333 days interval ')\n\n\n\nfig=figure(figsize=(20,12));\n#Plot Saturation at the end\nsubplot(1,2,1);\nimshow(reshape(Saturations(state.states[end]), n[1], n[end])', extent=(0,(n[1]-1)*d[1],(n[3]-1)*d[3],0); vmin=0, vmax=maximum(Saturations(state.states[end]))); colorbar(); title(\"Saturation After 3k days\")\nxlabel(\"X [km]\");ylabel(\"Depth [km]\");\nscatter(inj_loc[1],inj_loc[3])\nscatter(prod_loc[1],inj_loc[3])\nlegend([\"Injection loc\",\"Production loc\"])\n\n#Plot Pressure at the end\nsubplot(1,2,2);\nimshow(reshape(Pressure(state.states[end]), n[1], n[end])', extent=(0,(n[1]-1)*d[1],(n[3]-1)*d[3],0); vmin=0, vmax=maximum(Pressure(state.states[end]))); colorbar(); title(\"Pressure After 3k days\")\nxlabel(\"X [km]\");ylabel(\"Depth [km]\");\nscatter(inj_loc[1],inj_loc[3])\nscatter(prod_loc[1],inj_loc[3])\nlegend([\"Injection loc\",\"Production loc\"])\n\n\n\n\n\n\n\n\nPyObject &lt;matplotlib.legend.Legend object at 0x2aac4123e9c0&gt;\n\n\n\nmaximum(Saturations(state.states[end]))\n\n0.8984886621298521\n\n\n\n# Save saturation and pressure data in JLD2 format\nJLD2.@save \"example_sat_press.jld2\" state\n\nQ1) What do you see in the time-varying CO2 saturation snapshots? How do you interpret the movement of CO2? What role does production well playing here? (20 marks)\nQ2) What role does production well playing here? (20 marks)\nQ2) The above experiment is for 3k days. Re-run the experiment for different times such as 1k, 2k, 4k, and 5k days. Show saturation and pressure maps for these days. Show total 8 images. (40 marks)\nQ3) (a) Calculate the amount of CO2 in the reservoir after 300 days of injection. (10 marks)\nQ3) (b) Calculate the amount of CO2 in the reservoir at the end of injection. (10 marks)\n(Hint: sum(state.states[write array index].Saturations.phi_m)prod(model.d))\nQ4) Play with the seal region of permeability map to create a fault (very high permeability 500 mD say) in small region of seal. Re-run the experiment to see if CO2 leaks out from the seal. Showing saturation map is enough here. (Bonus 10 point)\n\n\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "labs/04-week.html",
-    "href": "labs/04-week.html",
-    "title": "Intro Reservoir Simulations",
-    "section": "",
-    "text": "Notebook is shown top right. Download and rerun it and answer questions.\n\n\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-05.html",
-    "href": "weeks/week-05.html",
-    "title": "Week 04",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 8 — Injectivity & Geomechanics\n\n\ninjectivity & fracture pressure \n\n\nMon, Feb 10\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nLab\n\n\nIntro Reservoir Simulations\n\n\nFri, Feb 14\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nSections 2.6 and 2.7 of the main text by (Ringrose 2020)\n\n\nJutulDarcy.jl - a fully differentiable high-performance reservoir simulator based on automatic differentiation until section 2.1\n\n\n\n\n\n\n\n\n\nReferences\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-02.html",
-    "href": "weeks/week-02.html",
-    "title": "Week 02",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 2 — Geological Storage\n\n\nCapillary effects, Relative Permeability, Dissolution\n\n\nWed, Jan 22\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nReadings\n\n\n\nRingrose(Ringrose 2020) book section 2.3.1 until 2.4\n\n\nPages 30-39 from Chapter 2 of Gueguen(Guéguen and Palciauskas 1994).\n\n\nPages 118-122 (top) from Chapter 5 of Gueguen(Guéguen and Palciauskas 1994).\n\n\n\n\n\n\n\n\n\nReferences\n\nGuéguen, Yves, and Victor Palciauskas. 1994. Introduction to the Physics of Rocks. Princeton University Press.\n\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-01.html",
-    "href": "weeks/week-01.html",
-    "title": "Week 01",
-    "section": "",
-    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\nIntroduction\n\n\nMon, Jan 13\n\n\n\n\nLecture 2 — Geological Storage\n\n\nSurface Tension, Capillary effects, Permeability”\n\n\nWed, Jan 15\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nReadings\n\n\n\nCourse Syllabus\n\n\nFrom (Ringrose 2020) read Chapter 1 and Chapter 2 until section 2.3, which was discussed during Lecture 1.\n\n\nIn preparation of Lecture 2, read pages 17-29 from Chapter 2 of Gueguen(Guéguen and Palciauskas 1994) (for more background see also Chapter 1).\n\n\nAlso read sections 2.3.1 and 2.3.2 of the main text by (Ringrose 2020).\n\n\n\n\n\n\n\n\n\nReferences\n\nGuéguen, Yves, and Victor Palciauskas. 1994. Introduction to the Physics of Rocks. Princeton University Press.\n\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
-  },
-  {
-    "objectID": "weeks/week-08.html",
-    "href": "weeks/week-08.html",
-    "title": "Week 08",
-    "section": "",
-    "text": "Topic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nConditional Normalizing Flows I\n\n\nNeural Density Estimation\n\n\nMon, Mar 04\n\n\n\n\nConditional Normalizing Flows II\n\n\nNeural Density Estimation\n\n\nWed, Mar 06\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "weeks/week-08.html#remote-classes",
-    "href": "weeks/week-08.html#remote-classes",
-    "title": "Week 08",
-    "section": "Remote classes",
-    "text": "Remote classes\n\nLecture on Teams Monday March 4 5:00—6:15 PM Recording\nLecture on Teams Wednesday March 6 5:00—6:15 PM"
-  },
-  {
-    "objectID": "hw/w3-hw03.html",
-    "href": "hw/w3-hw03.html",
-    "title": "Homework",
-    "section": "",
-    "text": "Please explain what is happening on an atomic or molecular scale that causes the phenomenon of surface tension. In particular, why is the meniscus for water in a vertical capillary tube concave and that for mercury convex?\n\n\n\n\nAssume a reservoir has homogeneous density denoted by \\(\\rho\\) and homogeneous porosity denoted by \\(\\phi\\). Initially, the pore spaces of the rocks in the reservoir is entirely filled with water. We now inject supercritical CO\\(_2\\) into the reservoir to replace water, and denote the saturation of CO\\(_2\\) as \\(S\\) (\\(0\\leq S\\leq 1\\)). Please be careful that \\(\\rho\\) is the density of rock filled with water, not the density of rock itself.\n\nSuppose \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\) before injection. Please plot how \\(\\rho\\) changes with different values of CO\\(_2\\) saturations. What is the shape of the curve?\nNow change \\(\\rho=2000\\) kg/m\\(^3\\). Do the same experiment. What is the shape? Can you compare this curve to the previous one?\nNow we stick to \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\), but inject another fluid as you like – gas, milk, belgium beer, liquid mercury, coca cola, etc. Do the same experiment. Compare this curve to the curve you got from the first one.\n\n\n\n\nDrawing inspiration from\nA. Donev et al., Improving the Density of Jammed Disordered Packings Using Ellipsoids, Science, 303, 990–993 (2004)\nD.A. Weitz, acking in the Spheres, Science, 303, 968–969 (2004);\nmeasure the porosity of a random close packing of M&M’s. Verify your result by bringing your particular collection of M&M’s to class. You can work with other kinds of cookie packs as you like. (In addition, a brief report on your experiment, including a short discussion of how your result agrees or disagrees with what is presented in the above articles, is required.)"
-  },
-  {
-    "objectID": "hw/w3-hw03.html#q1",
-    "href": "hw/w3-hw03.html#q1",
-    "title": "Homework",
-    "section": "",
-    "text": "Please explain what is happening on an atomic or molecular scale that causes the phenomenon of surface tension. In particular, why is the meniscus for water in a vertical capillary tube concave and that for mercury convex?"
-  },
-  {
-    "objectID": "hw/w3-hw03.html#q2",
-    "href": "hw/w3-hw03.html#q2",
-    "title": "Homework",
-    "section": "",
-    "text": "Assume a reservoir has homogeneous density denoted by \\(\\rho\\) and homogeneous porosity denoted by \\(\\phi\\). Initially, the pore spaces of the rocks in the reservoir is entirely filled with water. We now inject supercritical CO\\(_2\\) into the reservoir to replace water, and denote the saturation of CO\\(_2\\) as \\(S\\) (\\(0\\leq S\\leq 1\\)). Please be careful that \\(\\rho\\) is the density of rock filled with water, not the density of rock itself.\n\nSuppose \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\) before injection. Please plot how \\(\\rho\\) changes with different values of CO\\(_2\\) saturations. What is the shape of the curve?\nNow change \\(\\rho=2000\\) kg/m\\(^3\\). Do the same experiment. What is the shape? Can you compare this curve to the previous one?\nNow we stick to \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\), but inject another fluid as you like – gas, milk, belgium beer, liquid mercury, coca cola, etc. Do the same experiment. Compare this curve to the curve you got from the first one."
-  },
-  {
-    "objectID": "hw/w3-hw03.html#q3",
-    "href": "hw/w3-hw03.html#q3",
-    "title": "Homework",
-    "section": "",
-    "text": "Drawing inspiration from\nA. Donev et al., Improving the Density of Jammed Disordered Packings Using Ellipsoids, Science, 303, 990–993 (2004)\nD.A. Weitz, acking in the Spheres, Science, 303, 968–969 (2004);\nmeasure the porosity of a random close packing of M&M’s. Verify your result by bringing your particular collection of M&M’s to class. You can work with other kinds of cookie packs as you like. (In addition, a brief report on your experiment, including a short discussion of how your result agrees or disagrees with what is presented in the above articles, is required.)"
-  },
-  {
-    "objectID": "hw/w4-hw02.html",
-    "href": "hw/w4-hw02.html",
-    "title": "In-class exercise",
-    "section": "",
-    "text": "In the lectures, we learned that the capacity coefficient of a reservoir can be computed by\n\\(C_c = \\frac{V_{injected}}{V_{PV}} = \\frac{Q_{well}t}{\\phi B\\pi r_{max}^2}\\)\nNow assume the reservoir is in a circular shape, and\n\n7 million metric ton of supercritical CO\\(_2\\) is injected every year\n\nreservoir is 200m thick and 10km wide (diameter)\n\nporosity of rocks in the reservoir is 30%\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection.\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the shape of reservoir is a cone instead of a circular shape (width remains the same).\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the porosity of the rocks in the left half of the circular reservoir is changed to 20%.\n\n\n\nBriefly discuss how you would calculate the capacity coefficient if the reservoir is in an irregular shape with heterogeneous porosity."
-  },
-  {
-    "objectID": "hw/w4-hw02.html#question-1",
-    "href": "hw/w4-hw02.html#question-1",
-    "title": "In-class exercise",
-    "section": "",
-    "text": "In the lectures, we learned that the capacity coefficient of a reservoir can be computed by\n\\(C_c = \\frac{V_{injected}}{V_{PV}} = \\frac{Q_{well}t}{\\phi B\\pi r_{max}^2}\\)\nNow assume the reservoir is in a circular shape, and\n\n7 million metric ton of supercritical CO\\(_2\\) is injected every year\n\nreservoir is 200m thick and 10km wide (diameter)\n\nporosity of rocks in the reservoir is 30%\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection.\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the shape of reservoir is a cone instead of a circular shape (width remains the same).\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the porosity of the rocks in the left half of the circular reservoir is changed to 20%.\n\n\n\nBriefly discuss how you would calculate the capacity coefficient if the reservoir is in an irregular shape with heterogeneous porosity."
-  },
-  {
-    "objectID": "goals.html",
-    "href": "goals.html",
-    "title": "Goals",
-    "section": "",
-    "text": "Give a description of a surface-seismic experiment\nDescribe the basic steps of the post-stack seismic data flow and why they are important\nExplain why we need seismic exploration\nName seismic transducers and setup for land and marine acquition\nDescribe different seismic gathers\nWhat are the assumptions underlying NMO\nWhat is the role of the “fold” of the acquisition and why is it important\nDescribe the mathematical relation between midpoint/offset and source-receiver coordinates\nWhy is the sampling rate different for common-shot and common midpoint gathers\nDescribe the principle of velocity estimation with NMO\nWhat does migration try to accomplish\nGive a geometric description of the process of zero-offset migration.\nDescribe the different terms in the Rayleigh II integral\nDecribe the extrapolation “work flow”\nFlowshart for shot extrapolation in the f-k domain\nWhat is the expression for the wavefield extrapolation operator in the f-k domain.\nWhat change do you need to make to do inverse extrapolation\nDescribe in pictures forward wavefield extrapolation for a shot record with two events\nDescribe recursive inverse wavefield extrapolation of a shot record with a single reflection event by a number of plots\nWhat is the main assumption on the behavior of the velocity in f-k based recursive extrapolation and what happens to the extrapolation operator compared to the lateral invariant case\nName the five steps of prestack migration\nWhat are the underlying assumptions regarding the use of a particular migration scheme in relation to the complexity of the subsurface.\nDraw a schematic of the “impulse” response of the migration operator and the linearized scattering operator.\nDescribe the different steps of pre-stack shot migration\nWhat is the difference between pre- and post-stack migration?\nWhat is the effect of summing the images of the different shot gathers\nIn what situation is pre-stack time migration a viable option and when not\nWhat migration scheme would you use in case of complex velocities and complex structure\n\n\n\n\n\nWavefield extrapolation via Rayleigh II\nWavefield extrapolation via the f-k domain\n\\(V(z)\\) migration\nShot record migration\nRecursive extrapolation in varying media\nPre-stack shot migration\nOne-way wave-equation migration\nReverse-time migration\nVelocity-model estimation\n\nTraveltime tomography\nmigration-velocity analysis\n\nWhat are the two prevailing methods to estimate the velocity model and what information do they need\nDescribe the main principles of travel-time tomography\nDescribe the main principles of migration velocity analyses\nWhat are the differences between these two methods of velocity model estimation\n\n\n\n\n\nDescribe the principle and assumptions behind f-k filtering\nWrite down the Radon transform in the physical and Fourier domain\nDescribe Radon filtering sequence of operations to remove multiples\nDescribe what the process of seismic deconvolution tries to accomplish",
-    "crumbs": [
-      "Goals"
-    ]
-  },
-  {
-    "objectID": "goals.html#part-1",
-    "href": "goals.html#part-1",
-    "title": "Goals",
-    "section": "",
-    "text": "Give a description of a surface-seismic experiment\nDescribe the basic steps of the post-stack seismic data flow and why they are important\nExplain why we need seismic exploration\nName seismic transducers and setup for land and marine acquition\nDescribe different seismic gathers\nWhat are the assumptions underlying NMO\nWhat is the role of the “fold” of the acquisition and why is it important\nDescribe the mathematical relation between midpoint/offset and source-receiver coordinates\nWhy is the sampling rate different for common-shot and common midpoint gathers\nDescribe the principle of velocity estimation with NMO\nWhat does migration try to accomplish\nGive a geometric description of the process of zero-offset migration.\nDescribe the different terms in the Rayleigh II integral\nDecribe the extrapolation “work flow”\nFlowshart for shot extrapolation in the f-k domain\nWhat is the expression for the wavefield extrapolation operator in the f-k domain.\nWhat change do you need to make to do inverse extrapolation\nDescribe in pictures forward wavefield extrapolation for a shot record with two events\nDescribe recursive inverse wavefield extrapolation of a shot record with a single reflection event by a number of plots\nWhat is the main assumption on the behavior of the velocity in f-k based recursive extrapolation and what happens to the extrapolation operator compared to the lateral invariant case\nName the five steps of prestack migration\nWhat are the underlying assumptions regarding the use of a particular migration scheme in relation to the complexity of the subsurface.\nDraw a schematic of the “impulse” response of the migration operator and the linearized scattering operator.\nDescribe the different steps of pre-stack shot migration\nWhat is the difference between pre- and post-stack migration?\nWhat is the effect of summing the images of the different shot gathers\nIn what situation is pre-stack time migration a viable option and when not\nWhat migration scheme would you use in case of complex velocities and complex structure\n\n\n\n\n\nWavefield extrapolation via Rayleigh II\nWavefield extrapolation via the f-k domain\n\\(V(z)\\) migration\nShot record migration\nRecursive extrapolation in varying media\nPre-stack shot migration\nOne-way wave-equation migration\nReverse-time migration\nVelocity-model estimation\n\nTraveltime tomography\nmigration-velocity analysis\n\nWhat are the two prevailing methods to estimate the velocity model and what information do they need\nDescribe the main principles of travel-time tomography\nDescribe the main principles of migration velocity analyses\nWhat are the differences between these two methods of velocity model estimation\n\n\n\n\n\nDescribe the principle and assumptions behind f-k filtering\nWrite down the Radon transform in the physical and Fourier domain\nDescribe Radon filtering sequence of operations to remove multiples\nDescribe what the process of seismic deconvolution tries to accomplish",
-    "crumbs": [
-      "Goals"
-    ]
-  },
-  {
-    "objectID": "docker.html",
-    "href": "docker.html",
-    "title": "Docker",
-    "section": "",
-    "text": "In this course, we will have a couple of coding assignments based on Julia, a fast, dynamic, reproducible composable and general open source programming language. You are encouraged to install Julia on your system following the script to run some basic coding experiments to explore its usage and applications in scientific computing community.\nIn particular, you will run numerical experiments for CO\\(_2\\) dynamics simulation and also seismic wave-based simulations with academically developed softwares. To help you run these software, we highly recommend you use Docker, a platform which builds a virtual machine/container for you with the docker image, which is set-up by us and equipped with pre-installed softwares. The docker image is quite necessary for you to run the software without the tedious installation process, and to provide you with an environment on which the software runs out of the box.\nFirst install docker for your system following the instruction here,\nhttps://www.docker.com/products/docker-desktop\nInstead of having to install Python, Julia, Devito, JUDI, FwiFlow and all the dependencies (these are the softwares that you will use for the numerical simulation) by yourself, you simply download the docker image and run it in a container. All you need to do is install docker, click the docker icon/app, open the terminal/command line (powershell in windows, also see this) on your system, and run:\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwhere /path/on/your/machine is an absolute path on your own local machine. Remember giving a folder path is important. For example, if I want to connect the folder called testdocker on the desktop of my laptop, I can do\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /Users/haoyun/Desktop/testdocker:/notebooks haoyunl/eas-8803:2.0\nThis will download the image and launch a jupyter notebook that you can access from your internet browser. The command will display a link, which looks something like this:\nCopy/paste this URL into your browser when you connect for the first time,\n    to login with a token:\n        http://0e27b13128d4:8888/?token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4&token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4\nCopy/paste this link and replace the address 0e27b13128d4:8888 with localhost:8888 (the link is created inside the docker container, which doesn’t know that you mapped this port to your localhost w/ port no. 8888). Then, you can create a notebook there by clicking new -&gt; notebook -&gt; julia 1.8.5, and run the julia code in the jupyter notebook. Try running these packages in notebook for fun\nusing JutulDarcyRules\nusing LinearAlgebra\nusing PyPlot\nusing SlimPlotting\nusing JLD2, Polynomials, Images\n\nWhatever you do on the docker container will be saved in the local testdocker folder. And then you need to copy the homework notebook once it is released to this folder and run your codes in that notebook.\nInstead of a notebook, you can also launch an interactive session with a terminal by running:\ndocker run -it haoyunl/eas-8803:2.0 /bin/bash\nThis will give you access to a terminal, in which you can start Julia/Python, run a couple of lines of code interactively. However, figures from PyPlot (the plotting package) sometimes do not render well from interactive julia sessions. Therefore, jupyter notebooks on docker are recommended for you to do the assignments.\n\n\nBy default, the command\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwill use 4 threads because in the above command JULIA_NUM_THREADS=4 is set. If you want to increase the number of threads to run your code faster, you need to know the number of threads on your machine and then set JULIA_NUM_THREADS equal to that number. To know the number of threads on your machine you can do:\nFor Mac, write on terminal: sysctl -n hw.logicalcpu\nFor Linux, write on terminal: lscpu\nThe number of threads = number of threads per core * No. of CPUs\nFor windows: Follow this link\n\n\n\nIf you are using windows, you might need to enable hardware virtualization in their BIOS. You are suggested to look at here and here. If you have any question, please reach out to us ASAP.",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
-    "objectID": "docker.html#docker-installation",
-    "href": "docker.html#docker-installation",
-    "title": "Docker",
-    "section": "",
-    "text": "In this course, we will have a couple of coding assignments based on Julia, a fast, dynamic, reproducible composable and general open source programming language. You are encouraged to install Julia on your system following the script to run some basic coding experiments to explore its usage and applications in scientific computing community.\nIn particular, you will run numerical experiments for CO\\(_2\\) dynamics simulation and also seismic wave-based simulations with academically developed softwares. To help you run these software, we highly recommend you use Docker, a platform which builds a virtual machine/container for you with the docker image, which is set-up by us and equipped with pre-installed softwares. The docker image is quite necessary for you to run the software without the tedious installation process, and to provide you with an environment on which the software runs out of the box.\nFirst install docker for your system following the instruction here,\nhttps://www.docker.com/products/docker-desktop\nInstead of having to install Python, Julia, Devito, JUDI, FwiFlow and all the dependencies (these are the softwares that you will use for the numerical simulation) by yourself, you simply download the docker image and run it in a container. All you need to do is install docker, click the docker icon/app, open the terminal/command line (powershell in windows, also see this) on your system, and run:\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwhere /path/on/your/machine is an absolute path on your own local machine. Remember giving a folder path is important. For example, if I want to connect the folder called testdocker on the desktop of my laptop, I can do\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /Users/haoyun/Desktop/testdocker:/notebooks haoyunl/eas-8803:2.0\nThis will download the image and launch a jupyter notebook that you can access from your internet browser. The command will display a link, which looks something like this:\nCopy/paste this URL into your browser when you connect for the first time,\n    to login with a token:\n        http://0e27b13128d4:8888/?token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4&token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4\nCopy/paste this link and replace the address 0e27b13128d4:8888 with localhost:8888 (the link is created inside the docker container, which doesn’t know that you mapped this port to your localhost w/ port no. 8888). Then, you can create a notebook there by clicking new -&gt; notebook -&gt; julia 1.8.5, and run the julia code in the jupyter notebook. Try running these packages in notebook for fun\nusing JutulDarcyRules\nusing LinearAlgebra\nusing PyPlot\nusing SlimPlotting\nusing JLD2, Polynomials, Images\n\nWhatever you do on the docker container will be saved in the local testdocker folder. And then you need to copy the homework notebook once it is released to this folder and run your codes in that notebook.\nInstead of a notebook, you can also launch an interactive session with a terminal by running:\ndocker run -it haoyunl/eas-8803:2.0 /bin/bash\nThis will give you access to a terminal, in which you can start Julia/Python, run a couple of lines of code interactively. However, figures from PyPlot (the plotting package) sometimes do not render well from interactive julia sessions. Therefore, jupyter notebooks on docker are recommended for you to do the assignments.\n\n\nBy default, the command\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwill use 4 threads because in the above command JULIA_NUM_THREADS=4 is set. If you want to increase the number of threads to run your code faster, you need to know the number of threads on your machine and then set JULIA_NUM_THREADS equal to that number. To know the number of threads on your machine you can do:\nFor Mac, write on terminal: sysctl -n hw.logicalcpu\nFor Linux, write on terminal: lscpu\nThe number of threads = number of threads per core * No. of CPUs\nFor windows: Follow this link\n\n\n\nIf you are using windows, you might need to enable hardware virtualization in their BIOS. You are suggested to look at here and here. If you have any question, please reach out to us ASAP.",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
-    "objectID": "docker.html#new-docker-container-for-seismic-experiments",
-    "href": "docker.html#new-docker-container-for-seismic-experiments",
-    "title": "Docker",
-    "section": "New docker container for Seismic Experiments",
-    "text": "New docker container for Seismic Experiments\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyun/ccsenv:v2.0\nFollow the same procedure as before to run new docker with the above command. Please note you will still use previous docker for HW3. This docker is for seismic modelling which is next part of the course and you will use it for seismic imaging experiments later. To get familiar, there is a notebook tutorial (In-class exercise 3) associated with this docker. You should download the notebook, put it the folder where you run this docker from, and play with it.\n(Later you will also need a package called MECurvelets which can be installed by using Pkg; Pkg.add(url=\"https://github.gatech.edu/SLIM/MECurvelets.jl\"). We will help installing this package.)",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
-    "objectID": "docker.html#some-useful-material",
-    "href": "docker.html#some-useful-material",
-    "title": "Docker",
-    "section": "Some Useful Material",
-    "text": "Some Useful Material\nLearn command line from Software Carpentry\nLearn jupyter notebook\nLearn Julia",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
-    "objectID": "docker.html#in-class-exercise",
-    "href": "docker.html#in-class-exercise",
-    "title": "Docker",
-    "section": "In-class Exercise",
-    "text": "In-class Exercise\nDuring the lectures you will work on the following exercises\n\nThickness of reservoir. Exercise 1 (Jan 20, 2022)\nCapacity coefficient. Exercise 2 (Jan 27, 2022)",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
-    "objectID": "docker.html#hand-in",
-    "href": "docker.html#hand-in",
-    "title": "Docker",
-    "section": "Hand in",
-    "text": "Hand in\nPlease turn in your assignments as pdf files. The assignments should be send to Haoyun Li. Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr. Felix Herrmann and cc TA in advance (at least 2 days before the deadline).",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
-    "objectID": "docker.html#feedback",
-    "href": "docker.html#feedback",
-    "title": "Docker",
-    "section": "Feedback",
-    "text": "Feedback\nWe will give you feedback on the marking of the exercises.",
-    "crumbs": [
-      "Docker"
-    ]
-  },
-  {
-    "objectID": "slides/week-01/01-intro.html#course-outline",
-    "href": "slides/week-01/01-intro.html#course-outline",
-    "title": "Welcome to Seismic Monitoring CO2 Storage",
-    "section": "Course outline",
-    "text": "Course outline\nThis is a new advanced course that is being developed during this term.\n\nSyllabus\nSchedule\netc.\n\nare all made available and constantly updated on\nhttps://flexie.github.io/EAS-8803-CCS//"
-  },
-  {
-    "objectID": "slides/week-01/01-intro.html#objectives",
-    "href": "slides/week-01/01-intro.html#objectives",
-    "title": "Welcome to Seismic Monitoring CO2 Storage",
-    "section": "Objectives",
-    "text": "Objectives\nBy the end of the semester, you will be made familiar with …\n\nBasics of Geological Carbon Storage\nTechniques on how to monitor Geological Carbon Storage\nHow to scale up this net-negative carbon emission technology\n\nFor a motivational talk watch this video by Philip Ringrose.\nFor more on the Course outline, Topics, and Learning goals, see Goals."
-  },
-  {
-    "objectID": "slides/week-01/01-intro.html#textbooks",
-    "href": "slides/week-01/01-intro.html#textbooks",
-    "title": "Welcome to Seismic Monitoring CO2 Storage",
-    "section": "Textbooks",
-    "text": "Textbooks\n\n\n\nRingrose, P. (2020), How to Store CO2 Underground: insights from early-mover CCS Projects1\nRingrose (2020)\nElsevier, 2020\n\n\nStorage of Carbon Dioxide in Saline Aquifers: Building confidence by forecasting and monitoring\nRingrose (2023)\nSEG, 2023\n\n\nGeophysics and the Energy Transition2\nWilson, Davis, and Landrø (2025)\nScience Direct, 2025\n\n\n\nebook available from the Georgia Tech Libraryebook available from the Georgia Tech Library"
-  },
-  {
-    "objectID": "slides/week-01/01-intro.html#section",
-    "href": "slides/week-01/01-intro.html#section",
-    "title": "Welcome to Seismic Monitoring CO2 Storage",
-    "section": "",
-    "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
-  },
-  {
-    "objectID": "slides/week-01/01-intro.html#references",
-    "href": "slides/week-01/01-intro.html#references",
-    "title": "Welcome to Seismic Monitoring CO2 Storage",
-    "section": "",
-    "text": "Ringrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
   },
   {
     "objectID": "slides/week-07/09a-DL-uncertainty.html#credits",
@@ -958,16 +384,597 @@
     "text": "Produce samples \\[\\mathbf{x} \\sim p(\\mathbf{x} | \\vartheta)\\]\n\nEvaluate densities \\[p(\\mathbf{x}|\\vartheta)\\] \\[p(\\vartheta | \\mathbf{x}) = \\frac{p(\\mathbf{x} | \\vartheta) p(\\vartheta)}{p(\\mathbf{x})}\\]\n\nEncode complex priors \\[p(\\mathbf{x})\\]\n\n\n\n\n\n\n\n\n\n\nCredits: Siddharth Mishra-Sharma, 2023."
   },
   {
-    "objectID": "slides/week-09/12.html",
-    "href": "slides/week-09/12.html",
+    "objectID": "slides/week-01/01-intro.html#course-outline",
+    "href": "slides/week-01/01-intro.html#course-outline",
+    "title": "Welcome to Seismic Monitoring CO2 Storage",
+    "section": "Course outline",
+    "text": "Course outline\nThis is a new advanced course that is being developed during this term.\n\nSyllabus\nSchedule\netc.\n\nare all made available and constantly updated on\nhttps://flexie.github.io/EAS-8803-CCS//"
+  },
+  {
+    "objectID": "slides/week-01/01-intro.html#objectives",
+    "href": "slides/week-01/01-intro.html#objectives",
+    "title": "Welcome to Seismic Monitoring CO2 Storage",
+    "section": "Objectives",
+    "text": "Objectives\nBy the end of the semester, you will be made familiar with …\n\nBasics of Geological Carbon Storage\nTechniques on how to monitor Geological Carbon Storage\nHow to scale up this net-negative carbon emission technology\n\nFor a motivational talk watch this video by Philip Ringrose.\nFor more on the Course outline, Topics, and Learning goals, see Goals."
+  },
+  {
+    "objectID": "slides/week-01/01-intro.html#textbooks",
+    "href": "slides/week-01/01-intro.html#textbooks",
+    "title": "Welcome to Seismic Monitoring CO2 Storage",
+    "section": "Textbooks",
+    "text": "Textbooks\n\n\n\nRingrose, P. (2020), How to Store CO2 Underground: insights from early-mover CCS Projects1\nRingrose (2020)\nElsevier, 2020\n\n\nStorage of Carbon Dioxide in Saline Aquifers: Building confidence by forecasting and monitoring\nRingrose (2023)\nSEG, 2023\n\n\nGeophysics and the Energy Transition2\nWilson, Davis, and Landrø (2025)\nScience Direct, 2025\n\n\n\nebook available from the Georgia Tech Libraryebook available from the Georgia Tech Library"
+  },
+  {
+    "objectID": "slides/week-01/01-intro.html#section",
+    "href": "slides/week-01/01-intro.html#section",
+    "title": "Welcome to Seismic Monitoring CO2 Storage",
+    "section": "",
+    "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
+  },
+  {
+    "objectID": "slides/week-01/01-intro.html#references",
+    "href": "slides/week-01/01-intro.html#references",
+    "title": "Welcome to Seismic Monitoring CO2 Storage",
+    "section": "",
+    "text": "Ringrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\n\nWilson, Malcolm, Tom Davis, and Martin Landrø, eds. 2025. “Title Page.” In Geophysics and the Energy Transition, i–iii. Elsevier. https://doi.org/https://doi.org/10.1016/B978-0-323-95941-4.00021-5."
+  },
+  {
+    "objectID": "docker.html",
+    "href": "docker.html",
+    "title": "Docker",
+    "section": "",
+    "text": "In this course, we will have a couple of coding assignments based on Julia, a fast, dynamic, reproducible composable and general open source programming language. You are encouraged to install Julia on your system following the script to run some basic coding experiments to explore its usage and applications in scientific computing community.\nIn particular, you will run numerical experiments for CO\\(_2\\) dynamics simulation and also seismic wave-based simulations with academically developed softwares. To help you run these software, we highly recommend you use Docker, a platform which builds a virtual machine/container for you with the docker image, which is set-up by us and equipped with pre-installed softwares. The docker image is quite necessary for you to run the software without the tedious installation process, and to provide you with an environment on which the software runs out of the box.\nFirst install docker for your system following the instruction here,\nhttps://www.docker.com/products/docker-desktop\nInstead of having to install Python, Julia, Devito, JUDI, FwiFlow and all the dependencies (these are the softwares that you will use for the numerical simulation) by yourself, you simply download the docker image and run it in a container. All you need to do is install docker, click the docker icon/app, open the terminal/command line (powershell in windows, also see this) on your system, and run:\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwhere /path/on/your/machine is an absolute path on your own local machine. Remember giving a folder path is important. For example, if I want to connect the folder called testdocker on the desktop of my laptop, I can do\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /Users/haoyun/Desktop/testdocker:/notebooks haoyunl/eas-8803:2.0\nThis will download the image and launch a jupyter notebook that you can access from your internet browser. The command will display a link, which looks something like this:\nCopy/paste this URL into your browser when you connect for the first time,\n    to login with a token:\n        http://0e27b13128d4:8888/?token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4&token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4\nCopy/paste this link and replace the address 0e27b13128d4:8888 with localhost:8888 (the link is created inside the docker container, which doesn’t know that you mapped this port to your localhost w/ port no. 8888). Then, you can create a notebook there by clicking new -&gt; notebook -&gt; julia 1.8.5, and run the julia code in the jupyter notebook. Try running these packages in notebook for fun\nusing JutulDarcyRules\nusing LinearAlgebra\nusing PyPlot\nusing SlimPlotting\nusing JLD2, Polynomials, Images\n\nWhatever you do on the docker container will be saved in the local testdocker folder. And then you need to copy the homework notebook once it is released to this folder and run your codes in that notebook.\nInstead of a notebook, you can also launch an interactive session with a terminal by running:\ndocker run -it haoyunl/eas-8803:2.0 /bin/bash\nThis will give you access to a terminal, in which you can start Julia/Python, run a couple of lines of code interactively. However, figures from PyPlot (the plotting package) sometimes do not render well from interactive julia sessions. Therefore, jupyter notebooks on docker are recommended for you to do the assignments.\n\n\nBy default, the command\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwill use 4 threads because in the above command JULIA_NUM_THREADS=4 is set. If you want to increase the number of threads to run your code faster, you need to know the number of threads on your machine and then set JULIA_NUM_THREADS equal to that number. To know the number of threads on your machine you can do:\nFor Mac, write on terminal: sysctl -n hw.logicalcpu\nFor Linux, write on terminal: lscpu\nThe number of threads = number of threads per core * No. of CPUs\nFor windows: Follow this link\n\n\n\nIf you are using windows, you might need to enable hardware virtualization in their BIOS. You are suggested to look at here and here. If you have any question, please reach out to us ASAP.",
+    "crumbs": [
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "docker.html#docker-installation",
+    "href": "docker.html#docker-installation",
+    "title": "Docker",
+    "section": "",
+    "text": "In this course, we will have a couple of coding assignments based on Julia, a fast, dynamic, reproducible composable and general open source programming language. You are encouraged to install Julia on your system following the script to run some basic coding experiments to explore its usage and applications in scientific computing community.\nIn particular, you will run numerical experiments for CO\\(_2\\) dynamics simulation and also seismic wave-based simulations with academically developed softwares. To help you run these software, we highly recommend you use Docker, a platform which builds a virtual machine/container for you with the docker image, which is set-up by us and equipped with pre-installed softwares. The docker image is quite necessary for you to run the software without the tedious installation process, and to provide you with an environment on which the software runs out of the box.\nFirst install docker for your system following the instruction here,\nhttps://www.docker.com/products/docker-desktop\nInstead of having to install Python, Julia, Devito, JUDI, FwiFlow and all the dependencies (these are the softwares that you will use for the numerical simulation) by yourself, you simply download the docker image and run it in a container. All you need to do is install docker, click the docker icon/app, open the terminal/command line (powershell in windows, also see this) on your system, and run:\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwhere /path/on/your/machine is an absolute path on your own local machine. Remember giving a folder path is important. For example, if I want to connect the folder called testdocker on the desktop of my laptop, I can do\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /Users/haoyun/Desktop/testdocker:/notebooks haoyunl/eas-8803:2.0\nThis will download the image and launch a jupyter notebook that you can access from your internet browser. The command will display a link, which looks something like this:\nCopy/paste this URL into your browser when you connect for the first time,\n    to login with a token:\n        http://0e27b13128d4:8888/?token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4&token=84a95cf4319e8e68534f20c7c6474d9875f13c70270f35f4\nCopy/paste this link and replace the address 0e27b13128d4:8888 with localhost:8888 (the link is created inside the docker container, which doesn’t know that you mapped this port to your localhost w/ port no. 8888). Then, you can create a notebook there by clicking new -&gt; notebook -&gt; julia 1.8.5, and run the julia code in the jupyter notebook. Try running these packages in notebook for fun\nusing JutulDarcyRules\nusing LinearAlgebra\nusing PyPlot\nusing SlimPlotting\nusing JLD2, Polynomials, Images\n\nWhatever you do on the docker container will be saved in the local testdocker folder. And then you need to copy the homework notebook once it is released to this folder and run your codes in that notebook.\nInstead of a notebook, you can also launch an interactive session with a terminal by running:\ndocker run -it haoyunl/eas-8803:2.0 /bin/bash\nThis will give you access to a terminal, in which you can start Julia/Python, run a couple of lines of code interactively. However, figures from PyPlot (the plotting package) sometimes do not render well from interactive julia sessions. Therefore, jupyter notebooks on docker are recommended for you to do the assignments.\n\n\nBy default, the command\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:2.0\nwill use 4 threads because in the above command JULIA_NUM_THREADS=4 is set. If you want to increase the number of threads to run your code faster, you need to know the number of threads on your machine and then set JULIA_NUM_THREADS equal to that number. To know the number of threads on your machine you can do:\nFor Mac, write on terminal: sysctl -n hw.logicalcpu\nFor Linux, write on terminal: lscpu\nThe number of threads = number of threads per core * No. of CPUs\nFor windows: Follow this link\n\n\n\nIf you are using windows, you might need to enable hardware virtualization in their BIOS. You are suggested to look at here and here. If you have any question, please reach out to us ASAP.",
+    "crumbs": [
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "docker.html#new-docker-container-for-seismic-experiments",
+    "href": "docker.html#new-docker-container-for-seismic-experiments",
+    "title": "Docker",
+    "section": "New docker container for Seismic Experiments",
+    "text": "New docker container for Seismic Experiments\ndocker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyun/ccsenv:v2.0\nFollow the same procedure as before to run new docker with the above command. Please note you will still use previous docker for HW3. This docker is for seismic modelling which is next part of the course and you will use it for seismic imaging experiments later. To get familiar, there is a notebook tutorial (In-class exercise 3) associated with this docker. You should download the notebook, put it the folder where you run this docker from, and play with it.\n(Later you will also need a package called MECurvelets which can be installed by using Pkg; Pkg.add(url=\"https://github.gatech.edu/SLIM/MECurvelets.jl\"). We will help installing this package.)",
+    "crumbs": [
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "docker.html#some-useful-material",
+    "href": "docker.html#some-useful-material",
+    "title": "Docker",
+    "section": "Some Useful Material",
+    "text": "Some Useful Material\nLearn command line from Software Carpentry\nLearn jupyter notebook\nLearn Julia",
+    "crumbs": [
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "docker.html#in-class-exercise",
+    "href": "docker.html#in-class-exercise",
+    "title": "Docker",
+    "section": "In-class Exercise",
+    "text": "In-class Exercise\nDuring the lectures you will work on the following exercises\n\nThickness of reservoir. Exercise 1 (Jan 20, 2022)\nCapacity coefficient. Exercise 2 (Jan 27, 2022)",
+    "crumbs": [
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "docker.html#hand-in",
+    "href": "docker.html#hand-in",
+    "title": "Docker",
+    "section": "Hand in",
+    "text": "Hand in\nPlease turn in your assignments as pdf files. The assignments should be send to Haoyun Li. Late hand-ins are not accepted. If you have difficulty on the homework and want to ask for extension, please email Dr. Felix Herrmann and cc TA in advance (at least 2 days before the deadline).",
+    "crumbs": [
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "docker.html#feedback",
+    "href": "docker.html#feedback",
+    "title": "Docker",
+    "section": "Feedback",
+    "text": "Feedback\nWe will give you feedback on the marking of the exercises.",
+    "crumbs": [
+      "Docker"
+    ]
+  },
+  {
+    "objectID": "goals.html",
+    "href": "goals.html",
+    "title": "Goals",
+    "section": "",
+    "text": "Give a description of a surface-seismic experiment\nDescribe the basic steps of the post-stack seismic data flow and why they are important\nExplain why we need seismic exploration\nName seismic transducers and setup for land and marine acquition\nDescribe different seismic gathers\nWhat are the assumptions underlying NMO\nWhat is the role of the “fold” of the acquisition and why is it important\nDescribe the mathematical relation between midpoint/offset and source-receiver coordinates\nWhy is the sampling rate different for common-shot and common midpoint gathers\nDescribe the principle of velocity estimation with NMO\nWhat does migration try to accomplish\nGive a geometric description of the process of zero-offset migration.\nDescribe the different terms in the Rayleigh II integral\nDecribe the extrapolation “work flow”\nFlowshart for shot extrapolation in the f-k domain\nWhat is the expression for the wavefield extrapolation operator in the f-k domain.\nWhat change do you need to make to do inverse extrapolation\nDescribe in pictures forward wavefield extrapolation for a shot record with two events\nDescribe recursive inverse wavefield extrapolation of a shot record with a single reflection event by a number of plots\nWhat is the main assumption on the behavior of the velocity in f-k based recursive extrapolation and what happens to the extrapolation operator compared to the lateral invariant case\nName the five steps of prestack migration\nWhat are the underlying assumptions regarding the use of a particular migration scheme in relation to the complexity of the subsurface.\nDraw a schematic of the “impulse” response of the migration operator and the linearized scattering operator.\nDescribe the different steps of pre-stack shot migration\nWhat is the difference between pre- and post-stack migration?\nWhat is the effect of summing the images of the different shot gathers\nIn what situation is pre-stack time migration a viable option and when not\nWhat migration scheme would you use in case of complex velocities and complex structure\n\n\n\n\n\nWavefield extrapolation via Rayleigh II\nWavefield extrapolation via the f-k domain\n\\(V(z)\\) migration\nShot record migration\nRecursive extrapolation in varying media\nPre-stack shot migration\nOne-way wave-equation migration\nReverse-time migration\nVelocity-model estimation\n\nTraveltime tomography\nmigration-velocity analysis\n\nWhat are the two prevailing methods to estimate the velocity model and what information do they need\nDescribe the main principles of travel-time tomography\nDescribe the main principles of migration velocity analyses\nWhat are the differences between these two methods of velocity model estimation\n\n\n\n\n\nDescribe the principle and assumptions behind f-k filtering\nWrite down the Radon transform in the physical and Fourier domain\nDescribe Radon filtering sequence of operations to remove multiples\nDescribe what the process of seismic deconvolution tries to accomplish",
+    "crumbs": [
+      "Goals"
+    ]
+  },
+  {
+    "objectID": "goals.html#part-1",
+    "href": "goals.html#part-1",
+    "title": "Goals",
+    "section": "",
+    "text": "Give a description of a surface-seismic experiment\nDescribe the basic steps of the post-stack seismic data flow and why they are important\nExplain why we need seismic exploration\nName seismic transducers and setup for land and marine acquition\nDescribe different seismic gathers\nWhat are the assumptions underlying NMO\nWhat is the role of the “fold” of the acquisition and why is it important\nDescribe the mathematical relation between midpoint/offset and source-receiver coordinates\nWhy is the sampling rate different for common-shot and common midpoint gathers\nDescribe the principle of velocity estimation with NMO\nWhat does migration try to accomplish\nGive a geometric description of the process of zero-offset migration.\nDescribe the different terms in the Rayleigh II integral\nDecribe the extrapolation “work flow”\nFlowshart for shot extrapolation in the f-k domain\nWhat is the expression for the wavefield extrapolation operator in the f-k domain.\nWhat change do you need to make to do inverse extrapolation\nDescribe in pictures forward wavefield extrapolation for a shot record with two events\nDescribe recursive inverse wavefield extrapolation of a shot record with a single reflection event by a number of plots\nWhat is the main assumption on the behavior of the velocity in f-k based recursive extrapolation and what happens to the extrapolation operator compared to the lateral invariant case\nName the five steps of prestack migration\nWhat are the underlying assumptions regarding the use of a particular migration scheme in relation to the complexity of the subsurface.\nDraw a schematic of the “impulse” response of the migration operator and the linearized scattering operator.\nDescribe the different steps of pre-stack shot migration\nWhat is the difference between pre- and post-stack migration?\nWhat is the effect of summing the images of the different shot gathers\nIn what situation is pre-stack time migration a viable option and when not\nWhat migration scheme would you use in case of complex velocities and complex structure\n\n\n\n\n\nWavefield extrapolation via Rayleigh II\nWavefield extrapolation via the f-k domain\n\\(V(z)\\) migration\nShot record migration\nRecursive extrapolation in varying media\nPre-stack shot migration\nOne-way wave-equation migration\nReverse-time migration\nVelocity-model estimation\n\nTraveltime tomography\nmigration-velocity analysis\n\nWhat are the two prevailing methods to estimate the velocity model and what information do they need\nDescribe the main principles of travel-time tomography\nDescribe the main principles of migration velocity analyses\nWhat are the differences between these two methods of velocity model estimation\n\n\n\n\n\nDescribe the principle and assumptions behind f-k filtering\nWrite down the Radon transform in the physical and Fourier domain\nDescribe Radon filtering sequence of operations to remove multiples\nDescribe what the process of seismic deconvolution tries to accomplish",
+    "crumbs": [
+      "Goals"
+    ]
+  },
+  {
+    "objectID": "hw/w4-hw02.html",
+    "href": "hw/w4-hw02.html",
+    "title": "In-class exercise",
+    "section": "",
+    "text": "In the lectures, we learned that the capacity coefficient of a reservoir can be computed by\n\\(C_c = \\frac{V_{injected}}{V_{PV}} = \\frac{Q_{well}t}{\\phi B\\pi r_{max}^2}\\)\nNow assume the reservoir is in a circular shape, and\n\n7 million metric ton of supercritical CO\\(_2\\) is injected every year\n\nreservoir is 200m thick and 10km wide (diameter)\n\nporosity of rocks in the reservoir is 30%\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection.\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the shape of reservoir is a cone instead of a circular shape (width remains the same).\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the porosity of the rocks in the left half of the circular reservoir is changed to 20%.\n\n\n\nBriefly discuss how you would calculate the capacity coefficient if the reservoir is in an irregular shape with heterogeneous porosity."
+  },
+  {
+    "objectID": "hw/w4-hw02.html#question-1",
+    "href": "hw/w4-hw02.html#question-1",
+    "title": "In-class exercise",
+    "section": "",
+    "text": "In the lectures, we learned that the capacity coefficient of a reservoir can be computed by\n\\(C_c = \\frac{V_{injected}}{V_{PV}} = \\frac{Q_{well}t}{\\phi B\\pi r_{max}^2}\\)\nNow assume the reservoir is in a circular shape, and\n\n7 million metric ton of supercritical CO\\(_2\\) is injected every year\n\nreservoir is 200m thick and 10km wide (diameter)\n\nporosity of rocks in the reservoir is 30%\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection.\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the shape of reservoir is a cone instead of a circular shape (width remains the same).\n\n\n\nPlease calculate the reservoir capacity coefficient after 20, 30, 50, 100 years of injection if the porosity of the rocks in the left half of the circular reservoir is changed to 20%.\n\n\n\nBriefly discuss how you would calculate the capacity coefficient if the reservoir is in an irregular shape with heterogeneous porosity."
+  },
+  {
+    "objectID": "hw/w3-hw03.html",
+    "href": "hw/w3-hw03.html",
+    "title": "Homework",
+    "section": "",
+    "text": "Please explain what is happening on an atomic or molecular scale that causes the phenomenon of surface tension. In particular, why is the meniscus for water in a vertical capillary tube concave and that for mercury convex?\n\n\n\n\nAssume a reservoir has homogeneous density denoted by \\(\\rho\\) and homogeneous porosity denoted by \\(\\phi\\). Initially, the pore spaces of the rocks in the reservoir is entirely filled with water. We now inject supercritical CO\\(_2\\) into the reservoir to replace water, and denote the saturation of CO\\(_2\\) as \\(S\\) (\\(0\\leq S\\leq 1\\)). Please be careful that \\(\\rho\\) is the density of rock filled with water, not the density of rock itself.\n\nSuppose \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\) before injection. Please plot how \\(\\rho\\) changes with different values of CO\\(_2\\) saturations. What is the shape of the curve?\nNow change \\(\\rho=2000\\) kg/m\\(^3\\). Do the same experiment. What is the shape? Can you compare this curve to the previous one?\nNow we stick to \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\), but inject another fluid as you like – gas, milk, belgium beer, liquid mercury, coca cola, etc. Do the same experiment. Compare this curve to the curve you got from the first one.\n\n\n\n\nDrawing inspiration from\nA. Donev et al., Improving the Density of Jammed Disordered Packings Using Ellipsoids, Science, 303, 990–993 (2004)\nD.A. Weitz, acking in the Spheres, Science, 303, 968–969 (2004);\nmeasure the porosity of a random close packing of M&M’s. Verify your result by bringing your particular collection of M&M’s to class. You can work with other kinds of cookie packs as you like. (In addition, a brief report on your experiment, including a short discussion of how your result agrees or disagrees with what is presented in the above articles, is required.)"
+  },
+  {
+    "objectID": "hw/w3-hw03.html#q1",
+    "href": "hw/w3-hw03.html#q1",
+    "title": "Homework",
+    "section": "",
+    "text": "Please explain what is happening on an atomic or molecular scale that causes the phenomenon of surface tension. In particular, why is the meniscus for water in a vertical capillary tube concave and that for mercury convex?"
+  },
+  {
+    "objectID": "hw/w3-hw03.html#q2",
+    "href": "hw/w3-hw03.html#q2",
+    "title": "Homework",
+    "section": "",
+    "text": "Assume a reservoir has homogeneous density denoted by \\(\\rho\\) and homogeneous porosity denoted by \\(\\phi\\). Initially, the pore spaces of the rocks in the reservoir is entirely filled with water. We now inject supercritical CO\\(_2\\) into the reservoir to replace water, and denote the saturation of CO\\(_2\\) as \\(S\\) (\\(0\\leq S\\leq 1\\)). Please be careful that \\(\\rho\\) is the density of rock filled with water, not the density of rock itself.\n\nSuppose \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\) before injection. Please plot how \\(\\rho\\) changes with different values of CO\\(_2\\) saturations. What is the shape of the curve?\nNow change \\(\\rho=2000\\) kg/m\\(^3\\). Do the same experiment. What is the shape? Can you compare this curve to the previous one?\nNow we stick to \\(\\phi=0.3\\), \\(\\rho=3000\\) kg/m\\(^3\\), but inject another fluid as you like – gas, milk, belgium beer, liquid mercury, coca cola, etc. Do the same experiment. Compare this curve to the curve you got from the first one."
+  },
+  {
+    "objectID": "hw/w3-hw03.html#q3",
+    "href": "hw/w3-hw03.html#q3",
+    "title": "Homework",
+    "section": "",
+    "text": "Drawing inspiration from\nA. Donev et al., Improving the Density of Jammed Disordered Packings Using Ellipsoids, Science, 303, 990–993 (2004)\nD.A. Weitz, acking in the Spheres, Science, 303, 968–969 (2004);\nmeasure the porosity of a random close packing of M&M’s. Verify your result by bringing your particular collection of M&M’s to class. You can work with other kinds of cookie packs as you like. (In addition, a brief report on your experiment, including a short discussion of how your result agrees or disagrees with what is presented in the above articles, is required.)"
+  },
+  {
+    "objectID": "weeks/week-08.html",
+    "href": "weeks/week-08.html",
+    "title": "Week 08",
+    "section": "",
+    "text": "Topic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nConditional Normalizing Flows I\n\n\nNeural Density Estimation\n\n\nMon, Mar 04\n\n\n\n\nConditional Normalizing Flows II\n\n\nNeural Density Estimation\n\n\nWed, Mar 06\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "weeks/week-08.html#remote-classes",
+    "href": "weeks/week-08.html#remote-classes",
+    "title": "Week 08",
+    "section": "Remote classes",
+    "text": "Remote classes\n\nLecture on Teams Monday March 4 5:00—6:15 PM Recording\nLecture on Teams Wednesday March 6 5:00—6:15 PM"
+  },
+  {
+    "objectID": "weeks/week-01.html",
+    "href": "weeks/week-01.html",
+    "title": "Week 01",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nWelcome to Seismic Monitoring CO2 Storage\n\n\nIntroduction\n\n\nMon, Jan 13\n\n\n\n\nLecture 2 — Geological Storage\n\n\nSurface Tension, Capillary effects, Permeability”\n\n\nWed, Jan 15\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nReadings\n\n\n\nCourse Syllabus\n\n\nFrom (Ringrose 2020) read Chapter 1 and Chapter 2 until section 2.3, which was discussed during Lecture 1.\n\n\nIn preparation of Lecture 2, read pages 17-29 from Chapter 2 of Gueguen(Guéguen and Palciauskas 1994) (for more background see also Chapter 1).\n\n\nAlso read sections 2.3.1 and 2.3.2 of the main text by (Ringrose 2020).\n\n\n\n\n\n\n\n\n\nReferences\n\nGuéguen, Yves, and Victor Palciauskas. 1994. Introduction to the Physics of Rocks. Princeton University Press.\n\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "weeks/week-02.html",
+    "href": "weeks/week-02.html",
+    "title": "Week 02",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 2 — Geological Storage\n\n\nCapillary effects, Relative Permeability, Dissolution\n\n\nWed, Jan 22\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nReadings\n\n\n\nRingrose(Ringrose 2020) book section 2.3.1 until 2.4\n\n\nPages 30-39 from Chapter 2 of Gueguen(Guéguen and Palciauskas 1994).\n\n\nPages 118-122 (top) from Chapter 5 of Gueguen(Guéguen and Palciauskas 1994).\n\n\n\n\n\n\n\n\n\nReferences\n\nGuéguen, Yves, and Victor Palciauskas. 1994. Introduction to the Physics of Rocks. Princeton University Press.\n\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "weeks/week-05.html",
+    "href": "weeks/week-05.html",
+    "title": "Week 05",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 9 — Geomechanics & Pressure\n\n\nHandling pressure and well design\n\n\nWed, Feb 12\n\n\n\n\nLecture 8 — Injectivity & Geomechanics\n\n\ninjectivity & fracture pressure \n\n\nMon, Feb 10\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nLab\n\n\nIntro Reservoir Simulations\n\n\nFri, Feb 14\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nSections 2.6 and 2.7 of the main text by (Ringrose 2020)\n\n\nJutulDarcy.jl - a fully differentiable high-performance reservoir simulator based on automatic differentiation until section 2.1\n\n\n\n\n\n\n\n\n\nReferences\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "labs/04-week.html",
+    "href": "labs/04-week.html",
+    "title": "Intro Reservoir Simulations",
+    "section": "",
+    "text": "Notebook is shown top right. Download and rerun it and answer questions.\n\n\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "labs/04-week/CCS8803_HW2.html",
+    "href": "labs/04-week/CCS8803_HW2.html",
+    "title": "Questions",
+    "section": "",
+    "text": "# The packages necessary for running the code below\nusing PyPlot, LinearAlgebra, JLD2, Polynomials, JutulDarcyRules\n\n\n# For the first time, run this cell twice to download data and then load the data\nif ~isfile(\"BGCompass_tti.jld2\")\n    run(`wget -q -O BGCompass_tti.jld2 \"https://www.dropbox.com/scl/fi/gs0eh2ldv9til0r7cg27n/BGCompass_tti.jld2?rlkey=bs2sil1ljiztl5bytlqghcm82&st=s5dnrjoh&dl=1\"`)\nelse\n    JLD2.@load \"BGCompass_tti.jld2\" m d\nend\n\n2-element Vector{Symbol}:\n :m\n :d\n\n\n\n# Some necessary type conversions and defining size of velocity\nv = Float64.(sqrt.(1f0./m));\nd = Float64.(d);\nn = size(v)\n\n(325, 171)\n\n\n\n# A basic function to find water bottom layer index values (You do not need to modify this)\nfunction find_water_bottom(m::AbstractArray{avDT,2};eps = 1e-4) where {avDT}\n    # return the indices of the water bottom of a seismic image\n    n = size(m)\n    idx = zeros(Integer, n[1])\n    for j=1:n[1]\n        k=1\n        while true\n            if abs(m[j,k]) &gt; eps\n                idx[j] = k\n                break\n            end\n            k += 1\n        end\n    end\n    return idx\nend\n\n# Changing velocity model to permeability\nfunction VtoK(v::Matrix{T}, d::Tuple{T, T}; α::T=T(10)) where T\n\n    n = size(v)\n    idx_wb = find_water_bottom(v.-minimum(v))\n    idx_ucfmt = find_water_bottom((v.-T(3.5)).*(v.&gt;T(3.5)))\n    Kh = zeros(T, n)\n    capgrid = Int(round(T(50)/d[2]))\n    for i = 1:n[1]\n        Kh[i,1:idx_wb[i]-1] .= T(1e-10)  # water layer\n        Kh[i,idx_wb[i]:idx_ucfmt[i]-capgrid-1] .= α*exp.(v[i,idx_wb[i]:idx_ucfmt[i]-capgrid-1])\n        Kh[i,idx_ucfmt[i]-capgrid:idx_ucfmt[i]-1] .= T(1e-3)\n        Kh[i,idx_ucfmt[i]:end] .= α*exp.(v[i,idx_ucfmt[i]:end]) .- T(320)\n    end\n    return Kh\nend\nKh = VtoK(v, d);\n\n# This part is used to create priority (You do not need to modify this)\nidx_wb = find_water_bottom(v.-minimum(v));\nidx_ucfmt = find_water_bottom((v.-3.5).*(v.&gt;3.5))\nphi = zeros(Float64,n)\nfor i = 1:n[1]\n    for j = 1:n[2]\n        p = Polynomial([-0.0314^2*Kh[i,j],2*0.0314^2*Kh[i,j],-0.0314^2*Kh[i,j],1.527^2]) \n        phi[i,j] = minimum(real(roots(p)[findall(real(roots(p)).== roots(p))]))\n    end\n    for j = idx_ucfmt[i]:idx_ucfmt[i]+8\n        phi[i,idx_ucfmt[i]:idx_ucfmt[i]+8] = Float64.(range(0.056,stop=0.1,length=9))\n    end\nend\n\n\n# We will use a subset of permeability model to make simulation faster .\nKh = Kh[151:240, :]\nK = Float64.(Kh * JutulDarcyRules.md);\nn = (size(K,1), 1, size(K,2))\nd = (d[1], 50.0, d[2])\nphi = phi[151:240, :]\nphi_m = convert(Array{Float64,1},vec(phi));\nϕ = phi\n\n# We set boundary values of porosity to 1e8. This will prevent over pressurization.\nϕ[1,:] .= 1e8\nϕ[:,1] .= 1e8\nϕ[end,:] .= 1e8\nϕ[:,end] .= 1e8\nϕ = convert(Array{Float64,1},vec(ϕ));\n\n\n# Plot permeability map \nimshow(Kh', extent = [0, size(Kh,1) *d[1], size(Kh,2) *d[3], 0]); colorbar(); xlabel(\"Width [m]\"); ylabel(\"Depth [m]\"); title(\"Permeability in Darcy\")\n\n\n\n\n\n\n\n\nPyObject Text(0.5, 1.0, 'Permeability in Darcy')\n\n\n\n# Create the model\nmodel = jutulModel(n, d, ϕ, K1to3(K))\n\njutulModel{3, Float64}((90, 1, 171), (12.5, 50.0, 12.5), [1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8  …  1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8, 1.0e8], [9.86923266716013e-26 9.86923266716013e-26 … 2.436621876880626e-13 2.351440606894287e-13; 9.86923266716013e-26 9.86923266716013e-26 … 2.436621876880626e-13 2.351440606894287e-13; 9.86923266716013e-26 9.86923266716013e-26 … 2.436621876880626e-13 2.351440606894287e-13], 0.0)\n\n\n\n# simulation time steppings (30 days between 2 time samples)\ntstep = 30 * ones(100) # This corresponds to 3000 days. 30 is dt and 100 is number of time steps. Keep dt small for stability of solution\ntot_time = sum(tstep)\n\n## injection & production (source & sink) location\ninj_loc = (5, 1, n[end]-10) .* d\nprod_loc = (n[1]-3, 1, n[end]-10) .* d\n\n# injectivity is in m^3 per sec\nirate = 5e-2\nq = jutulForce(irate, [inj_loc, prod_loc])\n\n## set up modeling operator\nS = jutulModeling(model, tstep)\n\n## simulation\nmesh = CartesianMesh(model)\nT(x) = log.(KtoTrans(mesh, K1to3(exp.(x))))\nlogK = log.(K)\n@time state = S(T(logK), q; info_level=1)\n\nJutul: Simulating 428 weeks, 4 days as 100 report steps\nStep   1/100: Solving start to 4 weeks, 2 days, Δt = 4 weeks, 2 days \nStep   2/100: Solving 4 weeks, 2 days to 8 weeks, 4 days, Δt = 4 weeks, 2 days \nStep   3/100: Solving 8 weeks, 4 days to 12 weeks, 6 days, Δt = 4 weeks, 2 days \nStep   4/100: Solving 12 weeks, 6 days to 17 weeks, 1 day, Δt = 4 weeks, 2 days \nStep   5/100: Solving 17 weeks, 1 day to 21 weeks, 3 days, Δt = 4 weeks, 2 days \nStep   6/100: Solving 21 weeks, 3 days to 25 weeks, 5 days, Δt = 4 weeks, 2 days \nStep   7/100: Solving 25 weeks, 5 days to 30 weeks, Δt = 4 weeks, 2 days \nStep   8/100: Solving 30 weeks to 34 weeks, 2 days, Δt = 4 weeks, 2 days \nStep   9/100: Solving 34 weeks, 2 days to 38 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  10/100: Solving 38 weeks, 4 days to 42 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  11/100: Solving 42 weeks, 6 days to 47 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  12/100: Solving 47 weeks, 1 day to 51 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  13/100: Solving 51 weeks, 3 days to 55 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  14/100: Solving 55 weeks, 5 days to 60 weeks, Δt = 4 weeks, 2 days \nStep  15/100: Solving 60 weeks to 64 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  16/100: Solving 64 weeks, 2 days to 68 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  17/100: Solving 68 weeks, 4 days to 72 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  18/100: Solving 72 weeks, 6 days to 77 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  19/100: Solving 77 weeks, 1 day to 81 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  20/100: Solving 81 weeks, 3 days to 85 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  21/100: Solving 85 weeks, 5 days to 90 weeks, Δt = 4 weeks, 2 days \nStep  22/100: Solving 90 weeks to 94 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  23/100: Solving 94 weeks, 2 days to 98 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  24/100: Solving 98 weeks, 4 days to 102 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  25/100: Solving 102 weeks, 6 days to 107 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  26/100: Solving 107 weeks, 1 day to 111 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  27/100: Solving 111 weeks, 3 days to 115 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  28/100: Solving 115 weeks, 5 days to 120 weeks, Δt = 4 weeks, 2 days \nStep  29/100: Solving 120 weeks to 124 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  30/100: Solving 124 weeks, 2 days to 128 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  31/100: Solving 128 weeks, 4 days to 132 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  32/100: Solving 132 weeks, 6 days to 137 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  33/100: Solving 137 weeks, 1 day to 141 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  34/100: Solving 141 weeks, 3 days to 145 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  35/100: Solving 145 weeks, 5 days to 150 weeks, Δt = 4 weeks, 2 days \nStep  36/100: Solving 150 weeks to 154 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  37/100: Solving 154 weeks, 2 days to 158 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  38/100: Solving 158 weeks, 4 days to 162 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  39/100: Solving 162 weeks, 6 days to 167 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  40/100: Solving 167 weeks, 1 day to 171 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  41/100: Solving 171 weeks, 3 days to 175 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  42/100: Solving 175 weeks, 5 days to 180 weeks, Δt = 4 weeks, 2 days \nStep  43/100: Solving 180 weeks to 184 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  44/100: Solving 184 weeks, 2 days to 188 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  45/100: Solving 188 weeks, 4 days to 192 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  46/100: Solving 192 weeks, 6 days to 197 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  47/100: Solving 197 weeks, 1 day to 201 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  48/100: Solving 201 weeks, 3 days to 205 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  49/100: Solving 205 weeks, 5 days to 210 weeks, Δt = 4 weeks, 2 days \nStep  50/100: Solving 210 weeks to 214 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  51/100: Solving 214 weeks, 2 days to 218 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  52/100: Solving 218 weeks, 4 days to 222 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  53/100: Solving 222 weeks, 6 days to 227 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  54/100: Solving 227 weeks, 1 day to 231 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  55/100: Solving 231 weeks, 3 days to 235 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  56/100: Solving 235 weeks, 5 days to 240 weeks, Δt = 4 weeks, 2 days \nStep  57/100: Solving 240 weeks to 244 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  58/100: Solving 244 weeks, 2 days to 248 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  59/100: Solving 248 weeks, 4 days to 252 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  60/100: Solving 252 weeks, 6 days to 257 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  61/100: Solving 257 weeks, 1 day to 261 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  62/100: Solving 261 weeks, 3 days to 265 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  63/100: Solving 265 weeks, 5 days to 270 weeks, Δt = 4 weeks, 2 days \nStep  64/100: Solving 270 weeks to 274 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  65/100: Solving 274 weeks, 2 days to 278 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  66/100: Solving 278 weeks, 4 days to 282 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  67/100: Solving 282 weeks, 6 days to 287 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  68/100: Solving 287 weeks, 1 day to 291 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  69/100: Solving 291 weeks, 3 days to 295 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  70/100: Solving 295 weeks, 5 days to 300 weeks, Δt = 4 weeks, 2 days \nStep  71/100: Solving 300 weeks to 304 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  72/100: Solving 304 weeks, 2 days to 308 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  73/100: Solving 308 weeks, 4 days to 312 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  74/100: Solving 312 weeks, 6 days to 317 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  75/100: Solving 317 weeks, 1 day to 321 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  76/100: Solving 321 weeks, 3 days to 325 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  77/100: Solving 325 weeks, 5 days to 330 weeks, Δt = 4 weeks, 2 days \nStep  78/100: Solving 330 weeks to 334 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  79/100: Solving 334 weeks, 2 days to 338 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  80/100: Solving 338 weeks, 4 days to 342 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  81/100: Solving 342 weeks, 6 days to 347 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  82/100: Solving 347 weeks, 1 day to 351 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  83/100: Solving 351 weeks, 3 days to 355 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  84/100: Solving 355 weeks, 5 days to 360 weeks, Δt = 4 weeks, 2 days \nStep  85/100: Solving 360 weeks to 364 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  86/100: Solving 364 weeks, 2 days to 368 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  87/100: Solving 368 weeks, 4 days to 372 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  88/100: Solving 372 weeks, 6 days to 377 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  89/100: Solving 377 weeks, 1 day to 381 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  90/100: Solving 381 weeks, 3 days to 385 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  91/100: Solving 385 weeks, 5 days to 390 weeks, Δt = 4 weeks, 2 days \nStep  92/100: Solving 390 weeks to 394 weeks, 2 days, Δt = 4 weeks, 2 days \nStep  93/100: Solving 394 weeks, 2 days to 398 weeks, 4 days, Δt = 4 weeks, 2 days \nStep  94/100: Solving 398 weeks, 4 days to 402 weeks, 6 days, Δt = 4 weeks, 2 days \nStep  95/100: Solving 402 weeks, 6 days to 407 weeks, 1 day, Δt = 4 weeks, 2 days \nStep  96/100: Solving 407 weeks, 1 day to 411 weeks, 3 days, Δt = 4 weeks, 2 days \nStep  97/100: Solving 411 weeks, 3 days to 415 weeks, 5 days, Δt = 4 weeks, 2 days \nStep  98/100: Solving 415 weeks, 5 days to 420 weeks, Δt = 4 weeks, 2 days \nStep  99/100: Solving 420 weeks to 424 weeks, 2 days, Δt = 4 weeks, 2 days \nStep 100/100: Solving 424 weeks, 2 days to 428 weeks, 4 days, Δt = 4 weeks, 2 days \nSimulation complete: Completed 100 timesteps in 5 minutes, 28 seconds, 391 milliseconds and 467 iterations.\n╭────────────────┬───────────┬───────────────┬──────────┬──────────╮\n│ Iteration type │  Avg/step │  Avg/ministep │ Time per │    Total │\n│                │ 100 steps │ 112 ministeps │       ms │ (wasted) │\n├────────────────┼───────────┼───────────────┼──────────┼──────────┤\n│ Newton         │      4.67 │       4.16964 │ 703.1921 │  467 (0) │\n│ Linearization  │      5.79 │       5.16964 │ 567.1688 │  579 (0) │\n│ Linear solver  │     12.37 │       11.0446 │ 265.4735 │ 1237 (0) │\n╰────────────────┴───────────┴───────────────┴──────────┴──────────╯\n╭────────────────┬──────────┬────────────┬──────────╮\n│ Timing type    │     Each │   Relative │    Total │\n│                │       ms │ Percentage │        s │\n├────────────────┼──────────┼────────────┼──────────┤\n│ Properties     │   7.6169 │     1.08 % │   3.5571 │\n│ Equations      │  94.8596 │    16.73 % │  54.9237 │\n│ Assembly       │  48.4451 │     8.54 % │  28.0497 │\n│ Linear solve   │ 276.8640 │    39.37 % │ 129.2955 │\n│ Preconditioner │ 137.7440 │    19.59 % │  64.3265 │\n│ Update         │  39.5927 │     5.63 % │  18.4898 │\n│ Convergence    │  19.0519 │     3.36 % │  11.0310 │\n│ Input/Output   │   4.0826 │     0.14 % │   0.4572 │\n│ Other          │  39.1010 │     5.56 % │  18.2602 │\n├────────────────┼──────────┼────────────┼──────────┤\n│ Total          │ 703.1921 │   100.00 % │ 328.3907 │\n╰────────────────┴──────────┴────────────┴──────────╯\n752.044001 seconds (217.33 M allocations: 14.673 GiB, 0.97% gc time, 80.64% compilation time: 4% of which was recompilation)\n\n\n3078000-element jutulStates{Float64}:\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n 0.0\n ⋮\n 2.1359426506710764e7\n 2.1358564024889007e7\n 2.135696962880001e7\n 2.135525710614737e7\n 2.135422023336592e7\n 2.135430011237757e7\n 2.135544957914724e7\n 2.135648684846326e7\n 2.1359060922351018e7\n 2.1362910749874525e7\n 2.1367560687066786e7\n 2.137222020299839e7\n\n\n\n# CO2 saturation snapshots\nfigure(figsize=(20,12));\nobs=Int.(round.(range(1, stop=100, length=9))); # 9 observed time samples\nfor i = 1:9\n    subplot(3,3,i)\n    imshow(reshape(Saturations(state.states[obs[i]]), n[1], n[end])', extent=(0,(n[1]-1)*d[1],(n[3]-1)*d[3],0); vmin=0, vmax=maximum(Saturations(state.states[end])))\n    xlabel(\"X [m]\");ylabel(\"Depth [m]\");\n    colorbar()\nend\nsuptitle(\"CO2 saturation snapshots at approx 333 days interval \")\n\n\n\n\n\n\n\n\nPyObject Text(0.5, 0.98, 'CO2 saturation snapshots at approx 333 days interval ')\n\n\n\nfig=figure(figsize=(20,12));\n#Plot Saturation at the end\nsubplot(1,2,1);\nimshow(reshape(Saturations(state.states[end]), n[1], n[end])', extent=(0,(n[1]-1)*d[1],(n[3]-1)*d[3],0); vmin=0, vmax=maximum(Saturations(state.states[end]))); colorbar(); title(\"Saturation After 3k days\")\nxlabel(\"X [km]\");ylabel(\"Depth [km]\");\nscatter(inj_loc[1],inj_loc[3])\nscatter(prod_loc[1],inj_loc[3])\nlegend([\"Injection loc\",\"Production loc\"])\n\n#Plot Pressure at the end\nsubplot(1,2,2);\nimshow(reshape(Pressure(state.states[end]), n[1], n[end])', extent=(0,(n[1]-1)*d[1],(n[3]-1)*d[3],0); vmin=0, vmax=maximum(Pressure(state.states[end]))); colorbar(); title(\"Pressure After 3k days\")\nxlabel(\"X [km]\");ylabel(\"Depth [km]\");\nscatter(inj_loc[1],inj_loc[3])\nscatter(prod_loc[1],inj_loc[3])\nlegend([\"Injection loc\",\"Production loc\"])\n\n\n\n\n\n\n\n\nPyObject &lt;matplotlib.legend.Legend object at 0x2aac4123e9c0&gt;\n\n\n\nmaximum(Saturations(state.states[end]))\n\n0.8984886621298521\n\n\n\n# Save saturation and pressure data in JLD2 format\nJLD2.@save \"example_sat_press.jld2\" state\n\nQ1) What do you see in the time-varying CO2 saturation snapshots? How do you interpret the movement of CO2? What role does production well playing here? (20 marks)\nQ2) What role does production well playing here? (20 marks)\nQ2) The above experiment is for 3k days. Re-run the experiment for different times such as 1k, 2k, 4k, and 5k days. Show saturation and pressure maps for these days. Show total 8 images. (40 marks)\nQ3) (a) Calculate the amount of CO2 in the reservoir after 300 days of injection. (10 marks)\nQ3) (b) Calculate the amount of CO2 in the reservoir at the end of injection. (10 marks)\n(Hint: sum(state.states[write array index].Saturations.phi_m)prod(model.d))\nQ4) Play with the seal region of permeability map to create a fault (very high permeability 500 mD say) in small region of seal. Re-run the experiment to see if CO2 leaks out from the seal. Showing saturation map is enough here. (Bonus 10 point)\n\n\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "weeks/week-04.html",
+    "href": "weeks/week-04.html",
+    "title": "Week 04",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 6 — Reservoir Simulations\n\n\nGoverning Equations Simulations Examples\n\n\nMon, Feb 03\n\n\n\n\nLecture 7 — Reservoir Simulations II\n\n\nGoverning Equations Simulations Examples Injectivity\n\n\nWed, Feb 05\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nExercise\n\n\nIn-class exercise\n\n\nMon, Feb 03\n\n\n\n\nLab\n\n\nIntro Reservoir Simulations\n\n\nFri, Feb 14\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nSections 2.4 from equation 2.13 on page 38 of the main text by (Ringrose 2020) until section 2.5\n\n\nSection 2.5.2 and 2.5.4 of the main text by (Ringrose 2020)\n\n\nSections 2.6 and 2.7 of the main text by (Ringrose 2020)\n\n\nJutulDarcy.jl - a fully differentiable high-performance reservoir simulator based on automatic differentiation until section 2.1\n\n\n\n\n\n\n\n\n\nReferences\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "weeks/week-06.html",
+    "href": "weeks/week-06.html",
+    "title": "Week 06",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nChapter 9 — A toolbox for digital twins section 9.4.1—9.4.7\n\n\n\n\n\n\n\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "weeks/week-03.html",
+    "href": "weeks/week-03.html",
+    "title": "Week 03",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nLecture 4 — Calculating Storage Capacity\n\n\nEstimation, Theoretical Capacity, Storage Capacity Exponent\n\n\nMon, Jan 27\n\n\n\n\nLecture 5 — Estimating Storage Capacity\n\n\nStorage Efficiency, Sleipner\n\n\nWed, Jan 29\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nExercise\n\n\nIn-class exercise\n\n\nMon, Jan 27\n\n\n\n\nExercise\n\n\nHomework\n\n\nMon, Feb 03\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nSections 2.4 until equation 2.13 on page 38 of the main text by (Ringrose 2020)\n\n\nPage 7—11 (until Geological controls) (Ringrose 2023)\n\n\nSections 2.4 from equation 2.5 on (Ringrose 2020)\n\n\nPage 23—30 (Ringrose 2023)\n\n\n\n\n\n\n\n\n\nReferences\n\nRingrose, Philip. 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. Springer. https://link.springer.com/book/10.1007/978-3-030-33113-9.\n\n\n———. 2023. Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring. Society of Exploration Geophysicists.\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "weeks/week-07.html",
+    "href": "weeks/week-07.html",
+    "title": "Week 07",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nSimulation-based Inference\n\n\nUncertainty Quantification\n\n\nThu, Feb 22\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nChapter 16 — Understanding Deep Learning\n\n\n\n\n\n\n\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "weeks/week-09.html",
+    "href": "weeks/week-09.html",
+    "title": "Week 09",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\nTopic\n\n\nSubtitle\n\n\nDate\n\n\n\n\n\n\nDeep Learning\n\n\nDiffusion models\n\n\nMon, Mar 11\n\n\n\n\nAn Uncertainty-Aware Digital Twin for Geological Carbon Storage\n\n\nDigital Twin\n\n\nMon, Mar 04\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\n\n\n\n\n\nChapter 17-18 — Understanding Deep Learning\n\n\n\n\n\n\n\n\nReuseCC BY 4.0"
+  },
+  {
+    "objectID": "hw/w3-hw01.html",
+    "href": "hw/w3-hw01.html",
+    "title": "In-class exercise",
+    "section": "",
+    "text": "In the lectures, we learned that the thickness of a gas or oil column can be retained by\n\\(z_g =  \\frac{2 \\gamma \\cos\\theta (1/r_{cap}-1/r_{res})}{g (\\rho_w-\\rho_g)}\\)\nPlease estimate the range of \\(z_g\\) for a CO\\(_2\\) reservoir. Free feel to search for some values in this formula and you can also follow some of the references below\nhttps://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-8123.2007.00168.x\nhttps://link.springer.com/content/pdf/10.1007/s13202-021-01298-9.pdf\nhttps://www.sciencedirect.com/science/article/pii/S0927775721009870?via%3Dihub"
+  },
+  {
+    "objectID": "hw/w3-hw01.html#question-1",
+    "href": "hw/w3-hw01.html#question-1",
+    "title": "In-class exercise",
+    "section": "",
+    "text": "In the lectures, we learned that the thickness of a gas or oil column can be retained by\n\\(z_g =  \\frac{2 \\gamma \\cos\\theta (1/r_{cap}-1/r_{res})}{g (\\rho_w-\\rho_g)}\\)\nPlease estimate the range of \\(z_g\\) for a CO\\(_2\\) reservoir. Free feel to search for some values in this formula and you can also follow some of the references below\nhttps://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-8123.2007.00168.x\nhttps://link.springer.com/content/pdf/10.1007/s13202-021-01298-9.pdf\nhttps://www.sciencedirect.com/science/article/pii/S0927775721009870?via%3Dihub"
+  },
+  {
+    "objectID": "seminar.html",
+    "href": "seminar.html",
+    "title": "Seminar",
+    "section": "",
+    "text": "There are 9 time slots until the end the term. So, please prepare a 30 minute lecture on a paper of interest. This contents of the paper should be aligned with the general topics areas of this course. We encourage you to also choose a topic in the general area of your PhD research. When in doubt please reach out.\n\n\nHere is a list of papers that may be of interest when presenting your seminar. Please check the papers cited in these papers\n\nA comprehensive review of digital twin—part 1: modeling and twinning enabling technologies by Thelen et. al.\nA comprehensive review of digital twin—part 2: roles of uncertainty quantification and optimization, a battery digital twin, and perspectives by Thelen et. al. \nDigital Twins for Materials by Kalidindi et. al.\nA Probabilistic Graphical Model Foundation for Enabling Predictive Digital Twins at Scale by Kapteyn et. al.\nNational Academies of Sciences, Engineering, and Medicine. 2023. Foundational Research Gaps and Future Directions for Digital Twins. Washington, DC: The National Academies Press.\nTorzoni, M., Tezzele, M., Mariani, S., Manzoni, A. and Willcox K. A digital twin framework for civil engineering structures. To appear, Computer Methods in Applied Mechanics and Engineering, 2023.\nKapteyn, M. and Willcox, K., Design of digital twin sensing strategies via predictive modeling and interpretable machine learning. Journal of Mechanical Design, June 2022. https://doi.org/10.1115/1.4054907\nNiederer, S., Sacks, M., Girolami, M. and Willcox, K., Scaling digital twins from the artisanal to the industrial. Nature Computational Science, Vol. 1, No. 5, May 2021, pp. 313-320."
+  },
+  {
+    "objectID": "seminar.html#list-of-papers",
+    "href": "seminar.html#list-of-papers",
+    "title": "Seminar",
+    "section": "",
+    "text": "Here is a list of papers that may be of interest when presenting your seminar. Please check the papers cited in these papers\n\nA comprehensive review of digital twin—part 1: modeling and twinning enabling technologies by Thelen et. al.\nA comprehensive review of digital twin—part 2: roles of uncertainty quantification and optimization, a battery digital twin, and perspectives by Thelen et. al. \nDigital Twins for Materials by Kalidindi et. al.\nA Probabilistic Graphical Model Foundation for Enabling Predictive Digital Twins at Scale by Kapteyn et. al.\nNational Academies of Sciences, Engineering, and Medicine. 2023. Foundational Research Gaps and Future Directions for Digital Twins. Washington, DC: The National Academies Press.\nTorzoni, M., Tezzele, M., Mariani, S., Manzoni, A. and Willcox K. A digital twin framework for civil engineering structures. To appear, Computer Methods in Applied Mechanics and Engineering, 2023.\nKapteyn, M. and Willcox, K., Design of digital twin sensing strategies via predictive modeling and interpretable machine learning. Journal of Mechanical Design, June 2022. https://doi.org/10.1115/1.4054907\nNiederer, S., Sacks, M., Girolami, M. and Willcox, K., Scaling digital twins from the artisanal to the industrial. Nature Computational Science, Vol. 1, No. 5, May 2021, pp. 313-320."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seismic Monitoring CO2 Storage",
+    "section": "",
+    "text": "Carbon Capture and Storage (CCS) is widely considered as a key scalable net-negative CO2 emission technology to help combat climate change. The course covers the Basics of Geological Carbon Storage, its Design & Scale Up, and its Seismic Monitoring. Aside from reviewing the geophysical challenges and computational aspects of monitoring Geological Carbon Storage, the course also addresses societal impact of this technology. Its (perceived) risk will be discussed by weighting the risk of doing something, by injecting CO2 underground, against doing nothing.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Seismic Monitoring CO2 Storage",
+    "section": "",
+    "text": "Carbon Capture and Storage (CCS) is widely considered as a key scalable net-negative CO2 emission technology to help combat climate change. The course covers the Basics of Geological Carbon Storage, its Design & Scale Up, and its Seismic Monitoring. Aside from reviewing the geophysical challenges and computational aspects of monitoring Geological Carbon Storage, the course also addresses societal impact of this technology. Its (perceived) risk will be discussed by weighting the risk of doing something, by injecting CO2 underground, against doing nothing.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#class-meetings",
+    "href": "index.html#class-meetings",
+    "title": "Seismic Monitoring CO2 Storage",
+    "section": "Class meetings",
+    "text": "Class meetings\n\n\n\n\n\n\n\n\nMeeting\nLocation\nTime\n\n\n\n\nLecture\nFord Environmental Sci & Tech, L1116\nMon & Wed 3:30 - 4:45PM",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#teaching-team",
+    "href": "index.html#teaching-team",
+    "title": "Seismic Monitoring CO2 Storage",
+    "section": "Teaching team",
+    "text": "Teaching team\n\n\n\nName\nOffice hours\nLocation\n\n\n\n\nFelix J. Herrmann (Instructor)\nTBD\nZoom\n\n\nHaoyun (Jason) Li (TA)\nTBD\nZoom",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#access-to-piazza",
+    "href": "index.html#access-to-piazza",
+    "title": "Seismic Monitoring CO2 Storage",
+    "section": "Access to Piazza",
+    "text": "Access to Piazza\nStudents are encouraged to post their questions on Piazza, which will be monitored by Haoyun (Jason) Li.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "slides/week-08/11.html",
+    "href": "slides/week-08/11.html",
     "title": "Seismic Monitoring CO~2~ Storage",
     "section": "",
     "text": "ReuseCC BY 4.0"
   },
   {
+    "objectID": "slides/week-01/02-geological-storage-a.html#section",
+    "href": "slides/week-01/02-geological-storage-a.html#section",
+    "title": "Lecture 2 — Geological Storage",
+    "section": "",
+    "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#credits",
+    "href": "slides/week-09/09b-DL-generative.html#credits",
+    "title": "Deep Learning",
+    "section": "Credits",
+    "text": "Credits\nSlides are adapted from lectures developed by Gilles Louppe at University of Liege, Belgium under the BSD 3-Clause License\n\nlectures 10, 11, and 12 of INFO8010 - Deep Learning\nand of lecture materials of SSI 2023"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#generative-models",
+    "href": "slides/week-09/09b-DL-generative.html#generative-models",
+    "title": "Deep Learning",
+    "section": "Generative models",
+    "text": "Generative models\nA (deep) generative model is a probabilistic model \\(p_\\theta\\) that can be used as a simulator of the data.\nFormally, a generative model defines a probability distribution \\(p_\\theta(\\mathbf{x})\\) over the data \\(\\mathbf{x} \\in \\mathcal{X}\\), parameterized by \\(\\theta\\)."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section",
+    "href": "slides/week-09/09b-DL-generative.html#section",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Credits: Karsten et al, 2022; Siddharth Mishra-Sharma, 2023."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-1",
+    "href": "slides/week-09/09b-DL-generative.html#section-1",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Disentangled latent space: Manipulating each dimension of \\(z\\) should correspond to changing an interpretable property of the data. For example, in a model of language, it might change the topic, tense, or verbosity.\nEfficient likelihood computation: If the model is probabilistic, we would like to be able to calculate the probability of new examples"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#latent-variable-model",
+    "href": "slides/week-09/09b-DL-generative.html#latent-variable-model",
+    "title": "Deep Learning",
+    "section": "Latent variable model",
+    "text": "Latent variable model\n\n\n\n\n\n\n\nConsider for now a prescribed latent variable model that relates a set of observable variables \\(\\mathbf{x} \\in \\mathcal{X}\\) to a set of unobserved variables \\(\\mathbf{z} \\in \\mathcal{Z}\\).\nThe probabilistic model defines a joint probability distribution \\(p_\\theta(\\mathbf{x}, \\mathbf{z})\\), which decomposes as \\[p_\\theta(\\mathbf{x}, \\mathbf{z}) = p_\\theta(\\mathbf{x}|\\mathbf{z}) p(\\mathbf{z}).\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-2",
+    "href": "slides/week-09/09b-DL-generative.html#section-2",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Video\n\n\nIf we interpret \\(\\mathbf{z}\\) as causal factors for the high-dimension representations \\(\\mathbf{x}\\), then sampling from \\(p_\\theta(\\mathbf{x}|\\mathbf{z})\\) can be interpreted as a stochastic generating process from \\(\\mathcal{Z}\\) to \\(\\mathcal{X}\\)."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#hot-to-fit",
+    "href": "slides/week-09/09b-DL-generative.html#hot-to-fit",
+    "title": "Deep Learning",
+    "section": "Hot to fit?",
+    "text": "Hot to fit?\n\\[\\begin{aligned}\n\\theta^{*} &= \\arg \\max_\\theta p_\\theta(\\mathbf{x}) \\\\\\\\\n&= \\arg \\max_\\theta \\int p_\\theta(\\mathbf{x}|\\mathbf{z}) p(\\mathbf{z}) d\\mathbf{z}\\\\\\\\\n&= \\arg \\max_\\theta \\mathbb{E}_{p(\\mathbf{z})}\\left[ p_\\theta(\\mathbf{x}|\\mathbf{z}) \\right] d\\mathbf{z}\\\\\\\\\n&\\approx \\arg \\max_\\theta \\frac{1}{N} \\sum_{i=1}^N p_\\theta(\\mathbf{x}|\\mathbf{z}_i)\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nThe curse of dimensionality will lead to poor estimates of the expectation."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-4",
+    "href": "slides/week-09/09b-DL-generative.html#section-4",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "We will directly learn a stochastic generating process \\(p_\\theta(\\mathbf{x}|\\mathbf{z})\\) with a neural network.\nWe will also amortize the inference process by learning a second neural network \\(q_\\phi(\\mathbf{z}|\\mathbf{x})\\) approximating the posterior, conditionally on the observed data \\(\\mathbf{x}\\)."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-5",
+    "href": "slides/week-09/09b-DL-generative.html#section-5",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "A variational auto-encoder is a deep latent variable model where:\n\nThe prior \\(p(\\mathbf{z})\\) is prescribed, and usually chosen to be Gaussian.\nThe density \\(p_\\theta(\\mathbf{x}|\\mathbf{z})\\) is parameterized with a generative network \\(\\text{NN}_\\theta\\) (or decoder) that takes as input \\(\\mathbf{z}\\) and outputs parameters to the data distribution. E.g., \\[\\begin{aligned}\n\\mu, \\sigma^2 &= \\text{NN}_\\theta(\\mathbf{z}) \\\\\\\\\np_\\theta(\\mathbf{x}|\\mathbf{z}) &= \\mathcal{N}(\\mathbf{x}; \\mu, \\sigma^2\\mathbf{I})\n\\end{aligned}\\]\nThe approximate posterior \\(q_\\phi(\\mathbf{z}|\\mathbf{x})\\) is parameterized with an inference network \\(\\text{NN}_\\phi\\) (or encoder) that takes as input \\(\\mathbf{x}\\) and outputs parameters to the approximate posterior. E.g., \\[\\begin{aligned}\n\\mu, \\sigma^2 &= \\text{NN}_\\phi(\\mathbf{x}) \\\\\\\\\nq_\\phi(\\mathbf{z}|\\mathbf{x}) &= \\mathcal{N}(\\mathbf{z}; \\mu, \\sigma^2\\mathbf{I})\n\\end{aligned}\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#variational-auto-encoders",
+    "href": "slides/week-09/09b-DL-generative.html#variational-auto-encoders",
+    "title": "Deep Learning",
+    "section": "Variational auto-encoders",
+    "text": "Variational auto-encoders"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-6",
+    "href": "slides/week-09/09b-DL-generative.html#section-6",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "We can use variational inference to jointly optimize the generative and the inference networks parameters \\(\\theta\\) and \\(\\phi\\):\n\\[\\begin{aligned}\n\\theta^{*}, \\phi^{*} &= \\arg \\max_{\\theta,\\phi} \\mathbb{E}_{p(\\mathbf{x})} \\left[ \\text{ELBO}(\\mathbf{x};\\theta,\\phi) \\right] \\\\\\\\\n&= \\arg \\max_{\\theta,\\phi} \\mathbb{E}_{p(\\mathbf{x})}\\left[ \\mathbb{E}_{q_\\phi(\\mathbf{z}|\\mathbf{x})} [ \\log \\frac{p_\\theta(\\mathbf{x}|\\mathbf{z}) p(\\mathbf{z})}{q_\\phi(\\mathbf{z}|\\mathbf{x})} ] \\right] \\\\\\\\\n&= \\arg \\max_{\\theta,\\phi} \\mathbb{E}_{p(\\mathbf{x})}\\left[ \\mathbb{E}_{q_\\phi(\\mathbf{z}|\\mathbf{x})}\\left[ \\log p_\\theta(\\mathbf{x}|\\mathbf{z})\\right] - \\text{KL}(q_\\phi(\\mathbf{z}|\\mathbf{x}) || p(\\mathbf{z})) \\right].\n\\end{aligned}\\]\n\nGiven some generative network \\(\\theta\\), we want to put the mass of the latent variables, by adjusting \\(\\phi\\), such that they explain the observed data, while remaining close to the prior.\nGiven some inference network \\(\\phi\\), we want to put the mass of the observed variables, by adjusting \\(\\theta\\), such that they are well explained by the latent variables."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#pseudo-code",
+    "href": "slides/week-09/09b-DL-generative.html#pseudo-code",
+    "title": "Deep Learning",
+    "section": "Pseudo code",
+    "text": "Pseudo code"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-7",
+    "href": "slides/week-09/09b-DL-generative.html#section-7",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Variational diffusion models are Markovian HVAEs with the following constraints:\n\nThe latent dimension is the same as the data dimension.\nThe encoder is fixed to linear Gaussian transitions \\(q(\\mathbf{x}_t | \\mathbf{x}_{t-1})\\).\nThe hyper-parameters are set such that \\(q(\\mathbf{x}_T | \\mathbf{x}_0)\\) is a standard Gaussian.\n\n\nCredits: Kreis et al, 2022."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#forward-diffusion-process",
+    "href": "slides/week-09/09b-DL-generative.html#forward-diffusion-process",
+    "title": "Deep Learning",
+    "section": "Forward diffusion process",
+    "text": "Forward diffusion process\n\nCredits: Kreis et al, 2022.With \\(\\epsilon \\sim \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\\), we have \\[\\begin{aligned}\n\\mathbf{x}_t &= \\sqrt{ {\\alpha}_t} \\mathbf{x}_{t-1} + \\sqrt{1-{\\alpha}_t} \\epsilon \\\\\\\\\nq(\\mathbf{x}_t | \\mathbf{x}_{t-1}) &= \\mathcal{N}(\\mathbf{x}_t ; \\sqrt{\\alpha_t} \\mathbf{x}_{t-1}, (1-\\alpha_t)\\mathbf{I}) \\\\\\\\\nq(\\mathbf{x}_{1:T} | \\mathbf{x}_{0}) &=  \\prod_{t=1}^T q(\\mathbf{x}_t | \\mathbf{x}_{t-1})\n\\end{aligned}\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-8",
+    "href": "slides/week-09/09b-DL-generative.html#section-8",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Credits: Simon J.D. Prince, 2023."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#diffusion-kernel",
+    "href": "slides/week-09/09b-DL-generative.html#diffusion-kernel",
+    "title": "Deep Learning",
+    "section": "Diffusion kernel",
+    "text": "Diffusion kernel\n\n\n\n\nCredits: Kreis et al, 2022.\n\n\n\nWith \\(\\bar{\\alpha}_t = \\prod_{i=1}^t \\alpha_i\\) and \\(\\epsilon \\sim \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\\), we have\n\\[\\begin{aligned}\n\\mathbf{x}_t &= \\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0} + \\sqrt{1-\\bar{\\alpha}_t} \\epsilon \\\\\\\\\nq(\\mathbf{x}_t | \\mathbf{x}_{0}) &= \\mathcal{N}(\\mathbf{x}_t ; \\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0}, (1-\\bar{\\alpha}_t)\\mathbf{I})\n\\end{aligned}\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-9",
+    "href": "slides/week-09/09b-DL-generative.html#section-9",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Credits: Simon J.D. Prince, 2023."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-10",
+    "href": "slides/week-09/09b-DL-generative.html#section-10",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Credits: Simon J.D. Prince, 2023."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#reverse-denoising-process",
+    "href": "slides/week-09/09b-DL-generative.html#reverse-denoising-process",
+    "title": "Deep Learning",
+    "section": "Reverse denoising process",
+    "text": "Reverse denoising process\n\n\n\n\nCredits: Kreis et al, 2022.\n\n\n\n\\[\\begin{aligned}\np(\\mathbf{x}_{0:T}) &= p(\\mathbf{x}_T) \\prod_{t=1}^T p_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t)\\\\\\\\\np(\\mathbf{x}_T) &= \\mathcal{N}(\\mathbf{x}_T; \\mathbf{0}, I) \\\\\\\\\np_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t) &= \\mathcal{N}(\\mathbf{x}_{t-1}; \\mu_\\theta(\\mathbf{x}_t, t), \\sigma^2_\\theta(\\mathbf{x}_t, t)\\mathbf{I}) \\\\\\\\\n\\mathbf{x}_{t-1} &= \\mu_\\theta(\\mathbf{x}_t, t) + \\sigma_\\theta(\\mathbf{x}_t, t) \\mathbf{z} \\quad\\text{with}\\quad \\mathbf{z} \\sim \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\n\\end{aligned}\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#markovian-hierarchical-vaes",
+    "href": "slides/week-09/09b-DL-generative.html#markovian-hierarchical-vaes",
+    "title": "Deep Learning",
+    "section": "Markovian Hierarchical VAEs",
+    "text": "Markovian Hierarchical VAEs"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#hvaes",
+    "href": "slides/week-09/09b-DL-generative.html#hvaes",
+    "title": "Deep Learning",
+    "section": "HVAES",
+    "text": "HVAES\nSimilarly to VAEs, training is done by maximizing the ELBO, using a variational distribution \\(q_\\phi(\\mathbf{z}_{1:T} | \\mathbf{x})\\) over all levels of latent variables: \\[\\begin{aligned}\n\\log p_\\theta(\\mathbf{x}) &\\geq \\mathbb{E}_{q_\\phi(\\mathbf{z}_{1:T} | \\mathbf{x})}\\left[ \\log \\frac{p(\\mathbf{x},\\mathbf{z}_{1:T})}{q_\\phi(\\mathbf{z}_{1:T}|\\mathbf{x})} \\right]\n\\end{aligned}\\]\nDiffusion models are Markovian HVAEs with the following constraints:\n\nThe latent dimension is the same as the data dimension.\nThe encoder is fixed to linear Gaussian transitions \\(q(\\mathbf{x}_t | \\mathbf{x}_{t-1})\\).\nThe hyper-parameters are set such that \\(q(\\mathbf{x}_T | \\mathbf{x}_0)\\) is a standard Gaussian."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#training",
+    "href": "slides/week-09/09b-DL-generative.html#training",
+    "title": "Deep Learning",
+    "section": "Training",
+    "text": "Training\nFor learning the parameters \\(\\theta\\) of the reverse process, we can form a variational lower bound on the log-likelihood of the data as\n\\[\\mathbb{E}_{q(\\mathbf{x}_0)}\\left[ \\log p_\\theta(\\mathbf{x}_0) \\right] \\geq \\mathbb{E}_{q(\\mathbf{x}_0)q(\\mathbf{x}_{1:T}|\\mathbf{x}_0)}\\left[ \\log \\frac{p_\\theta(\\mathbf{x}_{0:T})}{q(\\mathbf{x}_{1:T} | \\mathbf{x}_0)} \\right] := L\\]\nThis objective can be rewritten as \\[\\begin{aligned}\nL &= \\mathbb{E}_{q(\\mathbf{x}_0)q(\\mathbf{x}_{1:T}|\\mathbf{x}_0)}\\left[ \\log \\frac{p_\\theta(\\mathbf{x}_{0:T})}{q(\\mathbf{x}_{1:T} | \\mathbf{x}_0)} \\right] \\\\\\\\\n&= \\mathbb{E}_{q(\\mathbf{x}_0)} \\left[L_0 - \\sum_{t&gt;1} L_{t-1} - L_T\\right]\n\\end{aligned}\\] where"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-11",
+    "href": "slides/week-09/09b-DL-generative.html#section-11",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "\\(L_0 = \\mathbb{E}_{q(\\mathbf{x}_1 | \\mathbf{x}_0)}[\\log p_\\theta(\\mathbf{x}_0 | \\mathbf{x}_1)]\\) can be interpreted as a reconstruction term. It can be approximated and optimized using a Monte Carlo estimate.\n\\(L_{t-1} = \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)}\\text{KL}(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0) || p_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t) )\\) is a denoising matching term. The transition \\(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0)\\) provides a learning signal for the reverse process, since it defines how to denoise the noisified input \\(\\mathbf{x}_t\\) with access to the original input \\(\\mathbf{x}_0\\).\n\\(L_T = \\text{KL}(q(\\mathbf{x}_T | \\mathbf{x}_0) || p_\\theta(\\mathbf{x}_T))\\) represents how close the distribution of the final noisified input is to the standard Gaussian. It has no trainable parameters."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-12",
+    "href": "slides/week-09/09b-DL-generative.html#section-12",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "\\[\\begin{aligned}\n&\\arg \\min_\\theta L_{t-1} \\\\\\\\\n=&\\arg \\min_\\theta \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)} \\frac{1}{2\\sigma^2_t} \\frac{\\bar{\\alpha}_{t-1}(1-\\alpha_t)^2}{(1-\\bar{\\alpha}_t)^2} || \\hat{\\mathbf{x}}_\\theta(\\mathbf{x}_t, t) - \\mathbf{x}_0 ||_2^2\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nInterpretation 1: Denoising. Training a diffusion model amounts to learning a neural network that predicts the original ground truth \\(\\mathbf{x}_0\\) from a noisy input \\(\\mathbf{x}_t\\).\n\n\n\nMinimizing the summation of the \\(L_{t-1}\\) terms across all noise levels \\(t\\) can be approximated by minimizing the expectation over all timesteps as \\[\\arg \\min_\\theta \\mathbb{E}_{t \\sim U\\\\{2,T\\\\}} \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)}\\text{KL}(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0) || p_\\theta(\\mathbf{x}_{t-1} | \\mathbf{x}_t) ).\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-13",
+    "href": "slides/week-09/09b-DL-generative.html#section-13",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "\\[\\begin{aligned}\n&\\arg \\min_\\theta L_{t-1} \\\\\\\\\n=&\\arg \\min_\\theta \\mathbb{E}_{\\mathcal{N}(\\epsilon;\\mathbf{0}, I)} \\frac{1}{2\\sigma^2_t} \\frac{(1-\\alpha_t)^2}{(1-\\bar{\\alpha}_t) \\alpha_t} || {\\epsilon}_\\theta(\\underbrace{\\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0} + \\sqrt{1-\\bar{\\alpha}_t} \\epsilon}_{\\mathbf{x}_t}, t) - \\epsilon ||_2^2 \\\\\\\\\n\\approx& \\arg \\min_\\theta \\mathbb{E}_{\\mathcal{N}(\\epsilon;\\mathbf{0}, I)} || {\\epsilon}_\\theta(\\underbrace{\\sqrt{\\bar{\\alpha}_t} \\mathbf{x}_{0} + \\sqrt{1-\\bar{\\alpha}_t} \\epsilon}_{\\mathbf{x}_t}, t) - \\epsilon ||_2^2\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nInterpretation 2: Noise prediction. Training a diffusion model amounts to learning a neural network that predicts the noise \\(\\epsilon\\) that was added to the original ground truth \\(\\mathbf{x}_0\\) to obtain the noisy \\(\\mathbf{x}_t\\)."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-14",
+    "href": "slides/week-09/09b-DL-generative.html#section-14",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "\\[\\begin{aligned}\n&\\arg \\min_\\theta L_{t-1} \\\\\\\\\n=&\\arg \\min_\\theta \\mathbb{E}_{q(\\mathbf{x}_t | \\mathbf{x}_0)} \\frac{1}{2\\sigma^2_t} \\frac{(1-\\alpha_t)^2}{\\alpha_t} || s_\\theta(\\mathbf{x}_t, t) - \\nabla_{\\mathbf{x}_t}  \\log q(\\mathbf{x}_t | \\mathbf{x}_0) ||_2^2\n\\end{aligned}\\]\n\n\n\n\n\n\nNote\n\n\nInterpretation 3: Denoising score matching. Training a diffusion model amounts to learning a neural network that predicts the score \\(\\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t | \\mathbf{x}_0)\\) of the tractable posterior.\nThe distribution \\(q(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0)\\) is the tractable posterior distribution \\[\nq(\\mathbf{x}_{t-1}|\\mathbf{x}_t, \\mathbf{x}_0) = \\frac{q(\\mathbf{x}_t | \\mathbf{x}_{t-1}, \\mathbf{x}_0) q(\\mathbf{x}_{t-1} | \\mathbf{x}_0)}{q(\\mathbf{x}_t | \\mathbf{x}_0)} = \\mathcal{N}(\\mathbf{x}_{t-1}; \\mu_q(\\mathbf{x}_t, \\mathbf{x}_0, t), \\sigma^2_t I)\n\\] where \\[\n\\begin{aligned}\\mu_q(\\mathbf{x}_t, \\mathbf{x}_0, t) &= \\frac{\\sqrt{\\alpha_t}(1-\\bar{\\alpha}_{t-1})}{1-\\bar{\\alpha}_t}\\mathbf{x}_t + \\frac{\\sqrt{\\bar{\\alpha}_{t-1}}(1-\\alpha_t)}{1-\\bar{\\alpha}_t}\\mathbf{x}_0  \\qquad\\text{and} \\qquad\n\\sigma^2_t = \\frac{(1-\\alpha_t)(1-\\bar{\\alpha}_{t-1})}{1-\\bar{\\alpha}_t}\\\\\n&= \\frac{1}{\\sqrt{\\alpha}_t} \\mathbf{x}_t + \\frac{1-\\alpha_t}{\\sqrt{\\alpha_t}} \\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t | \\mathbf{x}_0).\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-15",
+    "href": "slides/week-09/09b-DL-generative.html#section-15",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "The score function \\(\\nabla_{\\mathbf{x}_0} \\log q(\\mathbf{x}_0)\\) is a vector field that points in the direction of the highest density of the data distribution \\(q(\\mathbf{x}_0)\\).\nIt can be used to find modes of the data distribution or to generate samples by Langevin dynamics.\n\n\n\n\nCredits: Song, 2021.\n\n\n\nSince \\(s_\\theta(\\mathbf{x}_t, t)\\) is learned in expectation over the data distribution \\(q(\\mathbf{x}_0)\\), the score network will eventually approximate the score of the marginal distribution \\(q(\\mathbf{x}_t\\)), for each noise level \\(t\\), that is \\[s_\\theta(\\mathbf{x}_t, t) \\approx \\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t).\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#network-architectures",
+    "href": "slides/week-09/09b-DL-generative.html#network-architectures",
+    "title": "Deep Learning",
+    "section": "Network architectures",
+    "text": "Network architectures\nDiffusion models often use U-Net architectures with ResNet blocks and self-attention layers to represent \\(\\hat{\\mathbf{x}}_\\theta(\\mathbf{x}_t, t)\\), \\(\\epsilon_\\theta(\\mathbf{x}_t, t)\\) or \\(s_\\theta(\\mathbf{x}_t, t)\\).\n\nCredits: Kreis et al, 2022."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#continuous-time-diffusion-models",
+    "href": "slides/week-09/09b-DL-generative.html#continuous-time-diffusion-models",
+    "title": "Deep Learning",
+    "section": "Continuous-time diffusion models",
+    "text": "Continuous-time diffusion models\n\nCredits: Kreis et al, 2022.With \\(\\beta_t = 1 - \\alpha_t\\), we can rewrite the forward process as \\[\\begin{aligned}\n\\mathbf{x}_t &= \\sqrt{ {\\alpha}_t} \\mathbf{x}_{t-1} + \\sqrt{1-{\\alpha}_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I}) \\\\\\\\\n&= \\sqrt{1 - {\\beta}_t} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I}) \\\\\\\\\n&= \\sqrt{1 - {\\beta}(t)\\Delta_t} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}(t)\\Delta_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\n\\end{aligned}\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-16",
+    "href": "slides/week-09/09b-DL-generative.html#section-16",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Credits: Song, 2021.\n\n\n\nWhen \\(\\Delta_t \\rightarrow 0\\), we can further rewrite the forward process as \\[\n\\mathbf{x}_t = \\sqrt{1 - {\\beta}(t)\\Delta_t} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}(t)\\Delta_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\\approx \\mathbf{x}_{t-1} - \\frac{\\beta(t)\\Delta_t}{2} \\mathbf{x}_{t-1} + \\sqrt{ {\\beta}(t)\\Delta_t} \\mathcal{N}(\\mathbf{0}, \\mathbf{I})\n.\\]\nThis last update rule corresponds to the Euler-Maruyama discretization of the stochastic differential equation (SDE) \\[\\text{d}\\mathbf{x}_t = -\\frac{1}{2}\\beta(t)\\mathbf{x}_t \\text{d}t + \\sqrt{\\beta(t)} \\text{d}\\mathbf{w}_t\\] describing the diffusion in the infinitesimal limit."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-17",
+    "href": "slides/week-09/09b-DL-generative.html#section-17",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "The reverse process satisfies a reverse-time SDE that can be derived analytically from the forward-time SDE and the score of the marginal distribution \\(q(\\mathbf{x}_t)\\), as \\[\\text{d}\\mathbf{x}_t = \\left[ -\\frac{1}{2}\\beta(t)\\mathbf{x}_t - \\beta(t)\\nabla_{\\mathbf{x}_t} \\log q(\\mathbf{x}_t) \\right] \\text{d}t + \\sqrt{\\beta(t)} \\text{d}\\mathbf{w}_t.\\]\n\n\n\n\nCredits: Song, 2021."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#training-sampling-diffusion-models",
+    "href": "slides/week-09/09b-DL-generative.html#training-sampling-diffusion-models",
+    "title": "Deep Learning",
+    "section": "Training & sampling diffusion models",
+    "text": "Training & sampling diffusion models\n\nCredit: Ho et. al., 2020"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#continuous-time-normalizing-flows",
+    "href": "slides/week-09/09b-DL-generative.html#continuous-time-normalizing-flows",
+    "title": "Deep Learning",
+    "section": "Continuous-time normalizing flows",
+    "text": "Continuous-time normalizing flows\n\n\nReplace the discrete sequence of transformations with a neural ODE with reversible dynamics such that \\[\\begin{aligned}\n&\\mathbf{z}_0 \\sim p(\\mathbf{z})\\\\\\\\\n&\\frac{d\\mathbf{z}(t)}{dt} = f(\\mathbf{z}(t), t, \\theta)\\\\\\\\\n&\\mathbf{x} = \\mathbf{z}(1) = \\mathbf{z}_0 + \\int_0^1 f(\\mathbf{z}(t), t) dt.\n\\end{aligned}\\]\n\n\n\nVideo\nImage credits: Grathwohl et al, 2018\n\n\n\nThe instantaneous change of variable yields \\[\\log p(\\mathbf{x}) = \\log p(\\mathbf{z}(0)) - \\int_0^1 \\text{Tr} \\left( \\frac{\\partial f(\\mathbf{z}(t), t, \\theta)}{\\partial \\mathbf{z}(t)} \\right) dt.\\]"
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#probability-flow-ode",
+    "href": "slides/week-09/09b-DL-generative.html#probability-flow-ode",
+    "title": "Deep Learning",
+    "section": "Probability flow ODE",
+    "text": "Probability flow ODE\nBack to diffusion: For any diffusion process, there exists a corresponding deterministic process \\[\\text{d}\\mathbf{x}_t = \\left[ \\mathbf{f}(t, \\mathbf{x}_t) - \\frac{1}{2} g^2(t) \\nabla_{\\mathbf{x}_t} \\log p(\\mathbf{x}_t) \\right] \\text{d}t\\] whose trajectories share the same marginal densities \\(p(\\mathbf{x}_t)\\).\nTherefore, when \\(\\nabla_{\\mathbf{x}_t} \\log p(\\mathbf{x}_t)\\) is replaced by its approximation \\(s_\\theta(\\mathbf{x}_t, t)\\), the probability flow ODE becomes a special case of a neural ODE. In particular, it is an example of continuous-time normalizing flows!\n\nCredits: Song, 2021."
+  },
+  {
+    "objectID": "slides/week-09/09b-DL-generative.html#section-18",
+    "href": "slides/week-09/09b-DL-generative.html#section-18",
+    "title": "Deep Learning",
+    "section": "",
+    "text": "Prince, Simon J. D. 2023. Understanding Deep Learning. MIT Press. http://udlbook.com."
+  },
+  {
     "objectID": "slides/week-05/08-injectivity-geomechanics.html#section",
     "href": "slides/week-05/08-injectivity-geomechanics.html#section",
-    "title": "Lecture 8 — Injectivity & Geomechanics",
+    "title": "Lecture 9 — Geomechanics & Pressure",
     "section": "",
     "text": "Slides for the lecture can be found here\n\nin .pdf format\nin .html format.\n\nYou need to download the html directory and open the index.html file."
   },
