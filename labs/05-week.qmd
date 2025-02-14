@@ -1,0 +1,10 @@
+---
+title: "Reservoir simulations in Compass model"
+date: "February 21, 2025"
+categories: "Lab"
+notebook-view:  
+  notebook: ../labs/05-week/CCS8803_HW3.ipynb
+---
+
+
+Notebook is shown top right. Download and rerun it and answer questions. 
