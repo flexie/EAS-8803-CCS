@@ -7,7 +7,7 @@ date: ""
 listing:
   - id: slides
     contents:
-      - ../slides/week-05/*.qmd
+      - ../slides/week-06/*.qmd
     type: table
     fields: [title, subtitle, date]
     date-format: "ddd, MMM DD"
@@ -20,7 +20,7 @@ listing:
   - id: assignments
     contents:
       # - ../hw/w4-*.qmd
-      - ../labs/05-*.qmd
+      - ../labs/06-*.qmd
     type: table
     fields: [categories, title, date]
     date-format: "ddd, MMM DD"
