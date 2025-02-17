@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="description" content="Feb 12 - 16">
+<meta name="description" content="Feb 17 - 21">
 
 <title>Week 06 – Seismic Monitoring CO2 Storage</title>
 <style>
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -38,10 +58,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -79,9 +99,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -107,9 +127,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-categories','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -254,12 +274,12 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Week 06</h1>
-<p class="subtitle lead">Bayesian Data Assimilation</p>
+<p class="subtitle lead">Project design, Transport, Managing pressure</p>
 </div>
 
 <div>
   <div class="description">
-    Feb 12 - 16
+    Feb 17 - 21
   </div>
 </div>
 
@@ -294,6 +314,28 @@ Date
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1739336400000" data-listing-file-modified-sort="1739380444021" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 9 --- Geomechanics &amp; Pressure" data-listing-filename-sort="08-injectivity-geomechanics.qmd">
+<td>
+<a href="../slides/week-05/08-injectivity-geomechanics.html" class="title listing-title">Lecture 9 — Geomechanics &amp; Pressure</a>
+</td>
+<td>
+<span class="listing-subtitle">Handling pressure and well design</span>
+</td>
+<td>
+<span class="listing-date">Wed, Feb 12</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1739422800000" data-listing-file-modified-sort="1739821711195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 8  --- Injectivity &amp; Geomechanics" data-listing-filename-sort="09-pressure.qmd">
+<td>
+<a href="../slides/week-05/09-pressure.html" class="title listing-title">Lecture 8 — Injectivity &amp; Geomechanics</a>
+</td>
+<td>
+<span class="listing-subtitle">injectivity &amp; fracture pressure </span>
+</td>
+<td>
+<span class="listing-date">Thu, Feb 13</span>
+</td>
+</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">
@@ -319,6 +361,17 @@ Due
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-categories="TGFi" data-listing-date-sort="1740114000000" data-listing-file-modified-sort="1739503055000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13" data-listing-title-sort="Reservoir simulations in Compass model" data-listing-filename-sort="05-week.qmd">
+<td>
+<span class="listing-categories">Lab</span>
+</td>
+<td>
+<a href="../labs/05-week.html" class="title listing-title">Reservoir simulations in Compass model</a>
+</td>
+<td>
+<span class="listing-date">Fri, Feb 21</span>
+</td>
+</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">
@@ -334,16 +387,27 @@ No matching items
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><a href="https://galileo-gatech.primo.exlibrisgroup.com/permalink/01GALI_GIT/naju39/alma9937674297402486">Chapter 9 — A toolbox for digital twins section 9.4.1—9.4.7</a></td>
+<td>Sections 3.1-3.5 of the main text by <span class="citation" data-cites="ringrose2020store">(<a href="#ref-ringrose2020store" role="doc-biblioref">Ringrose 2020</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Page 46—48 <span class="citation" data-cites="ringrose2023storage">(<a href="#ref-ringrose2023storage" role="doc-biblioref">Ringrose 2023</a>)</span></td>
 </tr>
 </tbody>
 </table>
 
 
 
+
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-ringrose2020store" class="csl-entry" role="listitem">
+Ringrose, Philip. 2020. <em>How to Store CO2 Underground: Insights from Early-Mover CCS Projects</em>. Springer. <a href="https://link.springer.com/book/10.1007/978-3-030-33113-9">https://link.springer.com/book/10.1007/978-3-030-33113-9</a>.
+</div>
+<div id="ref-ringrose2023storage" class="csl-entry" role="listitem">
+———. 2023. <em>Storage of Carbon Dioxide in Saline Aquifers: Building Confidence by Forecasting and Monitoring</em>. Society of Exploration Geophysicists.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -426,8 +490,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -538,7 +600,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

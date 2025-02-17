@@ -6,32 +6,35 @@
       "/weeks/week-02.html",
       "/weeks/week-03.html",
       "/weeks/week-04.html",
-      "/weeks/week-05.html"
+      "/weeks/week-05.html",
+      "/weeks/week-06.html"
     ]
   },
   {
-    "listing": "/weeks/week-08.html",
+    "listing": "/weeks/week-09.html",
     "items": [
-      "/slides/week-08/09-NF.html",
-      "/slides/week-08/10-NF.html",
-      "/slides/week-08/11.html"
+      "/slides/week-09/09b-DL-generative.html",
+      "/slides/week-09/12-DT.html",
+      "/slides/week-09/12.html"
     ]
   },
   {
-    "listing": "/weeks/week-01.html",
+    "listing": "/weeks/week-07.html",
     "items": [
-      "/slides/week-01/01-intro.html",
-      "/slides/week-01/02-geological-storage-a.html"
+      "/slides/week-07/09a-DL-uncertainty.html"
     ]
   },
   {
-    "listing": "/weeks/week-02.html",
+    "listing": "/weeks/week-03.html",
     "items": [
-      "/slides/week-02/03-geological-storage-b.html"
+      "/slides/week-03/04-calculating-storage-capacity.html",
+      "/slides/week-03/05-storage-efficiency.html",
+      "/hw/w3-hw01.html",
+      "/hw/w3-hw03.html"
     ]
   },
   {
-    "listing": "/weeks/week-05.html",
+    "listing": "/weeks/week-06.html",
     "items": [
       "/slides/week-05/08-injectivity-geomechanics.html",
       "/slides/week-05/09-pressure.html",
@@ -48,30 +51,32 @@
     ]
   },
   {
-    "listing": "/weeks/week-06.html",
-    "items": []
-  },
-  {
-    "listing": "/weeks/week-03.html",
+    "listing": "/weeks/week-05.html",
     "items": [
-      "/slides/week-03/04-calculating-storage-capacity.html",
-      "/slides/week-03/05-storage-efficiency.html",
-      "/hw/w3-hw01.html",
-      "/hw/w3-hw03.html"
+      "/slides/week-05/08-injectivity-geomechanics.html",
+      "/slides/week-05/09-pressure.html",
+      "/labs/05-week.html"
     ]
   },
   {
-    "listing": "/weeks/week-07.html",
+    "listing": "/weeks/week-02.html",
     "items": [
-      "/slides/week-07/09a-DL-uncertainty.html"
+      "/slides/week-02/03-geological-storage-b.html"
     ]
   },
   {
-    "listing": "/weeks/week-09.html",
+    "listing": "/weeks/week-01.html",
     "items": [
-      "/slides/week-09/09b-DL-generative.html",
-      "/slides/week-09/12-DT.html",
-      "/slides/week-09/12.html"
+      "/slides/week-01/01-intro.html",
+      "/slides/week-01/02-geological-storage-a.html"
+    ]
+  },
+  {
+    "listing": "/weeks/week-08.html",
+    "items": [
+      "/slides/week-08/09-NF.html",
+      "/slides/week-08/10-NF.html",
+      "/slides/week-08/11.html"
     ]
   }
 ]
