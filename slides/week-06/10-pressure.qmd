@@ -1,0 +1,35 @@
+---
+title: "Lecture 10  --- Handling Pressure"
+subtitle: "Placement, Transport, Management"
+date: "February 17, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+# Flow simulations
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/m5xzzbbe8y7y3bvqn7aso/10-Lecture.pdf?rlkey=w8uzr8l01pc7w2brgsvnnlbzo&st=npoesyjw&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/ad9sipjahlkbyjjlu4o7w/AKq6lZLW8200wpWkU9VnN-k?rlkey=iikvxrlpa8hy40f0tg5fpxchf&st=udfgy3wz&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+***

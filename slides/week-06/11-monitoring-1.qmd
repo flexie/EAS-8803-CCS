@@ -1,0 +1,35 @@
+---
+title: "Lecture 11  --- Monitoring"
+subtitle: "Management & Monitoring"
+date: "February 19, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+# Flow simulations
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/vttvnjnvpbhasblfvv5i7/11-Lecture.pdf?rlkey=vbevcul9wr8tk0b3a4xptz407&st=4nkitiqj&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/ufvohxy50b2dkugb88379/ALfF7DgP9vuQ47pzEOFFpUQ?rlkey=pbwsxm47bvin1ilmv5hyt4sj7&st=0qa5m0ag&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+***
