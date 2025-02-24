@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/schedule.html</loc>
-    <lastmod>2024-12-13T17:51:52.000Z</lastmod>
+    <lastmod>2024-12-13T17:51:52.743Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/references.html</loc>
-    <lastmod>2024-12-12T22:38:19.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:19.816Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-04/07-flow-simulations-2.html</loc>
-    <lastmod>2025-02-05T18:51:59.388Z</lastmod>
+    <lastmod>2025-02-05T18:51:59.000Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-03/04-calculating-storage-capacity.html</loc>
-    <lastmod>2025-01-27T18:32:55.000Z</lastmod>
+    <lastmod>2025-01-27T18:32:55.482Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-02/03-geological-storage-b.html</loc>
-    <lastmod>2025-01-22T18:33:23.054Z</lastmod>
+    <lastmod>2025-01-22T18:33:23.000Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-05/09-pressure.html</loc>
-    <lastmod>2025-02-17T19:48:31.000Z</lastmod>
+    <lastmod>2025-02-17T19:48:31.195Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-09/12.html</loc>
-    <lastmod>2024-12-12T22:38:24.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:24.021Z</lastmod>
   </url>
   <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-07/09a-DL-uncertainty.html</loc>
-    <lastmod>2024-12-12T22:38:20.000Z</lastmod>
+    <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-07/12-monitoring-2.html</loc>
+    <lastmod>2025-02-24T18:44:13.305Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-06/10-pressure.html</loc>
-    <lastmod>2025-02-17T19:52:27.000Z</lastmod>
+    <lastmod>2025-02-17T19:52:27.428Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-01/01-intro.html</loc>
-    <lastmod>2025-01-15T18:23:24.000Z</lastmod>
+    <lastmod>2025-01-15T18:23:24.183Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-08/10-NF.html</loc>
-    <lastmod>2024-12-12T22:38:22.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:22.382Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/docker.html</loc>
@@ -50,87 +50,87 @@
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/goals.html</loc>
-    <lastmod>2024-12-12T22:38:19.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:19.743Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/hw/w4-hw02.html</loc>
-    <lastmod>2025-02-03T04:29:20.989Z</lastmod>
+    <lastmod>2025-02-03T04:29:20.000Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/hw/w3-hw03.html</loc>
-    <lastmod>2025-01-29T23:03:57.000Z</lastmod>
+    <lastmod>2025-01-29T23:03:57.888Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-08.html</loc>
-    <lastmod>2024-12-12T22:38:24.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-01.html</loc>
-    <lastmod>2025-01-15T19:06:13.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-02.html</loc>
-    <lastmod>2025-01-22T19:20:31.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-05.html</loc>
-    <lastmod>2025-02-14T03:19:56.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/05-week.html</loc>
-    <lastmod>2025-02-14T03:18:31.831Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/05-week/CCS8803_HW3.html</loc>
-    <lastmod>2025-02-14T03:10:55.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/04-week/CCS8803_HW2.html</loc>
-    <lastmod>2025-02-06T02:34:53.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/labs/04-week.html</loc>
-    <lastmod>2025-02-17T22:07:13.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-04.html</loc>
-    <lastmod>2025-02-10T15:45:55.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-06.html</loc>
-    <lastmod>2025-02-17T20:01:22.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:24.215Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-03.html</loc>
-    <lastmod>2025-01-29T19:37:14.000Z</lastmod>
+    <lastmod>2025-01-29T19:37:14.770Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-06.html</loc>
+    <lastmod>2025-02-17T20:01:22.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-05.html</loc>
+    <lastmod>2025-02-14T03:19:56.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/05-week.html</loc>
+    <lastmod>2025-02-14T03:17:35.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/05-week/CCS8803_HW3.html</loc>
+    <lastmod>2025-02-14T03:10:55.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/04-week/CCS8803_HW2.html</loc>
+    <lastmod>2025-02-06T02:34:53.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/labs/04-week.html</loc>
+    <lastmod>2025-02-17T22:07:13.373Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-04.html</loc>
+    <lastmod>2025-02-10T15:50:23.229Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-07.html</loc>
-    <lastmod>2024-12-12T22:38:24.000Z</lastmod>
+    <lastmod>2025-02-24T18:46:16.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-02.html</loc>
+    <lastmod>2025-01-22T19:20:31.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-01.html</loc>
+    <lastmod>2025-01-15T19:06:48.404Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/weeks/week-09.html</loc>
-    <lastmod>2024-12-12T22:38:24.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:24.216Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/hw/w3-hw01.html</loc>
-    <lastmod>2025-01-27T17:03:01.000Z</lastmod>
+    <lastmod>2025-01-27T17:03:01.333Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/seminar.html</loc>
-    <lastmod>2024-12-12T22:38:19.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:19.817Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/index.html</loc>
-    <lastmod>2025-01-22T15:41:48.077Z</lastmod>
+    <lastmod>2025-01-22T15:41:48.000Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-08/11.html</loc>
-    <lastmod>2024-12-12T22:38:22.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:22.382Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-08/09-NF.html</loc>
-    <lastmod>2024-12-12T22:38:21.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:21.320Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-01/02-geological-storage-a.html</loc>
@@ -138,34 +138,34 @@
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-06/11-monitoring-1.html</loc>
-    <lastmod>2025-02-19T19:08:26.452Z</lastmod>
+    <lastmod>2025-02-19T19:07:15.000Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-09/12-DT.html</loc>
-    <lastmod>2024-12-12T22:38:24.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:24.020Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-09/09b-DL-generative.html</loc>
-    <lastmod>2024-12-12T22:38:22.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:22.568Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-05/08-injectivity-geomechanics.html</loc>
-    <lastmod>2025-02-12T17:14:04.000Z</lastmod>
+    <lastmod>2025-02-12T17:14:04.021Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-03/05-storage-efficiency.html</loc>
-    <lastmod>2025-01-29T19:40:53.000Z</lastmod>
+    <lastmod>2025-01-29T19:40:53.122Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/slides/week-04/06-flow-simulations.html</loc>
-    <lastmod>2025-02-03T04:14:29.468Z</lastmod>
+    <lastmod>2025-02-03T04:14:29.000Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/syllabus.html</loc>
-    <lastmod>2025-01-29T22:21:15.000Z</lastmod>
+    <lastmod>2025-01-29T22:21:15.676Z</lastmod>
   </url>
   <url>
     <loc>https://flexie.github.io/EAS-8803-CCS/project.html</loc>
-    <lastmod>2024-12-12T22:38:19.000Z</lastmod>
+    <lastmod>2024-12-12T22:38:19.815Z</lastmod>
   </url>
 </urlset>
