@@ -8,15 +8,14 @@
       "/weeks/week-04.html",
       "/weeks/week-05.html",
       "/weeks/week-06.html",
-      "/weeks/week-07.html"
+      "/weeks/week-07.html",
+      "/weeks/week-08.html"
     ]
   },
   {
-    "listing": "/weeks/week-08.html",
+    "listing": "/weeks/week-09.html",
     "items": [
-      "/slides/week-08/09-NF.html",
-      "/slides/week-08/10-NF.html",
-      "/slides/week-08/11.html"
+      "/slides/week-09/15-Basics-Seismic-Imaging-2.html"
     ]
   },
   {
@@ -44,6 +43,12 @@
     ]
   },
   {
+    "listing": "/weeks/week-08.html",
+    "items": [
+      "/slides/week-08/14-Basics-Seismic-Imaging-1.html"
+    ]
+  },
+  {
     "listing": "/weeks/week-04.html",
     "items": [
       "/slides/week-04/06-flow-simulations.html",
@@ -55,7 +60,8 @@
   {
     "listing": "/weeks/week-07.html",
     "items": [
-      "/slides/week-07/12-monitoring-2.html"
+      "/slides/week-07/12-monitoring-2.html",
+      "/slides/week-07/13-monitoring-3.html"
     ]
   },
   {
@@ -69,14 +75,6 @@
     "items": [
       "/slides/week-01/01-intro.html",
       "/slides/week-01/02-geological-storage-a.html"
-    ]
-  },
-  {
-    "listing": "/weeks/week-09.html",
-    "items": [
-      "/slides/week-09/09b-DL-generative.html",
-      "/slides/week-09/12-DT.html",
-      "/slides/week-09/12.html"
     ]
   }
 ]
