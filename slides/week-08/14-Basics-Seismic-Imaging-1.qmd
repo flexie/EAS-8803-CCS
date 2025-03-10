@@ -1,0 +1,30 @@
+---
+title: "Lecture 14  --- Basics Seismic Imaging I"
+subtitle: "Acquisition and Gathers"
+date: "March 3, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/s/v4wq9oprs8v01ny/14-Lecture.pdf?st=ljksl494&dl=0) format
+ 
+
+***
