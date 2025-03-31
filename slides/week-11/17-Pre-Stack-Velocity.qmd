@@ -1,7 +1,7 @@
 ---
-title: "Lecture 15  --- Basics Seismic Imaging II"
-subtitle: "Velocity Building, Stacking, and Migration"
-date: "March 24, 2025"
+title: "Lecture 17  --- Prestack Depth Migration and Velocity-model building"
+subtitle: ""
+date: "March 26, 2025"
 footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
 logo: "images/logo.png"
 license: CC BY
@@ -25,10 +25,8 @@ bibliography: ../../references.bib
 
 Slides for the lecture can be found here
 
-- in [.pdf](https://www.dropbox.com/scl/fi/ij5x4t5mmdokpym9y11ir/16-Lecture.pdf?rlkey=npwq101e7f4ulnm6q3pd8f75r&st=1cstbbkh&dl=0) format
-- in [.html](https://www.dropbox.com/scl/fo/z6qmm2t555f94m1p6f0wy/AJrMFaNktnhpH3JKBKFx6M8?rlkey=4rc39n8xm6gem3hxgu9zfs5zz&st=b4t08r7q&dl=0) format. 
+- in [.pdf](https://www.dropbox.com/scl/fi/sk3lsgmj8yva3exa4q741/17-Lecture.pdf?rlkey=rc7cxctajykc29bz2gt6050gd&st=vrc8nn0h&dl=0) format
+ - in [.html](https://www.dropbox.com/scl/fo/p0g3mghn9kukok6tuxg0e/ADC-KPgG84Mn_seooWVTb1E?rlkey=gk83el9qauukpm0s0kqu76a3u&st=yc464fpn&dl=0) format. 
  
 You need to download the html directory and open the index.html file.
- 
-
 ***
