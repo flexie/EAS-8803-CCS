@@ -10,7 +10,9 @@
       "/weeks/week-06.html",
       "/weeks/week-07.html",
       "/weeks/week-08.html",
-      "/weeks/week-09.html"
+      "/weeks/week-09.html",
+      "/weeks/week-11.html",
+      "/weeks/week-12.html"
     ]
   },
   {
@@ -27,10 +29,18 @@
     ]
   },
   {
-    "listing": "/weeks/week-07.html",
+    "listing": "/weeks/week-06.html",
     "items": [
-      "/slides/week-07/12-monitoring-2.html",
-      "/slides/week-07/13-monitoring-3.html"
+      "/slides/week-06/10-pressure.html",
+      "/slides/week-06/11-monitoring-1.html"
+    ]
+  },
+  {
+    "listing": "/weeks/week-05.html",
+    "items": [
+      "/slides/week-05/08-injectivity-geomechanics.html",
+      "/slides/week-05/09-pressure.html",
+      "/labs/05-week.html"
     ]
   },
   {
@@ -55,18 +65,24 @@
     ]
   },
   {
-    "listing": "/weeks/week-05.html",
+    "listing": "/weeks/week-11.html",
     "items": [
-      "/slides/week-05/08-injectivity-geomechanics.html",
-      "/slides/week-05/09-pressure.html",
-      "/labs/05-week.html"
+      "/slides/week-11/16-Extrapolation-Depth-Migration.html",
+      "/slides/week-11/17-Pre-Stack-Velocity.html"
     ]
   },
   {
-    "listing": "/weeks/week-06.html",
+    "listing": "/weeks/week-07.html",
     "items": [
-      "/slides/week-06/10-pressure.html",
-      "/slides/week-06/11-monitoring-1.html"
+      "/slides/week-07/12-monitoring-2.html",
+      "/slides/week-07/13-monitoring-3.html"
+    ]
+  },
+  {
+    "listing": "/weeks/week-12.html",
+    "items": [
+      "/slides/week-12/18-Acquisition.html",
+      "/slides/week-12/19-Inverse.html"
     ]
   },
   {
