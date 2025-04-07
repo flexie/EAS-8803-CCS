@@ -1,7 +1,7 @@
 ---
-title: "Lecture 18  --- Seismic Data Acquisition"
-subtitle: "Marine, ghosts, random acquisition"
-date: "March 31, 2025"
+title: "Lecture 20  --- Basics Compressive Sensing"
+subtitle: "Randomized Sampling, Transforms & Sparse Recovery"
+date: "April 7, 2025"
 footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
 logo: "images/logo.png"
 license: CC BY
@@ -25,8 +25,8 @@ bibliography: ../../references.bib
 
 Slides for the lecture can be found here
 
-- in [.pdf](https://www.dropbox.com/scl/fi/n5jnk5wo41s08gat2kebm/18-Lecture.pdf?rlkey=5tgcre0ho67fb6seesgvov59l&st=4mlxa5u2&dl=0) format
- - in [.html](https://www.dropbox.com/scl/fo/627aa40wwnub5nx2o6hap/AKjMOsQ1FOGv4YsTyfP8tGg?rlkey=hy9u0ntes125poil9a7j21l2i&st=672f6812&dl=0) format. 
+- in [.pdf](https://www.dropbox.com/scl/fi/zc9l8wspjhns9tk7li7v6/20-Lecture.pdf?rlkey=afqx5pm0a4i9g8rb92bf1ydwh&st=h7mk7cjr&dl=0) format
+ - in [.html](https://www.dropbox.com/scl/fo/qz3tln4crfgdwyxst4hsu/APl717Bi6OU-s0dq1Gm3-ug?rlkey=646xbh1vs6o6ry1ff8c7n408e&st=qm5bkh3w&dl=0) format. 
  
 You need to download the html directory and open the index.html file.
 
