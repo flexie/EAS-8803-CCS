@@ -335,9 +335,8 @@ using JLD2, Polynomials, Images</code></pre>
 </section>
 <section id="new-docker-container-for-seismic-experiments" class="level2">
 <h2 class="anchored" data-anchor-id="new-docker-container-for-seismic-experiments">New docker container for Seismic Experiments</h2>
-<pre><code>docker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyun/ccsenv:v2.0</code></pre>
-<p>Follow the same procedure as before to run new docker with the above command. Please note you will still use previous docker for HW3. This docker is for seismic modelling which is next part of the course and you will use it for seismic imaging experiments later. To get familiar, there is a notebook tutorial (In-class exercise 3) associated with this docker. You should download the notebook, put it the folder where you run this docker from, and play with it.<br>
-(Later you will also need a package called MECurvelets which can be installed by <code>using Pkg; Pkg.add(url="https://github.gatech.edu/SLIM/MECurvelets.jl")</code>. We will help installing this package.)</p>
+<pre><code>docker run --platform linux/x86_64 --env JULIA_NUM_THREADS=4 -p 8888:8888 -v /path/on/your/machine:/notebooks haoyunl/eas-8803:4.0</code></pre>
+<p>Follow the same procedure as before to run new docker with the above command. Please note you will use this new docker image for HW4. (Later you will also need a package called MECurvelets which can be installed by <code>using Pkg; Pkg.add(url="https://github.gatech.edu/SLIM/MECurvelets.jl")</code>. We will help installing this package.)</p>
 </section>
 <section id="some-useful-material" class="level2">
 <h2 class="anchored" data-anchor-id="some-useful-material">Some Useful Material</h2>

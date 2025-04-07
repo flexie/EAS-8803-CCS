@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="description" content="March 31 - April 2">
+<meta name="description" content="April 7 - April 11">
 
-<title>Week 12 – Seismic Monitoring CO2 Storage</title>
+<title>Week 13 – Seismic Monitoring CO2 Storage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-categories','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -168,7 +168,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 12</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 13</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -244,7 +244,6 @@ window.Quarto = {
   <ul>
   <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   </ul>
 </nav>
     </div>
@@ -253,13 +252,13 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 12</h1>
-<p class="subtitle lead">Acquisition &amp; Inverse problems</p>
+<h1 class="title">Week 13</h1>
+<p class="subtitle lead">Compressive Sensing</p>
 </div>
 
 <div>
   <div class="description">
-    March 31 - April 2
+    April 7 - April 11
   </div>
 </div>
 
@@ -294,26 +293,26 @@ Date
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1743393600000" data-listing-file-modified-sort="1744039997918" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 18  --- Seismic Data Acquisition" data-listing-filename-sort="18-Acquisition.qmd">
+<tr data-index="0" data-listing-date-sort="1743998400000" data-listing-file-modified-sort="1744041540587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 20  --- Basics Compressive Sensing" data-listing-filename-sort="20-CS-Basics.qmd">
 <td>
-<a href="../slides/week-12/18-Acquisition.html" class="title listing-title">Lecture 18 — Seismic Data Acquisition</a>
+<a href="../slides/week-13/20-CS-Basics.html" class="title listing-title">Lecture 20 — Basics Compressive Sensing</a>
 </td>
 <td>
-<span class="listing-subtitle">Marine, ghosts, random acquisition</span>
+<span class="listing-subtitle">Randomized Sampling, Transforms &amp; Sparse Recovery</span>
 </td>
 <td>
-<span class="listing-date">Mon, Mar 31</span>
+<span class="listing-date">Mon, Apr 07</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1743566400000" data-listing-file-modified-sort="1744039981729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 19  --- Inverse problems" data-listing-filename-sort="19-Inverse.qmd">
+<tr data-index="1" data-listing-date-sort="1744171200000" data-listing-file-modified-sort="1744042324982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-listing-title-sort="Lecture 21  --- Time-lapse Compressive Sensing" data-listing-filename-sort="21-CS-4D.qmd">
 <td>
-<a href="../slides/week-12/19-Inverse.html" class="title listing-title">Lecture 19 — Inverse problems</a>
+<a href="../slides/week-13/21-CS-4D.html" class="title listing-title">Lecture 21 — Time-lapse Compressive Sensing</a>
 </td>
 <td>
-<span class="listing-subtitle">Linear, nonlinear, ill-posedness</span>
+<span class="listing-subtitle">Acquisition Design</span>
 </td>
 <td>
-<span class="listing-date">Wed, Apr 02</span>
+<span class="listing-date">Wed, Apr 09</span>
 </td>
 </tr>
 </tbody>
@@ -341,31 +340,23 @@ Due
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-categories="TGFi" data-listing-date-sort="1743998400000" data-listing-file-modified-sort="1744040291100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="13" data-listing-title-sort="Seismic Imaging" data-listing-filename-sort="13-week.qmd">
+<td>
+<span class="listing-categories">Lab</span>
+</td>
+<td>
+<a href="../labs/13-week.html" class="title listing-title">Seismic Imaging</a>
+</td>
+<td>
+<span class="listing-date">Mon, Apr 07</span>
+</td>
+</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-</section>
-<section id="readings" class="level1">
-<h1>Readings</h1>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 10%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Chapters 1, 2 <a href="https://www.dropbox.com/scl/fi/k47ysjn7j9i6d26c64nxy/imaging_scales.pdf?rlkey=9bt6o2l8ot2mrmszlex8pzxna&amp;st=xg5lszi2&amp;dl=0">Theory of Seismic Imaging</a> by John Scales</td>
-</tr>
-<tr class="even">
-<td>Chapters 5 <a href="https://www.dropbox.com/scl/fi/t54mp1a1w6ys800glqjye/IntroductionreflectionSeismology-ta3520.pdf?rlkey=ki2qr9ug2ngucdr5gcf509cu8&amp;st=ubjtjel5&amp;dl=0">Introduction to Reflection Seismology TA3520</a> by Guy Drijkoningen</td>
-</tr>
-<tr class="odd">
-<td>Chapters 1,2,3 <a href="https://www.dropbox.com/s/ce8tmrxhyrn8qds/SeismicProcessing2(tg001_ta3600).pdf?st=d5s4xlgb&amp;dl=0">Seismic Data Processing</a> by Guy Drijkoningen</td>
-</tr>
-</tbody>
-</table>
 
 
 

@@ -12,27 +12,39 @@
       "/weeks/week-08.html",
       "/weeks/week-09.html",
       "/weeks/week-11.html",
-      "/weeks/week-12.html"
+      "/weeks/week-12.html",
+      "/weeks/week-13.html",
+      "/weeks/week-14.html"
     ]
   },
   {
-    "listing": "/weeks/week-01.html",
+    "listing": "/weeks/week-14.html",
     "items": [
-      "/slides/week-01/01-intro.html",
-      "/slides/week-01/02-geological-storage-a.html"
+      "/slides/week-12/18-Acquisition.html",
+      "/slides/week-12/19-Inverse.html"
     ]
   },
   {
-    "listing": "/weeks/week-02.html",
+    "listing": "/weeks/week-03.html",
     "items": [
-      "/slides/week-02/03-geological-storage-b.html"
+      "/slides/week-03/04-calculating-storage-capacity.html",
+      "/slides/week-03/05-storage-efficiency.html",
+      "/hw/w3-hw01.html",
+      "/hw/w3-hw03.html"
     ]
   },
   {
-    "listing": "/weeks/week-06.html",
+    "listing": "/weeks/week-12.html",
     "items": [
-      "/slides/week-06/10-pressure.html",
-      "/slides/week-06/11-monitoring-1.html"
+      "/slides/week-12/18-Acquisition.html",
+      "/slides/week-12/19-Inverse.html"
+    ]
+  },
+  {
+    "listing": "/weeks/week-07.html",
+    "items": [
+      "/slides/week-07/12-monitoring-2.html",
+      "/slides/week-07/13-monitoring-3.html"
     ]
   },
   {
@@ -72,26 +84,31 @@
     ]
   },
   {
-    "listing": "/weeks/week-07.html",
+    "listing": "/weeks/week-13.html",
     "items": [
-      "/slides/week-07/12-monitoring-2.html",
-      "/slides/week-07/13-monitoring-3.html"
+      "/slides/week-13/20-CS-Basics.html",
+      "/slides/week-13/21-CS-4D.html",
+      "/labs/13-week.html"
     ]
   },
   {
-    "listing": "/weeks/week-12.html",
+    "listing": "/weeks/week-06.html",
     "items": [
-      "/slides/week-12/18-Acquisition.html",
-      "/slides/week-12/19-Inverse.html"
+      "/slides/week-06/10-pressure.html",
+      "/slides/week-06/11-monitoring-1.html"
     ]
   },
   {
-    "listing": "/weeks/week-03.html",
+    "listing": "/weeks/week-02.html",
     "items": [
-      "/slides/week-03/04-calculating-storage-capacity.html",
-      "/slides/week-03/05-storage-efficiency.html",
-      "/hw/w3-hw01.html",
-      "/hw/w3-hw03.html"
+      "/slides/week-02/03-geological-storage-b.html"
+    ]
+  },
+  {
+    "listing": "/weeks/week-01.html",
+    "items": [
+      "/slides/week-01/01-intro.html",
+      "/slides/week-01/02-geological-storage-a.html"
     ]
   }
 ]
