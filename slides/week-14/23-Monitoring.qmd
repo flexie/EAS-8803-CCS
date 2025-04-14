@@ -1,0 +1,43 @@
+---
+title: "Lecture 23  --- Monitoring"
+subtitle: "Linear, nonlinear, ill-posedness"
+date: "April 16, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/g93ar3v8bftpqhaj8dzqk/23-Lecture.pdf?rlkey=unnshgn9ywydoqm19hlq7ma2v&st=vww7rciw&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/56msuys3aevo01qwyxfqf/ACIHzAMq1rhEH1GmQxqdIDQ?rlkey=nc389q9u7ep7bxmm0a3ndocrc&st=n0prhjhy&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+
+# Readings
+
+|                                                                                                           |
+|-----------------------------------------------------------------------------------------------------------|
+|  “Derisking geologic carbon storage from high-resolution time-lapse seismic to explainable leakage detection” [@yin2023derisking]                                                |
+|  "President's Page: Digital twins in the era of generative AI" [@herrmann2023president]                   |
+|  "An uncertainty-aware digital shadow for underground multimodal CO~2~ storage monitoring" [@gahlot2024uncertainty]                   | 
+
+
+***

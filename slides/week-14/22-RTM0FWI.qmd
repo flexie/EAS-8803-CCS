@@ -1,0 +1,35 @@
+---
+title: "Lecture 22  --- Wave-based inversion"
+subtitle: "Reverse-Time Migration & Full-Waveform Inversion"
+date: "April 14, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/w0qyxy0xl66687f1phsl5/22-Lecture.pdf?rlkey=rr96gdy9dx4ydnvp8aijw992z&st=9t6shpod&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/3nuacyt1ym052u20g2sf1/ANTyDNnN_s6Aub1lkmDl2Cc?rlkey=8nxg39ozpxipi9rvf7rfutuap&st=npa6oiua&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+
+
+***

@@ -1,13 +1,13 @@
 ---
-title: "Week 12"
-subtitle: "Acquisition & Inverse problems"
-description: "March 31 - April 2"
+title: "Week 14"
+subtitle: "Imaging & Monitoring GCS"
+description: "April 14  - April 18"
 author: ""
 date: ""
 listing:
   - id: slides
     contents:
-      - ../slides/week-12/*.qmd
+      - ../slides/week-14/*.qmd
     type: table
     fields: [title, subtitle, date]
     date-format: "ddd, MMM DD"
@@ -20,7 +20,7 @@ listing:
   - id: assignments
     contents:
       # - ../hw/w3-*.qmd
-      - ../labs/w11-*.qmd
+       - ../labs/w11-*.qmd
     type: table
     fields: [categories, title, date]
     date-format: "ddd, MMM DD"
@@ -46,8 +46,10 @@ tbl-colwidths: [10,50,40]
 
 # Readings
 
+# Readings
+
 |                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------|
-| Chapters 1, 2 [Theory of Seismic Imaging](https://www.dropbox.com/scl/fi/k47ysjn7j9i6d26c64nxy/imaging_scales.pdf?rlkey=9bt6o2l8ot2mrmszlex8pzxna&st=xg5lszi2&dl=0) by  John Scales              |
-| Chapters 5 [Introduction to Reflection Seismology TA3520](https://www.dropbox.com/scl/fi/t54mp1a1w6ys800glqjye/IntroductionreflectionSeismology-ta3520.pdf?rlkey=ki2qr9ug2ngucdr5gcf509cu8&st=ubjtjel5&dl=0) by Guy Drijkoningen                | 
-| Chapters 1,2,3 [Seismic Data Processing](https://www.dropbox.com/s/ce8tmrxhyrn8qds/SeismicProcessing2(tg001_ta3600).pdf?st=d5s4xlgb&dl=0) by Guy Drijkoningen                | 
+|  [“Derisking geologic carbon storage from high-resolution time-lapse seismic to explainable leakage detection”](https://slim.gatech.edu/content/de-risking-geological-carbon-storage-high-resolution-time-lapse-seismic-explainable-leakage) [@yin2023derisking]                                                |
+|  ["President's Page: Digital twins in the era of generative AI"](https://slim.gatech.edu/content/digital-twins-era-generative-ai) [@herrmann2023president]                   |
+|  ["An uncertainty-aware digital shadow for underground multimodal CO~2~ storage monitoring"](https://slim.gatech.edu/content/digital-twins-era-generative-ai) [@gahlot2024uncertainty]                   | 
