@@ -1,6 +1,6 @@
 ---
-title: "Lecture 23  --- Monitoring"
-subtitle: "Simulation-based Acquisition Design and Leakage Detection"
+title: "Lecture 24  --- Digital Twin for GCS"
+subtitle: "Data Assimilation, Machine Learning, Control"
 date: "April 16, 2025"
 footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
 logo: "images/logo.png"
@@ -25,9 +25,9 @@ bibliography: ../../references.bib
 
 Slides for the lecture can be found here
 
-- in [.pdf](https://www.dropbox.com/scl/fi/g93ar3v8bftpqhaj8dzqk/23-Lecture.pdf?rlkey=unnshgn9ywydoqm19hlq7ma2v&st=vww7rciw&dl=0) format
-- in [.html](https://www.dropbox.com/scl/fo/56msuys3aevo01qwyxfqf/ACIHzAMq1rhEH1GmQxqdIDQ?rlkey=nc389q9u7ep7bxmm0a3ndocrc&st=n0prhjhy&dl=0) format. 
- 
+- in [.pdf](https://www.dropbox.com/scl/fi/8bdpuuese097yq1gbnse2/24-Lecture.pdf?rlkey=yql92vdvtenb26rxugg5frruj&st=0i6lm6f4&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/pqn42fiz8m189w8wn7e2h/ADTTP9zokBGJt695W1nJjj0?rlkey=5wzgla23bb0674lty8ue00vp7&st=05ukeb7c&dl=0) format. 
+- 
 You need to download the html directory and open the index.html file.
 
 
@@ -41,3 +41,5 @@ You need to download the html directory and open the index.html file.
 
 
 ***
+
+

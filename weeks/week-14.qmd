@@ -46,8 +46,6 @@ tbl-colwidths: [10,50,40]
 
 # Readings
 
-# Readings
-
 |                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------|
 |  [“Derisking geologic carbon storage from high-resolution time-lapse seismic to explainable leakage detection”](https://slim.gatech.edu/content/de-risking-geological-carbon-storage-high-resolution-time-lapse-seismic-explainable-leakage) [@yin2023derisking]                                                |

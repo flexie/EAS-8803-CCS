@@ -1,0 +1,35 @@
+---
+title: "Lecture 25  --- Review"
+subtitle: "CCS, Migration, Monitoring"
+date: "April 21, 2025"
+footer: "[🔗 https://flexie.github.io/EAS-8803-CCS/](https://flexie.github.io/EAS-8803-CCS/)"
+logo: "images/logo.png"
+license: CC BY
+format: 
+  revealjs:
+    theme: solarized
+    # theme: [default, theme.scss]
+    transition: fade
+    slide-number: true
+    incremental: false 
+    chalkboard: true
+    center: true
+execute:
+  freeze: auto
+  echo: true
+bibliography: ../../references.bib
+---
+
+
+## 
+
+Slides for the lecture can be found here
+
+- in [.pdf](https://www.dropbox.com/scl/fi/4kou68b1z5y45w5pi6nmq/25-Lecture.pdf?rlkey=1ar31omtz3ve7zy1qhnz78j1b&st=mnzncboq&dl=0) format
+- in [.html](https://www.dropbox.com/scl/fo/eijtag3f27hfqsf18kvf3/APsdfizFFP5ReCQW94w6ftk?rlkey=avl7yn88bkcn25m3w6nf0suwd&st=pygphxe0&dl=0) format. 
+ 
+You need to download the html directory and open the index.html file.
+
+
+
+***
