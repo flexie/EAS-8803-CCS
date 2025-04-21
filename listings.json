@@ -14,7 +14,16 @@
       "/weeks/week-11.html",
       "/weeks/week-12.html",
       "/weeks/week-13.html",
-      "/weeks/week-14.html"
+      "/weeks/week-14.html",
+      "/weeks/week-15.html"
+    ]
+  },
+  {
+    "listing": "/weeks/week-14.html",
+    "items": [
+      "/slides/week-14/22-RTM0FWI.html",
+      "/slides/week-14/23-Monitoring.html",
+      "/slides/week-14/24-DT.html"
     ]
   },
   {
@@ -105,11 +114,9 @@
     ]
   },
   {
-    "listing": "/weeks/week-14.html",
+    "listing": "/weeks/week-15.html",
     "items": [
-      "/slides/week-14/22-RTM0FWI.html",
-      "/slides/week-14/23-Monitoring.html",
-      "/slides/week-14/24-DT.html"
+      "/slides/week-15/25-Review.html"
     ]
   }
 ]

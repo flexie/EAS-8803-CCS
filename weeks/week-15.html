@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="">
+<meta name="description" content="April 21">
 
-<title>Schedule – Seismic Monitoring CO2 Storage</title>
+<title>Week 15 – Seismic Monitoring CO2 Storage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-278f079c28f28dbf8752571db94a6592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,20 +72,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-schedule .list');
+    const listingTargetEl = window.document.querySelector('#listing-slides .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-schedule'] = new List('listing-schedule', options);
+    window['quarto-listings']['listing-slides'] = new List('listing-slides', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-assignments .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-assignments'] = new List('listing-assignments', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -138,7 +168,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./schedule.html">Schedule</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 15</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,8 +182,8 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/digitaltwin.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/digitaltwin.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://flexie.github.io/EAS-4803-8803-CCS/" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
@@ -168,37 +198,37 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link">
+  <a href="../goals.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Goals</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./schedule.html" class="sidebar-item-text sidebar-link active">
+  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./docker.html" class="sidebar-item-text sidebar-link">
+  <a href="../docker.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Docker</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./project.html" class="sidebar-item-text sidebar-link">
+  <a href="../project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Project</span></a>
   </div>
 </li>
@@ -212,10 +242,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#weekly-schedule" id="toc-weekly-schedule" class="nav-link active" data-scroll-target="#weekly-schedule">Weekly schedule</a>
-  <ul class="collapse">
-  <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
-  </ul></li>
+  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
   </ul>
 </nav>
     </div>
@@ -224,10 +252,15 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Schedule</h1>
-<p class="subtitle lead">Seismic Monitoring CO<sub>2</sub> Storage - EAS 4803 - EAS 8803 - FH</p>
+<h1 class="title">Week 15</h1>
+<p class="subtitle lead">Review</p>
 </div>
 
+<div>
+  <div class="description">
+    April 21
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -242,176 +275,33 @@ window.Quarto = {
 </header>
 
 
-<section id="weekly-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="weekly-schedule">Weekly schedule</h2>
-<div id="listing-schedule" class="quarto-listing quarto-listing-container-table">
+<section id="lectures" class="level1">
+<h1>Lectures</h1>
+<div id="listing-slides" class="quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
 <tr>
 <th>
-Week
-</th>
-<th>
-Dates
-</th>
-<th>
 Topic
+</th>
+<th>
+Subtitle
+</th>
+<th>
+Date
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1736968008404" data-listing-reading-time-sort="1" data-listing-word-count-sort="62" data-listing-title-sort="Week 01" data-listing-filename-sort="week-01.qmd">
+<tr data-index="0" data-listing-date-sort="1745208000000" data-listing-file-modified-sort="1745248642443" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27" data-listing-title-sort="Lecture 25  --- Review" data-listing-filename-sort="25-Review.qmd">
 <td>
-<a href="./weeks/week-01.html" class="title listing-title">Week 01</a>
+<a href="../slides/week-15/25-Review.html" class="title listing-title">Lecture 25 — Review</a>
 </td>
 <td>
-<span class="listing-description">Jan 06 - Jan 17</span>
+<span class="listing-subtitle">CCS, Migration, Monitoring</span>
 </td>
 <td>
-<span class="listing-subtitle">Welcome to Seismic Monitoring CO<sub>2</sub> Storage</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1737573631000" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-listing-title-sort="Week 02" data-listing-filename-sort="week-02.qmd">
-<td>
-<a href="./weeks/week-02.html" class="title listing-title">Week 02</a>
-</td>
-<td>
-<span class="listing-description">Jan 22 - Jan 24</span>
-</td>
-<td>
-<span class="listing-subtitle">Geological Storage CO<sub>2</sub></span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1738179434770" data-listing-reading-time-sort="2" data-listing-word-count-sort="335" data-listing-title-sort="Week 03" data-listing-filename-sort="week-03.qmd">
-<td>
-<a href="./weeks/week-03.html" class="title listing-title">Week 03</a>
-</td>
-<td>
-<span class="listing-description">January 27- 31</span>
-</td>
-<td>
-<span class="listing-subtitle">Storage Capacity</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1739202623229" data-listing-reading-time-sort="2" data-listing-word-count-sort="293" data-listing-title-sort="Week 04" data-listing-filename-sort="week-04.qmd">
-<td>
-<a href="./weeks/week-04.html" class="title listing-title">Week 04</a>
-</td>
-<td>
-<span class="listing-description">Feb 02 - 07</span>
-</td>
-<td>
-<span class="listing-subtitle">Reservoir Simulations</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1739503196000" data-listing-reading-time-sort="2" data-listing-word-count-sort="262" data-listing-title-sort="Week 05" data-listing-filename-sort="week-05.qmd">
-<td>
-<a href="./weeks/week-05.html" class="title listing-title">Week 05</a>
-</td>
-<td>
-<span class="listing-description">Feb 10 - 14</span>
-</td>
-<td>
-<span class="listing-subtitle">Injectivity and Geomechanics</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-file-modified-sort="1739822482635" data-listing-reading-time-sort="2" data-listing-word-count-sort="244" data-listing-title-sort="Week 06" data-listing-filename-sort="week-06.qmd">
-<td>
-<a href="./weeks/week-06.html" class="title listing-title">Week 06</a>
-</td>
-<td>
-<span class="listing-description">Feb 17 - 21</span>
-</td>
-<td>
-<span class="listing-subtitle">Project design, Transport, Managing pressure</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-file-modified-sort="1740422776341" data-listing-reading-time-sort="2" data-listing-word-count-sort="254" data-listing-title-sort="Week 07" data-listing-filename-sort="week-07.qmd">
-<td>
-<a href="./weeks/week-07.html" class="title listing-title">Week 07</a>
-</td>
-<td>
-<span class="listing-description">Feb 24 - 28</span>
-</td>
-<td>
-<span class="listing-subtitle">Forecasting, Monitoring, Basics Seismic</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-file-modified-sort="1741722641103" data-listing-reading-time-sort="1" data-listing-word-count-sort="196" data-listing-title-sort="Week 08" data-listing-filename-sort="week-08.qmd">
-<td>
-<a href="./weeks/week-08.html" class="title listing-title">Week 08</a>
-</td>
-<td>
-<span class="listing-description">March 03 - 07</span>
-</td>
-<td>
-<span class="listing-subtitle">Basics Seismic Imaging</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-file-modified-sort="1741630217734" data-listing-reading-time-sort="1" data-listing-word-count-sort="189" data-listing-title-sort="Week 09" data-listing-filename-sort="week-09.qmd">
-<td>
-<a href="./weeks/week-09.html" class="title listing-title">Week 09</a>
-</td>
-<td>
-<span class="listing-description">March 10 - 14</span>
-</td>
-<td>
-<span class="listing-subtitle">Basics Seismic Imaging</span>
-</td>
-</tr>
-<tr data-index="9" data-listing-file-modified-sort="1743435048619" data-listing-reading-time-sort="1" data-listing-word-count-sort="189" data-listing-title-sort="Week 11" data-listing-filename-sort="week-11.qmd">
-<td>
-<a href="./weeks/week-11.html" class="title listing-title">Week 11</a>
-</td>
-<td>
-<span class="listing-description">March 24 - 28</span>
-</td>
-<td>
-<span class="listing-subtitle">Basics Seismic Imaging</span>
-</td>
-</tr>
-<tr data-index="10" data-listing-file-modified-sort="1743436669755" data-listing-reading-time-sort="1" data-listing-word-count-sort="189" data-listing-title-sort="Week 12" data-listing-filename-sort="week-12.qmd">
-<td>
-<a href="./weeks/week-12.html" class="title listing-title">Week 12</a>
-</td>
-<td>
-<span class="listing-description">March 31 - April 2</span>
-</td>
-<td>
-<span class="listing-subtitle">Acquisition &amp; Inverse problems</span>
-</td>
-</tr>
-<tr data-index="11" data-listing-file-modified-sort="1744043454797" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Week 13" data-listing-filename-sort="week-13.qmd">
-<td>
-<a href="./weeks/week-13.html" class="title listing-title">Week 13</a>
-</td>
-<td>
-<span class="listing-description">April 7 - April 11</span>
-</td>
-<td>
-<span class="listing-subtitle">Compressive Sensing</span>
-</td>
-</tr>
-<tr data-index="12" data-listing-file-modified-sort="1745248779344" data-listing-reading-time-sort="2" data-listing-word-count-sort="237" data-listing-title-sort="Week 14" data-listing-filename-sort="week-14.qmd">
-<td>
-<a href="./weeks/week-14.html" class="title listing-title">Week 14</a>
-</td>
-<td>
-<span class="listing-description">April 14 - April 18</span>
-</td>
-<td>
-<span class="listing-subtitle">Imaging &amp; Monitoring GCS</span>
-</td>
-</tr>
-<tr data-index="13" data-listing-file-modified-sort="1745248773750" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="Week 15" data-listing-filename-sort="week-15.qmd">
-<td>
-<a href="./weeks/week-15.html" class="title listing-title">Week 15</a>
-</td>
-<td>
-<span class="listing-description">April 21</span>
-</td>
-<td>
-<span class="listing-subtitle">Review</span>
+<span class="listing-date">Mon, Apr 21</span>
 </td>
 </tr>
 </tbody>
@@ -420,27 +310,34 @@ Topic
 No matching items
 </div>
 </div>
-<section id="labs" class="level3">
-<h3 class="anchored" data-anchor-id="labs">Labs</h3>
-<p>Labs will be due on Fridays at 11:59pm.</p>
-<!-- ### Lab software installation instructions
-
-Labs can be rerun in the language of your choice (Julia/R) but if you chose to reuse the Python code then you can easily run on Google Collab. This service includes a free tier that only requires a Google account. For future projects that require intensive matrix multiplication operations such as convolutional networks a hardware accelerator will drastically improve execution time. These are accessible in Collab by restarting the notebook after: Runtime -\> Change runtime type -\> Hardware accelerator = T4 GPU (in free tier).
-
-### Lab submission instructions
-
-To submit assignments please export your notebook as PDF and send to TA's Gatech email: [Rafael Orozco](mailto:rorozco@gatech.edu) with subject line that includes the phrase "CSE-8803 Lab \[# of lab\]". To export notebook as PDF in Google collab: File -\> Print -\> Set Destination to "save as PDF" -\> Save. -->
-<!-- ### Exams
-
-There will be two exams on the dates:
-
--   October 12, 9am - October 14, 11:59pm
-
--   November 16, 9am - November 16: 11:59pm -->
-
-
-
 </section>
+<section id="assignments" class="level1">
+<h1>Assignments</h1>
+<div id="listing-assignments" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Assignment
+</th>
+<th>
+Title
+</th>
+<th>
+Due
+</th>
+</tr>
+</thead>
+<tbody class="list">
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
